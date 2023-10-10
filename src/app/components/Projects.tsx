@@ -80,7 +80,7 @@ const Projecs: any = () => {
       </div>
       <div className="mb-12 experience_container">
         <div className="lg:p-6">
-          <a href="https://front-end-by-rimantas.github.io/35-grupe-portfolio-braintech/">
+          <a href="https://leogytis.github.io/braintech/">
             <div className="flex flex-col sm:flex-row gap-2 sm:gap-4 mb-2 sm:mb-4 hover:bg-transparent">
               <Image src={braintech} width={500} height={500} alt="braintech" className="w-4/5 sm:w-1/3 rounded self-center sm:self-start" />
               <p className="hover:bg-transparent">Braintech is an educational landing page that showcases my utilization of various web development techniques and technologies. This project was undertaken as part of my coursework at BIT School, signifying an important chapter in my academic journey. It offers a practical demonstration of web development, with a focus on using plain JavaScript for educational purposes.</p>
