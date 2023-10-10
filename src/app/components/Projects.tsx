@@ -64,7 +64,7 @@ const Projecs: any = () => {
       </div>
       <div className="mb-12 experience_container">
         <div className="lg:p-6">
-          <a href="https://leogytis.github.io/education/">
+          <a href="https://leogytis.github.io/e-study/">
             <div className="flex flex-col sm:flex-row gap-2 sm:gap-4 mb-2 sm:mb-4 hover:bg-transparent">
               <Image src={study} width={500} height={500} alt="study" className="w-4/5 sm:w-1/3 rounded self-center sm:self-start" />
               <p className="hover:bg-transparent">E-Study is a learning-oriented landing page that showcases my use of various React libraries. It's designed to provide a practical demonstration of React-based web development for educational purposes.</p>
