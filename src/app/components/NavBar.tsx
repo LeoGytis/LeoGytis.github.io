@@ -1,6 +1,4 @@
-import {
-  Link as ScrollLink,
-} from "react-scroll";
+import { Link as ScrollLink } from "react-scroll";
 import SocialMedia from "./SocialMedia";
 
 const NavBar: any = () => {
@@ -46,15 +44,16 @@ const NavBar: any = () => {
           >
             Experience
           </ScrollLink>
-          <ScrollLink
-            className="navbar_selection"
-            smooth
-            spy
-            offset={-80}
-            to="projects"
-          >
+          <div className="ineline-block">
+            <ScrollLink
+              className="navbar_selection"
+              smooth
+              spy
+              offset={-80}
+              to="projects"
+            />
             Projects
-          </ScrollLink>
+          </div>
         </nav>
         <SocialMedia />
       </div>

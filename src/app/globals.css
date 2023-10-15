@@ -123,31 +123,29 @@ a {
 }
 
 .navbar_selection {
-  display: flex;
-  position: relative;
-
-  &:hover,
-  &.active {
-    cursor: pointer;
-    color: #5eead4;
-  }
 
   &::after {
+    display: block;
     content: "";
-    position: absolute;
-    width: 30%;
-    transform: scaleX(0);
+    width: 100px;
     height: 2px;
-    bottom: 0;
+    /* bottom: 50%; */
+    top: 0;
     left: 0;
     background-color: #5eead4;
+    transform: scaleX(0);
+
     transform-origin: bottom left;
     transition: transform 0.5s ease-out;
   }
 
-  &:hover::after,
   &.active::after {
     transform: scaleX(1);
     transform-origin: bottom left;
+  }
+
+  &:hover {
+    cursor: pointer;
+    color: #5eead4;
   }
 }
