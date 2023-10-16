@@ -17,6 +17,7 @@ export default function Home() {
           <Education />
           <Experience />
           <Projecs />
+          <div className="falling_line"></div>
         </main>
       </div>
     </div>
