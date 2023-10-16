@@ -16,48 +16,57 @@ const NavBar: any = () => {
         </div>
         <nav className="hidden lg:flex flex-col text-lg gap-2">
           <li className="flex items-center">
-            <ScrollLink
-              className="nav_indicator"
-              smooth
-              spy
-              offset={-80}
-              to="about"
-            />
-            About
+            <ScrollLink className="nav_indicator" spy offset={-80} to="about" />
+            <ScrollLink smooth offset={-80} to="about" className="nav_click">
+              About
+            </ScrollLink>
           </li>
 
           <li className="flex items-center">
             <ScrollLink
               className="nav_indicator"
-              smooth
               spy
               offset={-80}
               to="education"
             />
-            Education
+            <ScrollLink
+              smooth
+              offset={-80}
+              to="education"
+              className="nav_click"
+            >
+              Education
+            </ScrollLink>
           </li>
 
           <li className="flex items-center">
             <ScrollLink
               className="nav_indicator"
-              smooth
               spy
               offset={-80}
               to="experience"
             />
-            Experience
+            <ScrollLink
+              smooth
+              offset={-80}
+              to="experience"
+              className="nav_click"
+            >
+              Experience
+            </ScrollLink>
           </li>
 
-          <ScrollLink
-            className="nav_indicator"
-            smooth
-            spy
-            offset={-80}
-            to="projects"
-          >
-            <div> aim </div>
-            Projects
-          </ScrollLink>
+          <li className="flex items-center">
+            <ScrollLink
+              className="nav_indicator"
+              spy
+              offset={-80}
+              to="projects"
+            />
+            <ScrollLink smooth offset={-80} to="projects" className="nav_click">
+              Projects
+            </ScrollLink>
+          </li>
         </nav>
         <SocialMedia />
       </div>
