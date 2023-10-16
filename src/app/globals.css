@@ -142,7 +142,6 @@ a {
   height: 2px;
   margin-right: 10px;
   background-color: #5eead4;
-  transition-property: all;
   transition: width 2s;
 
   &.active {
