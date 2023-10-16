@@ -16,14 +16,19 @@ const NavBar: any = () => {
         </div>
         <nav className="hidden lg:flex flex-col text-lg gap-2">
           <li className="flex items-center">
-            <ScrollLink className="nav_indicator" spy to="about" />
+            <ScrollLink className="nav_indicator" spy offset={-80} to="about" />
             <ScrollLink smooth offset={-80} to="about" className="nav_click">
               About
             </ScrollLink>
           </li>
 
           <li className="flex items-center">
-            <ScrollLink className="nav_indicator" spy to="education" />
+            <ScrollLink
+              className="nav_indicator"
+              spy
+              offset={-80}
+              to="education"
+            />
             <ScrollLink
               smooth
               offset={-80}
@@ -35,7 +40,12 @@ const NavBar: any = () => {
           </li>
 
           <li className="flex items-center">
-            <ScrollLink className="nav_indicator" spy to="experience" />
+            <ScrollLink
+              className="nav_indicator"
+              spy
+              offset={-80}
+              to="experience"
+            />
             <ScrollLink
               smooth
               offset={-80}
@@ -47,7 +57,12 @@ const NavBar: any = () => {
           </li>
 
           <li className="flex items-center">
-            <ScrollLink className="nav_indicator" spy to="projects" />
+            <ScrollLink
+              className="nav_indicator"
+              spy
+              offset={-80}
+              to="projects"
+            />
             <ScrollLink smooth offset={-80} to="projects" className="nav_click">
               Projects
             </ScrollLink>
