@@ -9,11 +9,9 @@ const NavBar: any = () => {
           <h1 className="text-4xl sm:text-5xl font-bold pb-3">
             Gytis Leonavičius
           </h1>
-          <h2 className="text-lg sm:text-xl font-medium pb-4">
-            Front end web developer
-          </h2>
+          <h2 className="text-lg sm:text-xl font-medium pb-4">Web developer</h2>
           <h3 className="max-w-xs text-slate-300">
-            Focused on inclusive products and digital experiences for the web.
+            Inclusive products and digital experiences for the web.
           </h3>
         </div>
         <nav className="hidden lg:flex flex-col text-lg gap-2">

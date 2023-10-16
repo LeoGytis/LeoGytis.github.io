@@ -9,12 +9,11 @@ export default function Home() {
   return (
     <div className="mx-auto max-w-screen-xl p-8 md:p-12 lg:p-20">
       <div className="flex flex-col lg:flex-row">
-        <header className="lg:w-1/2">
-          <div className="hidden lg:inline-block falling_line"></div>
-
+        <header className="lg:w-1/3">
           <NavBar />
         </header>
-        <main className="lg:w-1/2">
+        <main className="lg:w-2/3 lg:p-20 lg:pt-0 relative">
+          <div className="hidden lg:inline-block falling_line"></div>
           <About />
           <Education />
           <Experience />
