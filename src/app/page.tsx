@@ -10,6 +10,8 @@ export default function Home() {
     <div className="mx-auto max-w-screen-xl p-8 md:p-12 lg:p-20">
       <div className="flex flex-col lg:flex-row">
         <header className="lg:w-1/2">
+          <div className="hidden lg:inline-block falling_line"></div>
+
           <NavBar />
         </header>
         <main className="lg:w-1/2">
@@ -17,7 +19,6 @@ export default function Home() {
           <Education />
           <Experience />
           <Projecs />
-          <div className="falling_line"></div>
         </main>
       </div>
     </div>
