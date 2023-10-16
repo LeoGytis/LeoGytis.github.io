@@ -12,7 +12,7 @@ export default function Home() {
         <header className="lg:w-1/3">
           <NavBar />
         </header>
-        <main className="lg:w-2/3 lg:p-20 lg:pt-0 relative">
+        <main className="lg:w-2/3 lg:pl-24 relative">
           <div className="hidden lg:inline-block falling_line"></div>
           <About />
           <Education />
