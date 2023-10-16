@@ -15,58 +15,43 @@ const NavBar: any = () => {
           </h3>
         </div>
         <nav className="hidden lg:flex flex-col text-lg gap-2">
-          <li className="flex items-center">
-            <ScrollLink className="nav_indicator" spy offset={-80} to="about" />
-            <ScrollLink smooth offset={-80} to="about" className="nav_click">
-              About
-            </ScrollLink>
-          </li>
+          <ScrollLink className="nav_item" spy smooth offset={-80} to="about">
+            <div className="nav_indicator" />
+            About
+          </ScrollLink>
 
-          <li className="flex items-center">
-            <ScrollLink
-              className="nav_indicator"
-              spy
-              offset={-80}
-              to="education"
-            />
-            <ScrollLink
-              smooth
-              offset={-80}
-              to="education"
-              className="nav_click"
-            >
-              Education
-            </ScrollLink>
-          </li>
+          <ScrollLink
+            className="nav_item"
+            spy
+            smooth
+            offset={-80}
+            to="education"
+          >
+            <div className="nav_indicator" />
+            Education
+          </ScrollLink>
 
-          <li className="flex items-center">
-            <ScrollLink
-              className="nav_indicator"
-              spy
-              offset={-80}
-              to="experience"
-            />
-            <ScrollLink
-              smooth
-              offset={-80}
-              to="experience"
-              className="nav_click"
-            >
-              Experience
-            </ScrollLink>
-          </li>
+          <ScrollLink
+            className="nav_item"
+            spy
+            smooth
+            offset={-80}
+            to="experience"
+          >
+            <div className="nav_indicator" />
+            Experience
+          </ScrollLink>
 
-          <li className="flex items-center">
-            <ScrollLink
-              className="nav_indicator"
-              spy
-              offset={-80}
-              to="projects"
-            />
-            <ScrollLink smooth offset={-80} to="projects" className="nav_click">
-              Projects
-            </ScrollLink>
-          </li>
+          <ScrollLink
+            className="nav_item"
+            spy
+            smooth
+            offset={-80}
+            to="projects"
+          >
+            <div className="nav_indicator" />
+            Projects
+          </ScrollLink>
         </nav>
         <SocialMedia />
       </div>

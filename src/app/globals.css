@@ -134,26 +134,29 @@ a {
   color: #5eead4;
 }
 
-.nav_indicator {
+.nav_item {
   display: flex;
   align-items: center;
+  &:hover {
+    cursor: pointer;
+    color: #5eead4;
+  }
+
+  &.active {
+    color: #5eead4;
+    .nav_indicator {
+      width: 50px;
+    }
+  }
+}
+
+.nav_indicator {
   content: "";
   width: 4px;
   height: 2px;
   margin-right: 10px;
   background-color: #5eead4;
-  transition: width 2s;
-
-  &.active {
-    width: 50px;
-  }
-}
-
-.nav_click {
-  &:hover {
-    cursor: pointer;
-    color: #5eead4;
-  }
+  transition: all 1s;
 }
 
 .falling_line {
