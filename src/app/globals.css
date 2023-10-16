@@ -122,25 +122,18 @@ a {
   color: #5eead4;
 }
 
-.navbar_selection {
-
-  &::after {
-    display: block;
+.nav_indicator {
+    display: flex;
+    align-items: center;
     content: "";
-    width: 100px;
+    width: 4px;
     height: 2px;
-    /* bottom: 50%; */
-    top: 0;
-    left: 0;
+    margin-right: 10px;
     background-color: #5eead4;
-    transform: scaleX(0);
-    transform-origin: bottom left;
-    transition: transform 0.5s ease-out;
-  }
+    transition: width 2s;
 
-  &.active::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
+  &.active {
+    width: 80px;
   }
 
   &:hover {

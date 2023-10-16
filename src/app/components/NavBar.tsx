@@ -15,43 +15,49 @@ const NavBar: any = () => {
           </h3>
         </div>
         <nav className="hidden lg:flex flex-col text-lg gap-2">
-          <ScrollLink
-            className="navbar_selection"
-            smooth
-            spy
-            offset={-80}
-            to="about"
-          >
-            About
-          </ScrollLink>
-          <ScrollLink
-            className="navbar_selection"
-            smooth
-            spy
-            offset={-80}
-            to="education"
-          >
-            Education
-          </ScrollLink>
-          <ScrollLink
-            className="navbar_selection"
-            smooth
-            spy
-            offset={-80}
-            to="experience"
-          >
-            Experience
-          </ScrollLink>
-          <div className="ineline-block">
+          <li className="flex items-center">
             <ScrollLink
-              className="navbar_selection"
+              className="nav_indicator"
               smooth
               spy
               offset={-80}
-              to="projects"
+              to="about"
             />
+            About
+          </li>
+
+          <li className="flex items-center">
+            <ScrollLink
+              className="nav_indicator"
+              smooth
+              spy
+              offset={-80}
+              to="education"
+            />
+            Education
+          </li>
+
+          <li className="flex items-center">
+            <ScrollLink
+              className="nav_indicator"
+              smooth
+              spy
+              offset={-80}
+              to="experience"
+            />
+            Experience
+          </li>
+
+          <ScrollLink
+            className="nav_indicator"
+            smooth
+            spy
+            offset={-80}
+            to="projects"
+          >
+            <div> aim </div>
             Projects
-          </div>
+          </ScrollLink>
         </nav>
         <SocialMedia />
       </div>
