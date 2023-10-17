@@ -163,7 +163,7 @@ a {
   z-index: 100;
   position: absolute;
   top: 0;
-  left: 5%;
+  left: 10%;
   width: 2px;
   height: 200px;
   background-image: linear-gradient(#042850, #5eead4);

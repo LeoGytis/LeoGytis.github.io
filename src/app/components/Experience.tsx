@@ -22,24 +22,6 @@ const Experience: any = () => {
               ensuring cross-browser compatibility to enhance the overall online
               shopping experience.
             </p>
-            {/* 
-            <div className="flex gap-4 mb-4 hover:bg-transparent">
-              <a id="two"
-                href="https://brofinity.com/"
-                className="flex items-center font-bold gap-1 mb-4 hover:bg-transparent hover:text-teal-500"
-              >
-                <BsLink />
-                Brofinity
-              </a>
-              <a
-                href="https://pienozvaigzdes.lt/business-solutions-and-ingredients/"
-                className="flex items-center font-bold gap-1 mb-4 hover:bg-transparent hover:text-teal-500"
-              >
-                <BsLink />
-                Pieno Zvaigzdes
-              </a>
-            </div> */}
-
             <div className="tags flex flex-wrap gap-2 hover:bg-transparent">
               <div className="experience_tag">HTML</div>
               <div className="experience_tag">CSS</div>
@@ -78,15 +60,7 @@ const Experience: any = () => {
               intriguing and deeply rewarding, as it allowed me to play a
               meaningful role in making a positive impact on our environment.
             </p>
-            <div className="flex hover:bg-transparent">
-              {/* <a
-                href="https://sris.biip.lt/"
-                className="flex items-center font-bold gap-1 mb-4 hover:bg-transparent hover:text-teal-500"
-              >
-                <BsLink />
-                BIIP
-              </a> */}
-            </div>
+            <div className="flex hover:bg-transparent"></div>
 
             <div className="tags flex flex-wrap gap-2 hover:bg-transparent">
               <div className="experience_tag">HTML</div>
