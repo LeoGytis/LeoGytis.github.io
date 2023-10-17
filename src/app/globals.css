@@ -115,7 +115,6 @@ a {
 @media (min-width: 1024px) {
   .experience_container:hover {
     border-radius: 4px;
-    /* cursor: pointer; */
     background-color: rgba(203, 213, 225, 0.1);
   }
 }
