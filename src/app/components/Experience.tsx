@@ -5,7 +5,7 @@ const Experience: any = () => {
   return (
     <div id="experience" className="text-slate-200">
       <div className="mb-12 experience_container">
-        <div className="lg:p-6 lg:pt-0">
+        <div className="lg:p-6">
           <Link id="one" href="https://telesoftas.com/">
             <h1 className="font-bold text-xl hover:bg-transparent pb-3">
               Web Developer
