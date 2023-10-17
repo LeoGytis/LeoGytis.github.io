@@ -23,15 +23,15 @@ const Experience: any = () => {
               shopping experience.
             </p>
             <div className="tags flex flex-wrap gap-2 hover:bg-transparent">
-              <div className="experience_tag">HTML</div>
-              <div className="experience_tag">CSS</div>
-              <div className="experience_tag">Tailwind</div>
-              <div className="experience_tag">TypeScript</div>
-              <div className="experience_tag">React</div>
-              <div className="experience_tag">Next.js</div>
-              <div className="experience_tag">GitHub</div>
-              <div className="experience_tag">Shopify</div>
-              <div className="experience_tag">Liquid</div>
+              <div className="tool_tag">HTML</div>
+              <div className="tool_tag">CSS</div>
+              <div className="tool_tag">Tailwind</div>
+              <div className="tool_tag">TypeScript</div>
+              <div className="tool_tag">React</div>
+              <div className="tool_tag">Next.js</div>
+              <div className="tool_tag">GitHub</div>
+              <div className="tool_tag">Shopify</div>
+              <div className="tool_tag">Liquid</div>
             </div>
           </Link>
         </div>
@@ -63,16 +63,16 @@ const Experience: any = () => {
             <div className="flex hover:bg-transparent"></div>
 
             <div className="tags flex flex-wrap gap-2 hover:bg-transparent">
-              <div className="experience_tag">HTML</div>
-              <div className="experience_tag">CSS</div>
-              <div className="experience_tag">Styled Components</div>
-              <div className="experience_tag">TypeScript</div>
-              <div className="experience_tag">React</div>
-              <div className="experience_tag">Redux</div>
-              <div className="experience_tag">Router</div>
-              <div className="experience_tag">GitHub</div>
-              <div className="experience_tag">Postman</div>
-              <div className="experience_tag">Jira</div>
+              <div className="tool_tag">HTML</div>
+              <div className="tool_tag">CSS</div>
+              <div className="tool_tag">Styled Components</div>
+              <div className="tool_tag">TypeScript</div>
+              <div className="tool_tag">React</div>
+              <div className="tool_tag">Redux</div>
+              <div className="tool_tag">Router</div>
+              <div className="tool_tag">GitHub</div>
+              <div className="tool_tag">Postman</div>
+              <div className="tool_tag">Jira</div>
             </div>
           </Link>
         </div>

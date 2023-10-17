@@ -120,10 +120,10 @@ a {
   }
 }
 
-.experience_tag {
+.tool_tag {
   display: flex;
   align-items: center;
-  border-radius: 16px;
+  border-radius: 8px;
   background-color: #2dd4bf1a;
   padding-left: 0.75rem;
   padding-right: 0.75rem;
