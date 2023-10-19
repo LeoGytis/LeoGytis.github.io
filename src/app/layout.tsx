@@ -11,15 +11,11 @@ const nunito = Nunito({
 export const metadata: Metadata = {
   title: "Gytis Leonavicius Web Developer",
   description: "Inclusive products and digital experiences for the web.",
-  // openGraph: {
-  //   title: "Gytis Leonavicius Web Developer",
-  //   description: "Inclusive products and digital experiences for the web.",
-  //   // images: [
-  //   //   {
-  //   //     url: "../../public/images/website_image.png",
-  //   //   },
-  //   // ],
-  // },
+  openGraph: {
+    title: "!!!!Gytis Leonavicius Web Developer",
+    description: "ĄĄĄInclusive products and digital experiences for the web.",
+    images: "../../public/images/website_image.png",
+  },
 };
 
 export default function RootLayout({
