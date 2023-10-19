@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     description: "Inclusive products and digital experiences for the web.",
     images: [
       {
-        url: website_image.src,
+        url: "../../public/images/website_image.png",
       },
     ],
   },
