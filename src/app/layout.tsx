@@ -14,11 +14,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Gytis Leonavicius Web Developer",
     description: "Inclusive products and digital experiences for the web.",
-    images: [
-      {
-        url: "../../public/images/website_image.png",
-      },
-    ],
+    // images: [
+    //   {
+    //     url: "../../public/images/website_image.png",
+    //   },
+    // ],
   },
 };
 
