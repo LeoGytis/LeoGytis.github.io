@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "styles/theme.css";
+@import "styles/theme2.css";
+
+@layer base {
+  html {
+    --color-primary: #4285f4;
+    --color-secondary: #34a853;
+    --color-buttons: #fbbc05;
+    --color-typography: #ea4335;
+  }
+}
+
 * {
   box-sizing: border-box;
   padding: 0;

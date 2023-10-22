@@ -4,6 +4,7 @@ import About from "./components/About";
 import Experience from "./components/Experience";
 import Projecs from "./components/Projects";
 import Education from "./components/Education";
+import { changeTheme } from "@/utils/helper";
 
 export default function Home() {
   return (
