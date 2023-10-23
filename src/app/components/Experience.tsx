@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Experience: any = () => {
   return (
-    <div id="experience" className="text-slate-200">
+    <div id="experience">
       <div className="mb-12 experience_container">
         <div className="lg:p-6">
           <h1 className="font-bold text-xl hover:bg-transparent pb-3">
@@ -11,10 +11,10 @@ const Experience: any = () => {
           <Link href="https://telesoftas.com/" className="hover:text-[#5eead4]">
             <h2 className="text-lg hover:bg-transparent">TeleSoftas</h2>
           </Link>
-          <div className="text-xs text-slate-400 mb-4 hover:bg-transparent">
+          <h5 className="text-xs mb-4 hover:bg-transparent">
             June - September 2023
-          </div>
-          <p className="text-slate-300 mb-4 hover:bg-transparent">
+          </h5>
+          <p className="mb-4 hover:bg-transparent">
             Working with an e-commerce projects specializing in products and
             fashion, I was responsible for creating visually engaging and
             responsive web interfaces. This role involved designing
@@ -47,11 +47,11 @@ const Experience: any = () => {
             </h2>
           </Link>
 
-          <div className="text-xs text-slate-400 mb-4 hover:bg-transparent">
+          <h5 className="text-xs mb-4 hover:bg-transparent">
             October 2022 - June 2023
-          </div>
+          </h5>
 
-          <p className="text-slate-300 mb-4 hover:bg-transparent">
+          <p className="mb-4 hover:bg-transparent">
             In my role as a Frontend Developer at the BIIP project, I
             contributed to the development of a user orieanted web application,
             which focused on helping nature supervisors collect and review data

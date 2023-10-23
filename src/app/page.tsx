@@ -19,9 +19,9 @@ export default function Home() {
           </button>
           <button
             className="py-2 px-8 bg-buttons text-typography m-2"
-            onClick={() => changeTheme("theme1")}
+            onClick={() => changeTheme("matrix")}
           >
-            theme 1
+            Matrix
           </button>
           <NavBar />
         </header>

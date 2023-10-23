@@ -2,7 +2,7 @@ const About: any = () => {
   return (
     <div
       id="about"
-      className="flex flex-col gap-4 text-lg text-slate-300 lg:p-6 lg:pt-0 mb-16 md:mb-20"
+      className="flex flex-col gap-4 text-lg lg:p-6 lg:pt-0 mb-16 md:mb-20"
     >
       <p>
         I have experience developing web applications, from simple landing pages

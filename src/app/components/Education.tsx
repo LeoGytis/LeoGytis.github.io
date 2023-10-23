@@ -8,7 +8,7 @@ const Education: any = () => {
   return (
     <div
       id="education"
-      className="flex flex-col gap-8 text-lg text-slate-300 lg:p-6 mb-16 md:mb-24 scroll-mt-16 "
+      className="flex flex-col gap-8 text-lg lg:p-6 mb-16 md:mb-24 scroll-mt-16 "
     >
       <Link
         href="https://en.ktu.edu/"

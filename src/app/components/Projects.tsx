@@ -9,7 +9,7 @@ import gridster from "../../../public/images/gridster.png";
 
 const Projecs: any = () => {
   return (
-    <div id="projects" className="text-slate-200">
+    <div id="projects">
       <div className="mb-12 experience_container ">
         <div className="lg:p-6">
           <a href="https://pienozvaigzdes.lt/business-solutions-and-ingredients/">

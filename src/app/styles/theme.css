@@ -1,10 +1,19 @@
-html[data-theme="theme1"] {
+html[data-theme="matrix"] {
+  --color-text-secondary: #020617;
   --color-primary: #f98866;
   --color-secondary: #80bd9e;
   --color-buttons: #89da59;
   --color-typography: #ff320e;
-  --color-background-start: #020804;
-  --color-background-end: #000;
-  --color-tag: #0e6331;
-  --color-tag-bg: #2dd4be00;
+
+  --color-text-primary: #00FF41;
+  --color-text-secondary: #b9423a;
+  --color-text-h3: color: rgb(203 213 225 / 1);
+  --color-text-h5: #008F11;
+  --color-text-paragraph: #008F11;
+  --color-background-start: #0d0208;
+  --color-background-end: #0d0208;
+  --color-tag: #00FF41;
+  --color-tag-bg: #0D0208;
+  --color-tag-border: rgba(0, 255, 64, 0.5);
+
 }
