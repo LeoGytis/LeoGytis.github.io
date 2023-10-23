@@ -9,8 +9,12 @@
   html {
     --color-primary: #4285f4;
     --color-secondary: #34a853;
-    --color-buttons: #fbbc05;
+    --color-buttons: #5623cc;
     --color-typography: #ea4335;
+    --color-background-start: #043c64;
+    --color-background-end: #042850;
+    --color-tag: #5eead4;
+    --color-tag-bg: #2dd4bf1a;
   }
 }
 
@@ -28,7 +32,12 @@ body {
 
 body {
   color: #000;
-  background: linear-gradient(to bottom, transparent, #043c64) #042850;
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      var(--color-background-start)
+    )
+    var(--color-background-end);
 }
 
 @media (min-width: 1024px) {
@@ -42,14 +51,14 @@ body {
   display: flex;
   align-items: center;
   border-radius: 8px;
-  background-color: #2dd4bf1a;
+  background-color: var(--color-tag-bg);
   padding-left: 0.75rem;
   padding-right: 0.75rem;
   font-size: 0.75rem;
   line-height: 1rem;
   font-weight: 500;
   line-height: 1.5rem;
-  color: #5eead4;
+  color: var(--color-tag);
 }
 
 .nav_item {

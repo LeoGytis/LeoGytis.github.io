@@ -3,4 +3,8 @@ html[data-theme="theme1"] {
   --color-secondary: #80bd9e;
   --color-buttons: #89da59;
   --color-typography: #ff320e;
+  --color-background-start: #020804;
+  --color-background-end: #000;
+  --color-tag: #0e6331;
+  --color-tag-bg: #2dd4be00;
 }
