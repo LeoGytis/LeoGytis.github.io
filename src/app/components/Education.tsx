@@ -3,6 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import ktu from "../../../public/images/ktu_svg.svg";
 import bit from "../../../public/images/bit_svg.svg";
+import SvgKtu from "../../../public/images/ktu_svg2";
+import SvgBit from "../../../public/images/bit_svg2";
 
 const Education: any = () => {
   return (
@@ -14,7 +16,7 @@ const Education: any = () => {
         href="https://en.ktu.edu/"
         className="flex gap-2 hover:text-secondary"
       >
-        <Image src={ktu} width={40} height={40} alt="ktu" className="mr-2" />
+        <SvgKtu width={40} height={40} className="fill-tag mr-3" />
         <div>
           <p>Kaunas University of Technology</p>
           <p className="text-sm">
@@ -24,7 +26,7 @@ const Education: any = () => {
       </Link>
 
       <Link href="https://bit.lt/" className="flex gap-2 hover:text-secondary">
-        <Image src={bit} width={40} height={40} alt="bit" className="mr-3" />
+        <SvgBit width={40} height={40} className="fill-tag mr-3" />
         <div>
           <p>Baltic Institute of Technology</p>
           <p className="text-sm">Full-stack developer JavaScript + PHP</p>

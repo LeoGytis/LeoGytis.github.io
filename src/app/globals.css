@@ -168,3 +168,7 @@ p {
 .switch-label:active .switch-button {
   width: 60px;
 }
+
+.fill_it {
+  fill: olivedrab;
+}
