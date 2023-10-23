@@ -6,14 +6,11 @@
 
 @layer base {
   html {
-    --color-buttons: #5623cc;
-    --color-typography: #ea4335;
-
     --color-primary: #fff;
-    --color-text-secondary: #5eead4;
+    --color-secondary: #5eead4;
     --color-text-h3: rgb(203 213 225 / 1);
     --color-text-h5: rgb(148 163 184 / 1);
-    --color-text-paragraph: rgb(203 213 225 / var(--tw-text-opacity));
+    --color-text-p: rgb(203 213 225 / var(--tw-text-opacity));
     --color-background-end: #043c64;
     --color-background-start: #042850;
     --color-tag: #5eead4;
@@ -52,7 +49,7 @@ h5 {
 }
 
 p {
-  color: var(--color-text-paragraph);
+  color: var(--color-text-p);
 }
 
 @media (min-width: 1024px) {
@@ -82,11 +79,11 @@ p {
   align-items: center;
   &:hover {
     cursor: pointer;
-    color: var(--color-text-secondary);
+    color: var(--color-secondary);
   }
 
   &.active {
-    color: var(--color-text-secondary);
+    color: var(--color-secondary);
     .nav_indicator {
       width: 50px;
     }
@@ -98,7 +95,7 @@ p {
   width: 4px;
   height: 2px;
   margin-right: 10px;
-  background-color: var(--color-text-secondary);
+  background-color: var(--color-secondary);
   transition: all 1s;
 }
 
@@ -109,7 +106,7 @@ p {
   left: 10%;
   width: 2px;
   height: 200px;
-  background-image: linear-gradient(#ffffff00, var(--color-text-secondary));
+  background-image: linear-gradient(#ffffff00, var(--color-secondary));
   animation-name: lineFall;
   animation-delay: 2s;
   animation-duration: 30s;
