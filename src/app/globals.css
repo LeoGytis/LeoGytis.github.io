@@ -8,9 +8,10 @@
   html {
     --color-primary: #fff;
     --color-secondary: #5eead4;
+    --color-third: rgb(203 213 225 / 1);
     --color-text-h3: rgb(203 213 225 / 1);
     --color-text-h5: rgb(148 163 184 / 1);
-    --color-text-p: rgb(203 213 225 / var(--tw-text-opacity));
+    --color-text-p: rgb(203 213 225 / 1);
     --color-background-end: #043c64;
     --color-background-start: #042850;
     --color-tag: #5eead4;
@@ -69,7 +70,7 @@ p {
   line-height: 1rem;
   font-weight: 500;
   line-height: 1.5rem;
-  color: var(--color-secondary);
+  color: var(--color-tag);
   border: 1px solid var(--color-tag-border);
   border-radius: 8px;
 }
@@ -79,11 +80,11 @@ p {
   align-items: center;
   &:hover {
     cursor: pointer;
-    color: var(--color-secondary);
+    color: var(--color-tag);
   }
 
   &.active {
-    color: var(--color-secondary);
+    color: var(--color-tag);
     .nav_indicator {
       width: 50px;
     }
@@ -95,7 +96,7 @@ p {
   width: 4px;
   height: 2px;
   margin-right: 10px;
-  background-color: var(--color-secondary);
+  background-color: var(--color-tag);
   transition: all 1s;
 }
 
@@ -167,8 +168,4 @@ p {
 
 .switch-label:active .switch-button {
   width: 60px;
-}
-
-.fill_it {
-  fill: olivedrab;
 }

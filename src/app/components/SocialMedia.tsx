@@ -8,25 +8,25 @@ const SocialMedia: any = () => {
     <div className="flex items-center ml-1 gap-4">
       <a
         href="https://www.facebook.com/divergytis"
-        className="hover:cursor-pointer text-2xl text-secondary hover:text-primary"
+        className="hover:cursor-pointer text-2xl text-tag hover:text-third"
       >
         <BsFacebook />
       </a>
       <a
         href="https://github.com/LeoGytis"
-        className="hover:cursor-pointer text-2xl text-secondary hover:text-primary"
+        className="hover:cursor-pointer text-2xl text-tag hover:text-third"
       >
         <BsGithub />
       </a>
       <a
         href="https://www.linkedin.com/in/gytis-leonavicius-74839519a/"
-        className="hover:cursor-pointer text-2xl text-secondary hover:text-primary"
+        className="hover:cursor-pointer text-2xl text-tag hover:text-third"
       >
         <BsLinkedin />
       </a>
       <a
         href="mailto:leogytis@gmail.com"
-        className="hover:cursor-pointer text-3xl text-secondary hover:text-primary"
+        className="hover:cursor-pointer text-3xl text-tag hover:text-third"
       >
         <HiMail />
       </a>

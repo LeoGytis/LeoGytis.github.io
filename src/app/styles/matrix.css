@@ -1,6 +1,7 @@
 html[data-theme="matrix"] {
   --color-primary: #00ff41;
   --color-secondary: #008f11;
+  --color-third: #008f11;
   --color-text-h3: #00ff41;
   --color-text-h5: #008f11;
   --color-text-p: #008f11;
