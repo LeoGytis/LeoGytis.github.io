@@ -11,18 +11,20 @@ export default function Home() {
     <div className="mx-auto max-w-screen-xl p-8 md:p-12 lg:p-20">
       <div className="flex flex-col lg:flex-row">
         <header className="lg:w-1/3">
-          <button
-            className="py-2 px-8 bg-buttons text-typography m-2"
-            onClick={() => changeTheme("")}
-          >
-            Default
-          </button>
-          <button
-            className="py-2 px-8 bg-buttons text-typography m-2"
-            onClick={() => changeTheme("matrix")}
-          >
-            Matrix
-          </button>
+          <div className="flex z-10">
+            <button
+              className="py-2 px-8 bg-buttons m-2 tool_tag"
+              onClick={() => changeTheme("")}
+            >
+              Default
+            </button>
+            <button
+              className="py-2 px-8 bg-buttons m-2 tool_tag"
+              onClick={() => changeTheme("matrix")}
+            >
+              Matrix
+            </button>
+          </div>
           <NavBar />
         </header>
         <main className="lg:w-2/3 lg:pl-24 relative">

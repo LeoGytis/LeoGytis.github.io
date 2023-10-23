@@ -1,0 +1,12 @@
+html[data-theme="matrix"] {
+  --color--primary: #008f11;
+  --color-secondary: #00ff41;
+  --color-text-h3: rgb(203 213 225 / 1);
+  --color-text-h5: #008f11;
+  --color-text-paragraph: #008f11;
+  --color-background-start: #0d0208;
+  --color-background-end: #0d0208;
+  --color-tag: #00ff41;
+  --color-tag-bg: #0d0208;
+  --color-tag-border: rgba(0, 255, 64, 0.5);
+}

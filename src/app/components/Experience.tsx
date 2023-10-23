@@ -8,7 +8,7 @@ const Experience: any = () => {
           <h1 className="font-bold text-xl hover:bg-transparent pb-3">
             Web Developer
           </h1>
-          <Link href="https://telesoftas.com/" className="hover:text-[#5eead4]">
+          <Link href="https://telesoftas.com/" className="hover:text-secondary">
             <h2 className="text-lg hover:bg-transparent">TeleSoftas</h2>
           </Link>
           <h5 className="text-xs mb-4 hover:bg-transparent">
@@ -41,7 +41,7 @@ const Experience: any = () => {
           <h1 className="font-bold text-xl hover:bg-transparent pb-3">
             Front-end Developer
           </h1>
-          <Link href="https://telesoftas.com/" className="hover:text-[#5eead4]">
+          <Link href="https://telesoftas.com/" className="hover:text-secondary">
             <h2 className="text-lg hover:bg-transparent">
               Ministry of Environment of the Republic of Lithuania
             </h2>

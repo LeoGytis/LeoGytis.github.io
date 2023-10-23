@@ -12,7 +12,7 @@ const Education: any = () => {
     >
       <Link
         href="https://en.ktu.edu/"
-        className="flex gap-2 hover:text-[#5eead4]"
+        className="flex gap-2 hover:text-secondary"
       >
         <Image src={ktu} width={40} height={40} alt="ktu" className="mr-2" />
         <div>
@@ -23,7 +23,7 @@ const Education: any = () => {
         </div>
       </Link>
 
-      <Link href="https://bit.lt/" className="flex gap-2 hover:text-[#5eead4]">
+      <Link href="https://bit.lt/" className="flex gap-2 hover:text-secondary">
         <Image src={bit} width={40} height={40} alt="bit" className="mr-3" />
         <div>
           <p>Baltic Institute of Technology</p>
