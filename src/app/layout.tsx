@@ -9,10 +9,10 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: "Gytis Leonavicius Web Developer",
+  title: "Gytis Leonavicius | Web Developer",
   description: "Inclusive products and digital experiences for the web.",
   openGraph: {
-    title: "!!Gytis Leonavicius Web Developer",
+    title: "!!Gytis Leonavicius | Web Developer",
     description: "Inclusive products and digital experiences for the web.",
     images: [
       {
