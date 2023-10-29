@@ -1,9 +1,9 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Ubuntu, Roboto, Nunito, Inter } from "next/font/google";
+import { Nunito, Inter } from "next/font/google";
 import website_image from "../../public/images/website_image.png";
 
-const nunito = Nunito({
+const inter = Inter({
   weight: "400",
   subsets: ["latin"],
 });
@@ -29,7 +29,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={nunito.className}>{children}</body>
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }
