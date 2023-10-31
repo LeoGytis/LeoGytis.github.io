@@ -1,12 +1,20 @@
 import React, { useRef, useEffect } from "react";
 import * as THREE from "three";
 import { OrbitControls } from "three/addons/controls/OrbitControls.js";
+import { hexToNumericColor } from "../utils/hexToNumericColor";
 
-const StarsScene = () => {
+interface StarsSceneProps {
+  bgColor?: string;
+  starColor?: string;
+}
+
+const StarsScene = ({ bgColor }: StarsSceneProps) => {
   const containerRef = useRef<HTMLDivElement>(null);
+  const numericBgColor = hexToNumericColor(bgColor);
   useEffect(() => {
     if (typeof window !== "undefined") {
       const scene = new THREE.Scene();
+      scene.background = new THREE.Color(numericBgColor);
       const camera = new THREE.PerspectiveCamera(
         75,
         window.innerWidth / window.innerHeight,
@@ -23,13 +31,13 @@ const StarsScene = () => {
       const ambientLight = new THREE.AmbientLight(0xffffff);
       scene.add(ambientLight);
 
-      const gridHelper = new THREE.GridHelper(220, 250);
-      scene.add(gridHelper);
+      // const gridHelper = new THREE.GridHelper(220, 250);
+      // scene.add(gridHelper);
 
-      const controls = new OrbitControls(camera, renderer.domElement);
+      // const controls = new OrbitControls(camera, renderer.domElement);
 
       const starFigure = () => {
-        const geometry = new THREE.BoxGeometry(0.1, 0.1, 5);
+        const geometry = new THREE.BoxGeometry(0.01, 0.01, 5);
         const material = new THREE.MeshBasicMaterial({
           transparent: true,
           opacity: 0.8,
@@ -37,9 +45,9 @@ const StarsScene = () => {
         });
         const star = new THREE.Mesh(geometry, material);
 
-        const x = THREE.MathUtils.randFloat(-150, 150);
-        const y = THREE.MathUtils.randFloat(-150, 150);
-        const z = THREE.MathUtils.randFloatSpread(150);
+        const x = THREE.MathUtils.randFloat(-50, 50);
+        const y = THREE.MathUtils.randFloat(-50, 50);
+        const z = THREE.MathUtils.randFloat(-150, 50);
 
         star.position.set(x, y, z);
         scene.add(star);
@@ -48,23 +56,23 @@ const StarsScene = () => {
       // Call starFigure to add many falling stars
       Array(1500).fill(null).forEach(starFigure);
 
-      // Scroll Animation
+      // --- Scroll Animation ---
 
-      // const moveCamera = () => {
-      //   const t = document.body.getBoundingClientRect().top;
+      const moveCamera = () => {
+        const t = document.body.getBoundingClientRect().top;
 
-      //   camera.position.z = t * -0.01;
-      //   camera.position.x = t * -0.0002;
-      //   camera.rotation.y = t * -0.0002;
-      // };
+        camera.position.z = t * 0.02;
+        // camera.position.x = t * -0.0002;
+        // camera.rotation.y = t * -0.0002;
+      };
 
-      // document.body.onscroll = moveCamera;
-      // moveCamera();
+      document.body.onscroll = moveCamera;
+      moveCamera();
 
-      // Render the scene and camera
+      // --- Render the scene and camera ---
       const renderScene = () => {
         renderer.render(scene, camera);
-        controls.update();
+        // controls.update();
         requestAnimationFrame(renderScene);
       };
       renderScene();
