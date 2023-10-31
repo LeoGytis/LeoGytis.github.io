@@ -19,18 +19,17 @@ const StarsScene = () => {
       renderer.setSize(window.innerWidth, window.innerHeight);
       containerRef.current?.appendChild(renderer.domElement);
       camera.position.setZ(50);
-      camera.position.setX(50);
 
       const ambientLight = new THREE.AmbientLight(0xffffff);
       scene.add(ambientLight);
 
-      const gridHelper = new THREE.GridHelper(200, 50);
+      const gridHelper = new THREE.GridHelper(220, 250);
       scene.add(gridHelper);
 
       const controls = new OrbitControls(camera, renderer.domElement);
 
-      const fallingStar = () => {
-        const geometry = new THREE.BoxGeometry(0.01, 5, 0.01);
+      const starFigure = () => {
+        const geometry = new THREE.BoxGeometry(0.1, 0.1, 5);
         const material = new THREE.MeshBasicMaterial({
           transparent: true,
           opacity: 0.8,
@@ -38,47 +37,29 @@ const StarsScene = () => {
         });
         const star = new THREE.Mesh(geometry, material);
 
-        const x = THREE.MathUtils.randFloatSpread(100);
-        const y = THREE.MathUtils.randFloat(50, 50); // Random Y-coordinate within a range
-        const z = THREE.MathUtils.randFloatSpread(100);
+        const x = THREE.MathUtils.randFloat(-150, 150);
+        const y = THREE.MathUtils.randFloat(-150, 150);
+        const z = THREE.MathUtils.randFloatSpread(150);
 
         star.position.set(x, y, z);
         scene.add(star);
-
-        // Function to update the star's position in the animation loop
-        const updateStarPosition = () => {
-          star.position.y -= 0.2; // Adjust the falling speed
-          if (star.position.y < -10) {
-            // If the star falls below a certain Y-coordinate, remove it
-            scene.remove(star);
-          }
-        };
-
-        // Add the update function to the animation loop
-        const animate = () => {
-          updateStarPosition();
-          renderer.render(scene, camera);
-          requestAnimationFrame(animate);
-        };
-
-        animate(); // Start the animation loop
       };
 
-      // Call fallingStar to add many falling stars
-      Array(200).fill(null).forEach(fallingStar);
+      // Call starFigure to add many falling stars
+      Array(1500).fill(null).forEach(starFigure);
 
       // Scroll Animation
 
-      const moveCamera = () => {
-        const t = document.body.getBoundingClientRect().top;
+      // const moveCamera = () => {
+      //   const t = document.body.getBoundingClientRect().top;
 
-        camera.position.z = t * -0.01;
-        camera.position.x = t * -0.0002;
-        camera.rotation.y = t * -0.0002;
-      };
+      //   camera.position.z = t * -0.01;
+      //   camera.position.x = t * -0.0002;
+      //   camera.rotation.y = t * -0.0002;
+      // };
 
-      document.body.onscroll = moveCamera;
-      moveCamera();
+      // document.body.onscroll = moveCamera;
+      // moveCamera();
 
       // Render the scene and camera
       const renderScene = () => {
