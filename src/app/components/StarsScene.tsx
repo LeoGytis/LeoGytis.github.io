@@ -2,13 +2,15 @@ import React, { useRef, useEffect } from "react";
 import * as THREE from "three";
 import { OrbitControls } from "three/addons/controls/OrbitControls.js";
 
-interface StarsSceneProps {
-  bgColor?: string | undefined;
-  starColor?: string;
-}
-
-const StarsScene = ({ bgColor }: StarsSceneProps) => {
+const StarsScene = () => {
   const containerRef = useRef<HTMLDivElement>(null);
+
+  function getColor(variableName: string) {
+    return getComputedStyle(document.documentElement).getPropertyValue(
+      variableName
+    );
+  }
+
   useEffect(() => {
     if (typeof window !== "undefined") {
       const scene = new THREE.Scene();
@@ -34,11 +36,12 @@ const StarsScene = ({ bgColor }: StarsSceneProps) => {
       // const controls = new OrbitControls(camera, renderer.domElement);
 
       const starFigure = () => {
+        const myColor = new THREE.Color();
         const geometry = new THREE.BoxGeometry(0.01, 0.01, 5);
         const material = new THREE.MeshBasicMaterial({
           transparent: true,
           opacity: 0.8,
-          color: 0x5eead4,
+          color: new THREE.Color(getColor("--color-stars")),
         });
         const star = new THREE.Mesh(geometry, material);
 
@@ -57,13 +60,14 @@ const StarsScene = ({ bgColor }: StarsSceneProps) => {
 
       const moveCamera = () => {
         const t = document.body.getBoundingClientRect().top;
-
         camera.position.z = t * 0.02;
 
         // --- Update background color based on camera position ---
-        const backgroundIntensity = Math.abs(camera.position.z / 100);
-        const updatedColor = new THREE.Color(bgColor).lerp(
-          new THREE.Color("#043e55"), // Desired end color
+        const backgroundIntensity = Math.abs(camera.position.z / 50);
+        const updatedColor = new THREE.Color(
+          getColor("--color-background-start")
+        ).lerp(
+          new THREE.Color(getColor("--color-background-end")),
           backgroundIntensity
         );
 
@@ -81,7 +85,7 @@ const StarsScene = ({ bgColor }: StarsSceneProps) => {
       };
       renderScene();
     }
-  }, [bgColor]);
+  }, []);
 
   return <div ref={containerRef} />;
 };

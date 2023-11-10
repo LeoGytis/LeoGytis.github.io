@@ -12,11 +12,12 @@
     --color-text-h3: rgb(203 213 225 / 1);
     --color-text-h5: rgb(148, 163, 184);
     --color-text-p: rgb(203 213 225 / 1);
-    --color-background-end: #043c64;
+    --color-background-end: #043e55;
     --color-background-start: #042850;
     --color-tag: #5eead4;
     --color-tag-bg: #2dd4bf1a;
     --color-tag-border: rgba(94, 234, 213, 0.5);
+    --color-stars: #ceff72;
   }
 }
 
