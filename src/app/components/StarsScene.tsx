@@ -4,6 +4,7 @@ import { OrbitControls } from "three/addons/controls/OrbitControls.js";
 
 const StarsScene = () => {
   const containerRef = useRef<HTMLDivElement>(null);
+  const myColor = new THREE.Color();
 
   function getColor(variableName: string) {
     return getComputedStyle(document.documentElement).getPropertyValue(
@@ -36,7 +37,6 @@ const StarsScene = () => {
       // const controls = new OrbitControls(camera, renderer.domElement);
 
       const starFigure = () => {
-        const myColor = new THREE.Color();
         const geometry = new THREE.BoxGeometry(0.01, 0.01, 5);
         const material = new THREE.MeshBasicMaterial({
           transparent: true,
