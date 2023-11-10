@@ -11,7 +11,8 @@ export default function Home() {
   return (
     <div className="mx-auto max-w-screen-xl p-8 md:p-12 lg:p-20">
       <div className="fixed top-0 left-0">
-        <StarsScene bgColor="#000" />
+        {/* <StarsScene bgColor="#021732" /> */}
+        <StarsScene bgColor="#042850" />
       </div>
       <div className="flex flex-col lg:flex-row">
         <header className="lg:w-1/3">

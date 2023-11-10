@@ -1,7 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import * as THREE from "three";
 import { OrbitControls } from "three/addons/controls/OrbitControls.js";
-import { hexToNumericColor } from "../utils/hexToNumericColor";
 
 interface StarsSceneProps {
   bgColor?: string;
@@ -10,11 +9,9 @@ interface StarsSceneProps {
 
 const StarsScene = ({ bgColor }: StarsSceneProps) => {
   const containerRef = useRef<HTMLDivElement>(null);
-  const numericBgColor = hexToNumericColor(bgColor);
   useEffect(() => {
     if (typeof window !== "undefined") {
       const scene = new THREE.Scene();
-      scene.background = new THREE.Color(numericBgColor);
       const camera = new THREE.PerspectiveCamera(
         75,
         window.innerWidth / window.innerHeight,
@@ -62,8 +59,15 @@ const StarsScene = ({ bgColor }: StarsSceneProps) => {
         const t = document.body.getBoundingClientRect().top;
 
         camera.position.z = t * 0.02;
-        // camera.position.x = t * -0.0002;
-        // camera.rotation.y = t * -0.0002;
+
+        // Update background color based on camera position
+        const backgroundIntensity = Math.abs(camera.position.z / 100);
+        const updatedColor = new THREE.Color(bgColor).lerp(
+          new THREE.Color("#043c64"), // Desired end color
+          backgroundIntensity
+        );
+
+        scene.background = updatedColor;
       };
 
       document.body.onscroll = moveCamera;
@@ -77,7 +81,9 @@ const StarsScene = ({ bgColor }: StarsSceneProps) => {
       };
       renderScene();
     }
-  }, []);
+  }, [bgColor]);
+
   return <div ref={containerRef} />;
 };
+
 export default StarsScene;
