@@ -3,7 +3,7 @@ import * as THREE from "three";
 import { OrbitControls } from "three/addons/controls/OrbitControls.js";
 
 interface StarsSceneProps {
-  bgColor?: string;
+  bgColor?: string | undefined;
   starColor?: string;
 }
 
@@ -60,10 +60,10 @@ const StarsScene = ({ bgColor }: StarsSceneProps) => {
 
         camera.position.z = t * 0.02;
 
-        // Update background color based on camera position
+        // --- Update background color based on camera position ---
         const backgroundIntensity = Math.abs(camera.position.z / 100);
         const updatedColor = new THREE.Color(bgColor).lerp(
-          new THREE.Color("#043c64"), // Desired end color
+          new THREE.Color("#043e55"), // Desired end color
           backgroundIntensity
         );
 
