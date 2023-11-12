@@ -55,7 +55,7 @@ const StarsScene = () => {
       };
 
       // Call starFigure to add many falling stars
-      Array(1500).fill(null).forEach(starFigure);
+      Array(800).fill(null).forEach(starFigure);
 
       // --- Scroll Animation ---
 
