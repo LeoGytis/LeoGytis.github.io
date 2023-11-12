@@ -6,6 +6,7 @@ import sris from "../../../public/images/sris.png";
 import study from "../../../public/images/study.png";
 import braintech from "../../../public/images/braintech.png";
 import gridster from "../../../public/images/gridster.png";
+import ip_royal from "../../../public/images/ip_royal.png";
 
 const Projecs: any = () => {
   return (
@@ -178,6 +179,35 @@ const Projecs: any = () => {
               <div className="tool_tag">StyledComponents</div>
               <div className="tool_tag">TypeScript</div>
               <div className="tool_tag">React</div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div className="mb-12 experience_container">
+        <div className="lg:p-6">
+          <a href="https://leogytis.github.io/ip_royal/">
+            <div className="flex flex-col sm:flex-row gap-4 mb-2 sm:mb-4 hover:bg-transparent">
+              <Image
+                src={ip_royal}
+                width={500}
+                height={500}
+                alt="ip_royal"
+                className="sm:w-1/2 rounded self-center sm:self-start"
+              />
+              <p className="hover:bg-transparent">
+                Exploring Vue.js for the first time, I created a dynamic
+                dashboard using Tailwind CSS and TypeScript. This project tested
+                my proficiency in a new framework and assessed Tailwind's
+                efficiency. The interactive dashboard, with real-time updates,
+                showcased a seamless integration of Tailwind CSS, TypeScript,
+                and Vue.js, demonstrating adaptability to new technologies.
+              </p>
+            </div>
+            <div className="tags flex flex-wrap gap-2 hover:bg-transparent">
+              <div className="tool_tag">CSS</div>
+              <div className="tool_tag">Tailwind</div>
+              <div className="tool_tag">TypeScript</div>
+              <div className="tool_tag">Vue.js</div>
             </div>
           </a>
         </div>
