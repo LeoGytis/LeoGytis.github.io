@@ -4,7 +4,6 @@ import { OrbitControls } from "three/addons/controls/OrbitControls.js";
 
 const StarsScene = () => {
   const containerRef = useRef<HTMLDivElement>(null);
-  const myColor = new THREE.Color();
 
   function getColor(variableName: string) {
     return getComputedStyle(document.documentElement).getPropertyValue(
@@ -28,13 +27,15 @@ const StarsScene = () => {
       containerRef.current?.appendChild(renderer.domElement);
       camera.position.setZ(50);
 
-      const ambientLight = new THREE.AmbientLight(0xffffff);
-      scene.add(ambientLight);
+      // const ambientLight = new THREE.AmbientLight(0xffffff);
+      // scene.add(ambientLight);
 
       // const gridHelper = new THREE.GridHelper(220, 250);
       // scene.add(gridHelper);
 
       // const controls = new OrbitControls(camera, renderer.domElement);
+
+      // --- Stars elements ---
 
       const starFigure = () => {
         const geometry = new THREE.BoxGeometry(0.01, 0.01, 5);
@@ -45,8 +46,8 @@ const StarsScene = () => {
         });
         const star = new THREE.Mesh(geometry, material);
 
-        const x = THREE.MathUtils.randFloat(-50, 50);
-        const y = THREE.MathUtils.randFloat(-50, 50);
+        const x = THREE.MathUtils.randFloat(-25, 25);
+        const y = THREE.MathUtils.randFloat(-25, 25);
         const z = THREE.MathUtils.randFloat(-150, 50);
 
         star.position.set(x, y, z);
@@ -60,7 +61,7 @@ const StarsScene = () => {
 
       const moveCamera = () => {
         const t = document.body.getBoundingClientRect().top;
-        camera.position.z = t * 0.02;
+        camera.position.z = t * 0.03;
 
         // --- Update background color based on camera position ---
         const backgroundIntensity = Math.abs(camera.position.z / 50);
