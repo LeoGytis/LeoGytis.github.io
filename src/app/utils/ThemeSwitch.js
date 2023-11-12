@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../styles/switch.css";
 
 const ThemeSwitch = () => {
   const [isOn, setIsOn] = useState(false);
@@ -11,7 +12,7 @@ const ThemeSwitch = () => {
   };
 
   return (
-    <>
+    <div className="hidden lg:flex absolute top-[-60px] right-0">
       <input
         onChange={handleToggle}
         className="switch-checkbox"
@@ -21,7 +22,7 @@ const ThemeSwitch = () => {
       <label className="switch-label bg-primary" htmlFor={`switch`}>
         <span className={`switch-button`} />
       </label>
-    </>
+    </div>
   );
 };
 

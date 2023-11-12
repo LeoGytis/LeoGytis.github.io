@@ -19,9 +19,7 @@ export default function Home() {
         </header>
         <main className="lg:w-2/3 lg:pl-24 relative">
           <div className="hidden lg:inline-block falling_line"></div>
-          <div className="hidden lg:flex absolute top-[-2%] right-[-10%]">
-            <ThemeSwitch />
-          </div>
+          <ThemeSwitch />
           <About />
           <Education />
           <Experience />
