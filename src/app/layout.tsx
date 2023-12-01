@@ -8,11 +8,14 @@ const inter = Inter({
   subsets: ["latin"],
 });
 
+// const previousImages = (await parent).openGraph?.images || [];
+
 export const metadata: Metadata = {
+  metadataBase: new URL("https://leogytis.github.io/"),
   title: "Gytis Leonavicius | Web Developer",
   description: "Inclusive products and digital experiences for the web.",
   openGraph: {
-    title: "!!Gytis Leonavicius | Web Developer",
+    title: "Gytis Leonavicius | Web Developer",
     description: "Inclusive products and digital experiences for the web.",
     images: [
       {
