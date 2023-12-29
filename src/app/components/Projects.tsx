@@ -12,19 +12,11 @@ const Projecs: any = () => {
   return (
     <div id="projects">
       <Project
-        title="Pieno Zvaigzdes"
-        imageSrc={pz}
-        link="https://pienozvaigzdes.lt/business-solutions-and-ingredients/"
-        description="Developed a dynamic B2B products page for seamless access to our offerings by potential business clients. The page prioritizes clarity and ease of navigation, ensuring a smooth user experience."
-        tags={["CSS", "Tailwind", "TypeScript", "React", "Next.js"]}
-      />
-
-      <Project
-        title="Brofinity"
-        imageSrc={brofinity}
-        link="https://brofinity.com/"
-        description="Developed fashion clothing e-commerce site on Shopify, leveraging Liquid to deliver a seamless shopping platform for our collection."
-        tags={["CSS", "Tailwind", "JavaScript", "Shopify", "Liquid"]}
+        title="E-Study"
+        imageSrc={study}
+        link="https://leogytis.github.io/e-study/"
+        description="E-Study is a learning-oriented landing page that showcases my use of various React libraries. It's designed to provide a practical demonstration of React-based web development for educational purposes."
+        tags={["CSS", "Styled Components", "TypeScript", "React"]}
       />
 
       <Project
@@ -39,15 +31,8 @@ const Projecs: any = () => {
           "React",
           "Redux",
           "Router",
+          "Formik",
         ]}
-      />
-
-      <Project
-        title="E-Study"
-        imageSrc={study}
-        link="https://leogytis.github.io/e-study/"
-        description="E-Study is a learning-oriented landing page that showcases my use of various React libraries. It's designed to provide a practical demonstration of React-based web development for educational purposes."
-        tags={["CSS", "Styled Components", "TypeScript", "React"]}
       />
 
       <Project
@@ -56,6 +41,22 @@ const Projecs: any = () => {
         link="https://leogytis.github.io/braintech/"
         description="Braintech is an educational landing page that showcases my utilization of various web development techniques and technologies. This project was undertaken as part of my coursework at BIT School, signifying an important chapter in my academic journey. It offers a practical demonstration of web development, with a focus on using plain JavaScript for educational purposes."
         tags={["HTML", "CSS", "GitHub", "Vanilla.js"]}
+      />
+
+      <Project
+        title="Brofinity"
+        imageSrc={brofinity}
+        link="https://brofinity.com/"
+        description="Developed fashion clothing e-commerce site on Shopify, leveraging Liquid to deliver a seamless shopping platform for our collection."
+        tags={["CSS", "Tailwind", "JavaScript", "Shopify", "Liquid"]}
+      />
+
+      <Project
+        title="Pieno Zvaigzdes"
+        imageSrc={pz}
+        link="https://pienozvaigzdes.lt/business-solutions-and-ingredients/"
+        description="Developed a dynamic B2B products page for seamless access to our offerings by potential business clients. The page prioritizes clarity and ease of navigation, ensuring a smooth user experience."
+        tags={["CSS", "Tailwind", "TypeScript", "React", "Next.js"]}
       />
 
       <Project

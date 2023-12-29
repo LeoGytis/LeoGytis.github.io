@@ -42,8 +42,13 @@ body {
 }
 
 h3,
-p {
+p,
+a {
   color: var(--color-text-primary);
+}
+
+a:hover {
+  color: var(--color-tag);
 }
 
 h5 {

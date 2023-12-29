@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import { StaticImageData } from "next/image";
-import ToolTags from "../utils/ToolTags";
 
 interface ProjectProps {
   imageSrc: StaticImageData;
@@ -22,21 +21,29 @@ const Project = ({
   return (
     <div className="mb-12 hover_border">
       <div className="lg:p-6">
-        <a href={link}>
-          <div className="flex flex-row gap-4 mb-2 sm:mb-4 hover:bg-transparent">
+        <div className="flex gap-6">
+          <div className="overflow-hidden rounded cursor-pointer">
             <Image
               src={imageSrc}
-              width={500}
-              height={500}
+              width={300}
+              height={300}
               alt={title}
-              className="sm:w-1/2 rounded self-center sm:self-start hover:scale-110 ease-out duration-500 mr-5"
+              className="rounded hover:scale-125 ease-out duration-1000 transform"
             />
-            <div>
-              <p className="hover:bg-transparent mb-3">{description}</p>
-              <ToolTags tags={tags} />
+          </div>
+          <div className="flex flex-col gap-3 w-2/3">
+            <p>{description}</p>
+            <a href={link}>Webpage</a>
+
+            <div className="flex flex-wrap gap-2">
+              {tags.map((tag, index) => (
+                <div key={index} className="tool_tag">
+                  {tag}
+                </div>
+              ))}
             </div>
           </div>
-        </a>
+        </div>
       </div>
     </div>
   );
