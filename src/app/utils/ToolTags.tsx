@@ -1,9 +1,12 @@
-const ToolTags: any = () => {
+const ToolTags = ({ tags }: { tags: string[] }) => {
   return (
-    <div
-      id="about"
-      className="flex flex-col gap-4 text-lg lg:p-6 lg:pt-0 mb-16 md:mb-20"
-    ></div>
+    <div className="tags flex flex-wrap gap-2 hover:bg-transparent">
+      {tags.map((tag, index) => (
+        <div key={index} className="tool_tag">
+          {tag}
+        </div>
+      ))}
+    </div>
   );
 };
 

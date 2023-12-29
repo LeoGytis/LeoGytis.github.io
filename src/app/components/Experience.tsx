@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ToolTags from "../utils/ToolTags";
 
 const Experience: any = () => {
   return (
@@ -22,17 +23,19 @@ const Experience: any = () => {
             ensuring cross-browser compatibility to enhance the overall online
             shopping experience.
           </p>
-          <div className="tags flex flex-wrap gap-2 hover:bg-transparent">
-            <div className="tool_tag">HTML</div>
-            <div className="tool_tag">CSS</div>
-            <div className="tool_tag">Tailwind</div>
-            <div className="tool_tag">TypeScript</div>
-            <div className="tool_tag">React</div>
-            <div className="tool_tag">Next.js</div>
-            <div className="tool_tag">GitHub</div>
-            <div className="tool_tag">Shopify</div>
-            <div className="tool_tag">Liquid</div>
-          </div>
+          <ToolTags
+            tags={[
+              "HTML",
+              "CSS",
+              "Tailwind",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "GitHub",
+              "Shopify",
+              "Liquid",
+            ]}
+          />
         </div>
       </div>
       <div></div>
@@ -62,18 +65,20 @@ const Experience: any = () => {
           </p>
           <div className="flex hover:bg-transparent"></div>
 
-          <div className="tags flex flex-wrap gap-2 hover:bg-transparent">
-            <div className="tool_tag">HTML</div>
-            <div className="tool_tag">CSS</div>
-            <div className="tool_tag">Styled Components</div>
-            <div className="tool_tag">TypeScript</div>
-            <div className="tool_tag">React</div>
-            <div className="tool_tag">Redux</div>
-            <div className="tool_tag">Router</div>
-            <div className="tool_tag">GitHub</div>
-            <div className="tool_tag">Postman</div>
-            <div className="tool_tag">Jira</div>
-          </div>
+          <ToolTags
+            tags={[
+              "HTML",
+              "CSS",
+              "Styled Components",
+              "TypeScript",
+              "React",
+              "Redux",
+              "Router",
+              "GitHub",
+              "Postman",
+              "Jira",
+            ]}
+          />
         </div>
       </div>
     </div>

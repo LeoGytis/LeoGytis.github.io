@@ -7,6 +7,7 @@ import study from "../../../public/images/study.png";
 import braintech from "../../../public/images/braintech.png";
 import gridster from "../../../public/images/gridster.png";
 import ip_royal from "../../../public/images/ip_royal.png";
+import ToolTags from "../utils/ToolTags";
 
 const Projecs: any = () => {
   return (
@@ -29,13 +30,9 @@ const Projecs: any = () => {
                 experience.
               </p>
             </div>
-            <div className="tags flex flex-wrap gap-2 hover:bg-transparent">
-              <div className="tool_tag">CSS</div>
-              <div className="tool_tag">Tailwind</div>
-              <div className="tool_tag">TypeScript</div>
-              <div className="tool_tag">React</div>
-              <div className="tool_tag">Next.js</div>
-            </div>
+            <ToolTags
+              tags={["CSS", "Tailwind", "TypeScript", "React", "Next.js"]}
+            />
           </a>
         </div>
       </div>
@@ -56,13 +53,9 @@ const Projecs: any = () => {
                 our collection.
               </p>
             </div>
-            <div className="tags flex flex-wrap gap-2 hover:bg-transparent">
-              <div className="tool_tag">CSS</div>
-              <div className="tool_tag">Tailwind</div>
-              <div className="tool_tag">JavaScript</div>
-              <div className="tool_tag">Shopify</div>
-              <div className="tool_tag">Liquid</div>
-            </div>
+            <ToolTags
+              tags={["CSS", "Tailwind", "JavaScript", "Shopify", "Liquid"]}
+            />
           </a>
         </div>
       </div>
@@ -85,14 +78,16 @@ const Projecs: any = () => {
                 locations.
               </p>
             </div>
-            <div className="tags flex flex-wrap gap-2 hover:bg-transparent">
-              <div className="tool_tag">CSS</div>
-              <div className="tool_tag">Styled Components</div>
-              <div className="tool_tag">TypeScript</div>
-              <div className="tool_tag">React</div>
-              <div className="tool_tag">Redux</div>
-              <div className="tool_tag">Router</div>
-            </div>
+            <ToolTags
+              tags={[
+                "CSS",
+                "Styled Components",
+                "TypeScript",
+                "React",
+                "Redux",
+                "Router",
+              ]}
+            />
           </a>
         </div>
       </div>
@@ -114,12 +109,9 @@ const Projecs: any = () => {
                 educational purposes.
               </p>
             </div>
-            <div className="tags flex flex-wrap gap-2 hover:bg-transparent">
-              <div className="tool_tag">CSS</div>
-              <div className="tool_tag">Styled Components</div>
-              <div className="tool_tag">TypeScript</div>
-              <div className="tool_tag">React</div>
-            </div>
+            <ToolTags
+              tags={["CSS", "Styled Components", "TypeScript", "React"]}
+            />
           </a>
         </div>
       </div>
@@ -144,12 +136,7 @@ const Projecs: any = () => {
                 educational purposes.
               </p>
             </div>
-            <div className="tags flex flex-wrap gap-2 hover:bg-transparent">
-              <div className="tool_tag">HTML</div>
-              <div className="tool_tag">CSS</div>
-              <div className="tool_tag">GitHub</div>
-              <div className="tool_tag">Vanilla.js</div>
-            </div>
+            <ToolTags tags={["HTML", "CSS", "GitHub", "Vanilla.js"]} />
           </a>
         </div>
       </div>
@@ -174,12 +161,9 @@ const Projecs: any = () => {
                 library integration skills.
               </p>
             </div>
-            <div className="tags flex flex-wrap gap-2 hover:bg-transparent">
-              <div className="tool_tag">CSS</div>
-              <div className="tool_tag">StyledComponents</div>
-              <div className="tool_tag">TypeScript</div>
-              <div className="tool_tag">React</div>
-            </div>
+            <ToolTags
+              tags={["CSS", "StyledComponents", "TypeScript", "React"]}
+            />
           </a>
         </div>
       </div>
@@ -203,12 +187,7 @@ const Projecs: any = () => {
                 and Vue.js, demonstrating adaptability to new technologies.
               </p>
             </div>
-            <div className="tags flex flex-wrap gap-2 hover:bg-transparent">
-              <div className="tool_tag">CSS</div>
-              <div className="tool_tag">Tailwind</div>
-              <div className="tool_tag">TypeScript</div>
-              <div className="tool_tag">Vue.js</div>
-            </div>
+            <ToolTags tags={["CSS", "Tailwind", "TypeScript", "Vue.js"]} />
           </a>
         </div>
       </div>
