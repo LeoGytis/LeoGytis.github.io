@@ -6,11 +6,13 @@ const Experience: any = () => {
     <div id="experience">
       <div className="mb-12 experience_container">
         <div className="lg:p-6">
-          <h1 className="font-bold text-xl hover:bg-transparent pb-3">
+          <h1 className="font-bold text-xl hover:bg-transparent">
             Web Developer
           </h1>
           <Link href="https://telesoftas.com/" className="hover:text-secondary">
-            <h2 className="text-lg hover:bg-transparent">TeleSoftas</h2>
+            <h2 className="inline-block text-lg hover:bg-transparent">
+              TeleSoftas
+            </h2>
           </Link>
           <h5 className="text-xs mb-4 hover:bg-transparent">
             June - September 2023
@@ -38,14 +40,13 @@ const Experience: any = () => {
           />
         </div>
       </div>
-      <div></div>
       <div className="mb-12 experience_container">
         <div className="lg:p-6">
-          <h1 className="font-bold text-xl hover:bg-transparent pb-3">
+          <h1 className="font-bold text-xl hover:bg-transparent">
             Front-end Developer
           </h1>
           <Link href="https://telesoftas.com/" className="hover:text-secondary">
-            <h2 className="text-lg hover:bg-transparent">
+            <h2 className="inline-block text-lg hover:bg-transparent">
               Ministry of Environment of the Republic of Lithuania
             </h2>
           </Link>

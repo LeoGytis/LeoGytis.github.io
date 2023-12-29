@@ -8,7 +8,7 @@
   html {
     --color-primary: #fff;
     --color-text-primary: #cbd5e1;
-    --color-text-secondary: #b89c94;
+    --color-text-secondary: #94a4b7;
     --color-secondary: #5eead4;
     --color-tag: #5eead4;
     --color-tag-bg: #2dd4bf1a;
@@ -40,6 +40,7 @@ body {
     )
     var(--color-background-start);
 }
+
 h3,
 p {
   color: var(--color-text-primary);
@@ -49,13 +50,11 @@ h5 {
   color: var(--color-text-secondary);
 }
 
-@media (min-width: 1024px) {
-  .experience_container:hover {
+.experience_container:hover {
+  @media (min-width: 1024px) {
     border-radius: 4px;
     background-color: rgba(0, 0, 0, 0.1);
-    &:hover {
-      box-shadow: 0px 0px 6px 0px var(--color-tag-border);
-    }
+    box-shadow: 0px 0px 6px 0px var(--color-tag-border);
   }
 }
 

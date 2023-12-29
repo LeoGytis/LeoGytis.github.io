@@ -8,6 +8,7 @@ module.exports = {
         secondary: "var(--color-secondary)",
         nav_inactive: "var(--color-text-primary)",
         tag: "var(--color-tag)",
+        tag_border: "var(--color-tag-border)",
       },
     },
   },
