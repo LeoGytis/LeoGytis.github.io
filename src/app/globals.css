@@ -42,8 +42,7 @@ body {
 }
 
 h3,
-p,
-a {
+p {
   color: var(--color-text-primary);
 }
 

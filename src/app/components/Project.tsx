@@ -33,7 +33,7 @@ const Project = ({
           </div>
           <div className="flex flex-col gap-3 w-2/3">
             <p>{description}</p>
-            <a href={link}>Webpage</a>
+            <a href={link}>Project link</a>
 
             <div className="flex flex-wrap gap-2">
               {tags.map((tag, index) => (
