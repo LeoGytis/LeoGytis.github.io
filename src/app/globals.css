@@ -69,10 +69,10 @@ p {
   padding-right: 0.75rem;
   font-size: 0.75rem;
   line-height: 1rem;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.5rem;
   color: var(--color-tag);
-  border: 1px solid var(--color-tag-border);
+  border: 0.5px solid var(--color-tag-border);
   border-radius: 8px;
 }
 
