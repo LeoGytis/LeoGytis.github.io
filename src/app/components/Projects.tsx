@@ -12,7 +12,7 @@ import ToolTags from "../utils/ToolTags";
 const Projecs: any = () => {
   return (
     <div id="projects">
-      <div className="mb-12 experience_container ">
+      <div className="mb-12 experience_container">
         <div className="lg:p-6">
           <a href="https://pienozvaigzdes.lt/business-solutions-and-ingredients/">
             <div className="flex flex-col sm:flex-row gap-4 mb-2 sm:mb-4 hover:bg-transparent">
