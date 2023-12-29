@@ -4,7 +4,7 @@ import ToolTags from "../utils/ToolTags";
 const Experience: any = () => {
   return (
     <div id="experience">
-      <div className="mb-12 experience_container">
+      <div className="mb-12 hover_border">
         <div className="lg:p-6">
           <h1 className="font-bold text-xl hover:bg-transparent">
             Web Developer
@@ -40,7 +40,7 @@ const Experience: any = () => {
           />
         </div>
       </div>
-      <div className="mb-12 experience_container">
+      <div className="mb-12 hover_border">
         <div className="lg:p-6">
           <h1 className="font-bold text-xl hover:bg-transparent">
             Front-end Developer

@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import Image from "next/image";
+import Project from "./Project";
 import pz from "../../../public/images/pz.png";
 import brofinity from "../../../public/images/brofinity.png";
 import sris from "../../../public/images/sris.png";
@@ -7,8 +7,6 @@ import study from "../../../public/images/study.png";
 import braintech from "../../../public/images/braintech.png";
 import gridster from "../../../public/images/gridster.png";
 import ip_royal from "../../../public/images/ip_royal.png";
-import ToolTags from "../utils/ToolTags";
-import Project from "./Project";
 
 const Projecs: any = () => {
   return (
@@ -20,6 +18,7 @@ const Projecs: any = () => {
         description="Developed a dynamic B2B products page for seamless access to our offerings by potential business clients. The page prioritizes clarity and ease of navigation, ensuring a smooth user experience."
         tags={["CSS", "Tailwind", "TypeScript", "React", "Next.js"]}
       />
+
       <Project
         title="Brofinity"
         imageSrc={brofinity}

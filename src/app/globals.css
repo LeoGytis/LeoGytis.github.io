@@ -50,7 +50,7 @@ h5 {
   color: var(--color-text-secondary);
 }
 
-.experience_container:hover {
+.hover_border:hover {
   @media (min-width: 1024px) {
     border-radius: 4px;
     background-color: rgba(0, 0, 0, 0.1);

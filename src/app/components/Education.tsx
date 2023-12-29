@@ -10,7 +10,7 @@ const Education: any = () => {
   return (
     <div
       id="education"
-      className="flex flex-col gap-8 text-lg lg:p-6 mb-16 md:mb-24 scroll-mt-16 experience_container"
+      className="flex flex-col gap-8 text-lg lg:p-6 mb-16 md:mb-24 scroll-mt-16 hover_border"
     >
       <Link
         href="https://en.ktu.edu/"

@@ -20,7 +20,7 @@ const Project = ({
   tags,
 }: ProjectProps) => {
   return (
-    <div className="mb-12 experience_container">
+    <div className="mb-12 hover_border">
       <div className="lg:p-6">
         <a href={link}>
           <div className="flex flex-row gap-4 mb-2 sm:mb-4 hover:bg-transparent">
