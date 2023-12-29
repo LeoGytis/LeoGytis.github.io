@@ -7,16 +7,13 @@
 @layer base {
   html {
     --color-primary: #fff;
-    --color-secondary: #5eead4;
-    --color-nav-inactive: rgb(208, 225, 203);
-    --color-text-h3: rgb(203 213 225 / 1);
-    --color-text-h5: rgb(184, 156, 148);
-    --color-text-p: rgb(203 213 225 / 1);
-    --color-background-start: #042d41;
-    --color-background-end: #043e55;
+    --color-text-primary: #cbd5e1;
+    --color-text-secondary: #b89c94;
     --color-tag: #5eead4;
     --color-tag-bg: #2dd4bf1a;
-    --color-tag-border: rgba(94, 234, 213, 0.5);
+    --color-tag-border: #5eead480;
+    --color-background-start: #042d41;
+    --color-background-end: #043e55;
     --color-stars: #a8ff4b;
   }
 }
@@ -42,22 +39,19 @@ body {
     )
     var(--color-background-start);
 }
-h3 {
-  color: var(--color-text-h3);
+h3,
+p {
+  color: var(--color-text-primary);
 }
 
 h5 {
-  color: var(--color-text-h5);
-}
-
-p {
-  color: var(--color-text-p);
+  color: var(--color-text-secondary);
 }
 
 @media (min-width: 1024px) {
   .experience_container:hover {
     border-radius: 4px;
-    background-color: rgba(0, 0, 0, 0.05);
+    background-color: rgba(0, 0, 0, 0.1);
     &:hover {
       box-shadow: 0px 0px 6px 0px var(--color-tag-border);
     }
@@ -70,7 +64,7 @@ p {
   background-color: var(--color-tag-bg);
   padding-left: 0.75rem;
   padding-right: 0.75rem;
-  font-size: 0.65rem;
+  font-size: 0.7rem;
   line-height: 1rem;
   font-weight: 400;
   line-height: 1.5rem;
@@ -115,7 +109,7 @@ p {
   left: 10%;
   width: 2px;
   height: 200px;
-  background-image: linear-gradient(#ffffff00, var(--color-secondary));
+  background-image: linear-gradient(#ffffff00, var(--color-tag));
   animation-name: lineFall;
   animation-delay: 2s;
   animation-duration: 30s;

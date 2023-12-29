@@ -1,9 +1,9 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Nunito, Inter } from "next/font/google";
+import { Nunito, Inter, Lato, Quicksand } from "next/font/google";
 import website_image from "../../public/images/website_image.png";
 
-const inter = Inter({
+const inter = Lato({
   weight: "400",
   subsets: ["latin"],
 });
