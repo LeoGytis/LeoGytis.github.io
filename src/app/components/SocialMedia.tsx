@@ -32,11 +32,7 @@ const SocialMedia: any = () => {
         className="hover:cursor-pointer text-2xl text-tag hover:text-nav-inactive"
       >
         {/* <SiGmail className="hover:text-primary" /> */}
-        <SvgGmail
-          width={40}
-          height={60}
-          className="fill-tag mr-3 hover:text-primary"
-        />
+        <SvgGmail className="fill-tag hover:fill-primary" />
       </a>
     </div>
   );
