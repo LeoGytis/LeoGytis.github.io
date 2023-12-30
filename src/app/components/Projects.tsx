@@ -2,8 +2,8 @@
 import Project from "./Project";
 import pz from "../../../public/images/pz.png";
 import brofinity from "../../../public/images/brofinity.png";
-import sris from "../../../public/images/sris.png";
-import study from "../../../public/images/study.png";
+import sris from "../../../public/images/sris6.png";
+import study from "../../../public/images/e-study.png";
 import braintech from "../../../public/images/braintech.png";
 import gridster from "../../../public/images/gridster.png";
 import ip_royal from "../../../public/images/ip_royal.png";
@@ -12,10 +12,10 @@ const Projecs: any = () => {
   return (
     <div id="projects">
       <Project
-        title="Sris"
+        title="SRIS"
         imageSrc={sris}
         link="https://sris.biip.lt/"
-        description="An information system for protected species provided by the State Protected Areas Service under the Ministry of Environment, offering data on the protected plant, animal, and fungal species in the Republic of Lithuania, along with their habitats and locations."
+        description="An information system for protected, endangered, and invasive species. Offering data on the plants, animals, and fungal species in the Republic of Lithuania, along with their habitats and locations. Inspectors as well as public users could fill in the form if they spot or would like to track any specie on the list."
         tags={[
           "React",
           "TypeScript",
@@ -51,12 +51,12 @@ const Projecs: any = () => {
         title="Brofinity"
         imageSrc={brofinity}
         link="https://brofinity.com/"
-        description="Developed fashion clothing e-commerce site on Shopify, leveraging Liquid to deliver a seamless shopping platform for our collection."
+        description="Developed fashion clothing e-commerce site on Shopify, leveraging Liquid to to provide an effortless and visually appealing shopping experience for customers curated collection."
         tags={["Shopify", "Liquid", "JavaScript", "Tailwind"]}
       />
 
       <Project
-        title="Pieno Zvaigzdes"
+        title="Pieno Žvaigždės"
         imageSrc={pz}
         link="https://pienozvaigzdes.lt/business-solutions-and-ingredients/"
         description="Developed a dynamic B2B products page for seamless access to our offerings by potential business clients. The page prioritizes clarity and ease of navigation, ensuring a smooth user experience."
