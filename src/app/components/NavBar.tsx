@@ -3,8 +3,8 @@ import SocialMedia from "./SocialMedia";
 
 const NavBar: any = () => {
   return (
-    <div className="lg:h-full lg:fixed mb-10">
-      <div className="flex flex-col gap-10 justify-between lg:h-5/6">
+    <div className="flex lg:h-full lg:fixed mb-10">
+      <div className="flex flex-col gap-10 z-50 justify-between lg:h-5/6">
         <div>
           <h1 className="text-4xl sm:text-5xl font-bold pb-3">
             Gytis Leonavičius
