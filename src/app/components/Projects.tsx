@@ -22,14 +22,14 @@ const Projecs: any = () => {
           "Formik",
           "Redux",
           "React-Router",
-          "StyledComponents",
+          "Styled-Components",
         ]}
       />
       <Project
         title="E-Study"
         imageSrc={study}
         link="https://leogytis.github.io/e-study/"
-        description="E-Study is a learning-oriented landing page that showcases my use of various React libraries. It's designed to provide a practical demonstration of React-based web development for educational purposes."
+        description="Learning-oriented landing page that showcases my use of various React libraries. It's designed to provide a practical demonstration of React-based web development for educational purposes."
         tags={[
           "React",
           "TypeScript",
@@ -43,7 +43,7 @@ const Projecs: any = () => {
         title="Braintech"
         imageSrc={braintech}
         link="https://leogytis.github.io/braintech/"
-        description="Braintech is an educational landing page that showcases my utilization of various web development techniques and technologies. This project was undertaken as part of my coursework at BIT School, signifying an important chapter in my academic journey. It offers a practical demonstration of web development, with a focus on using plain JavaScript for educational purposes."
+        description="Educational landing page project was undertaken as part of my coursework at BIT School, signifying an important chapter in my academic journey. It is a practical demonstration of web development, with a focus on using plain JavaScript."
         tags={["HTML", "CSS", "GitHub", "Vanilla.js"]}
       />
 
@@ -67,7 +67,7 @@ const Projecs: any = () => {
         title="Gridster"
         imageSrc={gridster}
         link="https://leogytis.github.io/gridster/"
-        description="UI project that involves creating a resizable grid interface. Users can set the grid dimensions, and the application generates 'start' and 'end' points. Users can interactively mark squares as 'clear' or 'filled'. The project also includes a pathfinding algorithm to highlight the shortest path from 'start' to 'end' on the grid, showcasing my UI development and third-party library integration skills."
+        description="UI project that involves creating a resizable grid interface. User can set the grid dimensions, interactively mark squares as 'clear' or 'filled'. The project includes a pathfinding algorithm to highlight the shortest path from 'start' to 'end' on the grid."
         tags={["React", "TypeScript", "Styled-Components", "CSS"]}
       />
 
@@ -75,7 +75,7 @@ const Projecs: any = () => {
         title="IP Royal"
         imageSrc={ip_royal}
         link="https://leogytis.github.io/ip_royal/"
-        description="Exploring Vue.js for the first time, I created a dynamic dashboard using Tailwind CSS and TypeScript. This project tested my proficiency in a new framework and assessed Tailwind's efficiency. The interactive dashboard, with real-time updates, showcased a seamless integration of Tailwind CSS, TypeScript, and Vue.js, demonstrating adaptability to new technologies."
+        description="Interactive dashboard using Tailwind  and TypeScript to evaluate my skills with Vue.js framework. The project was an excellent opportunity to demonstrate adaptability by quickly gaining proficiency in new technologies."
         tags={["Vue.js", "TypeScript", "Tailwind", "CSS"]}
       />
     </div>

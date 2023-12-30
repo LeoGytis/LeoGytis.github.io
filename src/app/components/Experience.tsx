@@ -70,7 +70,7 @@ const Experience: any = () => {
             tags={[
               "HTML",
               "CSS",
-              "Styled Components",
+              "Styled-Components",
               "TypeScript",
               "React",
               "Redux",

@@ -17,7 +17,7 @@ export default function Home() {
         <header className="lg:w-1/3">
           <NavBar />
         </header>
-        <main className="lg:w-2/3 lg:pl-24 relative">
+        <main className="lg:w-2/3 lg:pl-12 relative">
           <div className="hidden lg:inline-block falling_line"></div>
           <ThemeSwitch />
           <About />
