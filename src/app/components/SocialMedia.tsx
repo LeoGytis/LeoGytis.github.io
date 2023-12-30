@@ -1,7 +1,12 @@
 import { BsGithub, BsLinkedin, BsFacebook } from "react-icons/bs";
 import { HiMail } from "react-icons/hi";
 import { RiMailSendLine } from "react-icons/ri";
-import { TbMail } from "react-icons/tb";
+import {
+  TbBrandFacebook,
+  TbBrandGithub,
+  TbBrandLinkedin,
+  TbMail,
+} from "react-icons/tb";
 
 const SocialMedia: any = () => {
   return (
@@ -26,9 +31,9 @@ const SocialMedia: any = () => {
       </a>
       <a
         href="mailto:leogytis@gmail.com"
-        className="hover:cursor-pointer text-3xl text-tag hover:text-nav-inactive"
+        className="hover:cursor-pointer text-[1.75rem] text-tag hover:text-nav-inactive"
       >
-        <HiMail className="hover:text-primary" />
+        <RiMailSendLine className="hover:text-primary" />
       </a>
     </div>
   );
