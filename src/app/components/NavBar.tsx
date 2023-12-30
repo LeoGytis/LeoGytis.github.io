@@ -13,7 +13,7 @@ const NavBar: any = () => {
           Inclusive products and digital experiences for the web.
         </h3>
       </div>
-      <nav className="hidden lg:flex flex-col text-lg text-nav_inactive gap-2">
+      <nav className="hidden lg:flex flex-col text-lg text-nav_inactive gap-2 mb-14">
         <ScrollLink className="nav_item" spy smooth offset={-80} to="about">
           <div className="nav_indicator" />
           About
