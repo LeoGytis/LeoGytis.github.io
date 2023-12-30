@@ -21,7 +21,7 @@ const Project = ({
 }: ProjectProps) => {
   return (
     <div className="mb-12 lg:p-6 hover_border">
-      <div className="flex flex-col sm:flex-row gap-6 w-full">
+      <div className="flex flex-col sm:flex-row gap-6 w-full group">
         <div className="overflow-hidden rounded cursor-pointer">
           <Image
             src={imageSrc}
@@ -32,7 +32,7 @@ const Project = ({
           />
         </div>
         <div className="flex flex-col sm:w-2/3">
-          <a href={link} className="text-lg">
+          <a href={link} className="text-lg group-hover:text-secondary">
             {title}
           </a>
           <p className="mb-3">{description}</p>
