@@ -13,7 +13,7 @@ export default function Home() {
       <div className="fixed top-0 left-0">
         <StarsScene />
       </div>
-      <div className="flex flex-col lg:flex-row">
+      <div className="flex flex-col lg:flex-row gap-10">
         <header className="lg:w-1/3">
           <NavBar />
         </header>

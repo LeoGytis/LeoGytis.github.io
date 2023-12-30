@@ -12,7 +12,7 @@ const ThemeSwitch = () => {
   };
 
   return (
-    <div className="hidden lg:flex absolute top-[-30px] right-8">
+    <div className="hidden lg:flex absolute top-[-30px] right-6">
       <input
         onChange={handleToggle}
         className="switch-checkbox"
