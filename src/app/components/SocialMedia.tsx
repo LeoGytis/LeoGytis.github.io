@@ -1,12 +1,10 @@
 import { BsGithub, BsLinkedin, BsFacebook } from "react-icons/bs";
 import { HiMail } from "react-icons/hi";
 import { RiMailSendLine } from "react-icons/ri";
-import {
-  TbBrandFacebook,
-  TbBrandGithub,
-  TbBrandLinkedin,
-  TbMail,
-} from "react-icons/tb";
+import { TbMailFilled } from "react-icons/tb";
+import { SiGmail } from "react-icons/si";
+import { BiLogoGmail } from "react-icons/bi";
+import SvgGmail from "../../../public/images/svg/svgGmail";
 
 const SocialMedia: any = () => {
   return (
@@ -31,9 +29,14 @@ const SocialMedia: any = () => {
       </a>
       <a
         href="mailto:leogytis@gmail.com"
-        className="hover:cursor-pointer text-[1.75rem] text-tag hover:text-nav-inactive"
+        className="hover:cursor-pointer text-2xl text-tag hover:text-nav-inactive"
       >
-        <RiMailSendLine className="hover:text-primary" />
+        {/* <SiGmail className="hover:text-primary" /> */}
+        <SvgGmail
+          width={40}
+          height={60}
+          className="fill-tag mr-3 hover:text-primary"
+        />
       </a>
     </div>
   );

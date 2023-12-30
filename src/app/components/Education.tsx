@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import Link from "next/link";
-import SvgKtu from "../../../public/images/ktu_svg2";
-import SvgBit from "../../../public/images/bit_svg2";
+import SvgKtu from "../../../public/images/svg/svgKtu";
+import SvgBit from "../../../public/images/svg/svgBit";
 
 const Education: any = () => {
   return (
