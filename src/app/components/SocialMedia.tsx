@@ -10,25 +10,25 @@ const SocialMedia: any = () => {
         href="https://www.facebook.com/divergytis"
         className="hover:cursor-pointer text-2xl text-tag hover:text-nav-inactive"
       >
-        <BsFacebook />
+        <BsFacebook className="hover:text-primary" />
       </a>
       <a
         href="https://github.com/LeoGytis"
         className="hover:cursor-pointer text-2xl text-tag hover:text-nav-inactive"
       >
-        <BsGithub />
+        <BsGithub className="hover:text-primary" />
       </a>
       <a
         href="https://www.linkedin.com/in/gytis-leonavicius-74839519a/"
         className="hover:cursor-pointer text-2xl text-tag hover:text-nav-inactive"
       >
-        <BsLinkedin />
+        <BsLinkedin className="hover:text-primary" />
       </a>
       <a
         href="mailto:leogytis@gmail.com"
         className="hover:cursor-pointer text-3xl text-tag hover:text-nav-inactive"
       >
-        <HiMail />
+        <HiMail className="hover:text-primary" />
       </a>
     </div>
   );

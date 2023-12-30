@@ -11,7 +11,7 @@
   cursor: pointer;
   width: 40px;
   height: 20px;
-  background: var(--color-bg-tag);
+  background: var(--color-tag-bg);
   border-radius: 100px;
   color: var(--color-secondary);
   border: 1px solid var(--color-tag-border);

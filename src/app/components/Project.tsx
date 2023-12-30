@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { StaticImageData } from "next/image";
+import ToolTags from "../utils/ToolTags";
 
 interface ProjectProps {
   imageSrc: StaticImageData;
@@ -34,13 +35,8 @@ const Project = ({
           <div className="flex flex-col gap-3 w-2/3">
             <p>{description}</p>
             <a href={link}>Project link</a>
-
             <div className="flex flex-wrap gap-2">
-              {tags.map((tag, index) => (
-                <div key={index} className="tool_tag">
-                  {tag}
-                </div>
-              ))}
+              <ToolTags tags={tags} />
             </div>
           </div>
         </div>

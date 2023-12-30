@@ -19,7 +19,7 @@ const ThemeSwitch = () => {
         id={`switch`}
         type="checkbox"
       />
-      <label className="switch-label bg-primary" htmlFor={`switch`}>
+      <label className="switch-label" htmlFor={`switch`}>
         <span className={`switch-button`} />
       </label>
     </div>

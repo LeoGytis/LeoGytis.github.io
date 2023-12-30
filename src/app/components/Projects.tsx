@@ -30,7 +30,7 @@ const Projecs: any = () => {
           "TypeScript",
           "React",
           "Redux",
-          "Router",
+          "React Router",
           "Formik",
         ]}
       />
