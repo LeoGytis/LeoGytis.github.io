@@ -22,11 +22,11 @@ const Project = ({
   return (
     <div className="mb-12 lg:p-6 hover_border">
       <div className="flex flex-col sm:flex-row gap-6 w-full group">
-        <div className="overflow-hidden rounded cursor-pointer h-full w-[400px] sm:w-[250px]">
+        <div className="overflow-hidden rounded cursor-pointer h-full">
           <Image
             src={imageSrc}
             alt={title}
-            className="rounded hover:scale-125 ease-out duration-1000 transform origin-top "
+            className="rounded hover:scale-125 ease-out duration-1000 transform origin-top w-[400px] sm:w-[250px]"
           />
         </div>
         <div className="flex flex-col sm:w-2/3">
