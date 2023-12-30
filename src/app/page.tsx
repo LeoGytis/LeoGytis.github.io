@@ -9,7 +9,7 @@ import StarsScene from "./components/StarsScene";
 
 export default function Home() {
   return (
-    <div className="mx-auto max-w-screen-xl p-8 md:p-12 lg:p-20">
+    <div className="mx-auto max-w-screen-xl p-8 md:p-12 lg:p-20 lg:py-12">
       <div className="fixed top-0 left-0">
         <StarsScene />
       </div>
