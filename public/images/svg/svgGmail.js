@@ -1,8 +1,8 @@
 const SvgGmail = ({ className, ...props }) => (
   <svg
-    width="30"
-    height="30"
-    viewBox="0 0 56 50"
+    width="28"
+    height="28"
+    viewBox="0 0 50 50"
     xmlns="http://www.w3.org/2000/svg"
     className={className}
     {...props}
