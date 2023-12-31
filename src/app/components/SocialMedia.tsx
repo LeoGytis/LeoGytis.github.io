@@ -5,6 +5,7 @@ import { TbMailFilled } from "react-icons/tb";
 import { SiGmail } from "react-icons/si";
 import { BiLogoGmail } from "react-icons/bi";
 import SvgGmail from "../../../public/images/svg/svgGmail";
+import SvgLinkedIn from "../../../public/images/svg/SvgLinkedIn";
 
 const SocialMedia: any = () => {
   return (
@@ -23,15 +24,14 @@ const SocialMedia: any = () => {
       </a>
       <a
         href="https://www.linkedin.com/in/gytis-leonavicius-74839519a/"
-        className="hover:cursor-pointer text-2xl text-tag hover:text-nav-inactive"
+        className="hover:cursor-pointer text-[1.7rem] text-tag hover:text-nav-inactive"
       >
-        <BsLinkedin className="hover:text-primary" />
+        <SvgLinkedIn className="fill-tag hover:fill-primary" />
       </a>
       <a
         href="mailto:leogytis@gmail.com"
         className="hover:cursor-pointer text-2xl text-tag hover:text-nav-inactive"
       >
-        {/* <SiGmail className="hover:text-primary" /> */}
         <SvgGmail className="fill-tag hover:fill-primary" />
       </a>
     </div>
