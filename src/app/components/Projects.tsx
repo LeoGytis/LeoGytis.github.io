@@ -37,6 +37,7 @@ const Projecs: any = () => {
 					"HTML",
 					"CSS",
 					"WordPress",
+          "Elementor",
 					"Jquery",
 					"PHP",
 				]}
