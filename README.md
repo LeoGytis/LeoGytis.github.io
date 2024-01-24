@@ -1,34 +1,88 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Gytis Leonavičius - Portfolio Project
+## Overview
+This portfolio is a showcase of my diverse web development projects, each highlighting unique challenges and demonstrating my skills in crafting compelling digital experiences. The projects encompass a range of technologies and frameworks, showcasing my proficiency in creating everything from e-commerce interfaces to educational landing pages.
 
 ## Getting Started
+To explore this portfolio locally, follow these steps:
 
-First, run the development server:
+## Clone the repository:
 
-```bash
+bash
+Copy code
+git clone [repository-url]
+Navigate to the project directory:
+
+bash
+Copy code
+cd portfolio-project
+Install dependencies:
+
+bash
+Copy code
+npm install
+# or
+yarn install
+# or
+pnpm install
+Run the development server:
+
+bash
+Copy code
 npm run dev
 # or
 yarn dev
 # or
 pnpm dev
-```
+Open http://localhost:3000 in your browser to explore the portfolio.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Projects
+1. BIIP - Ministry of Environment
+In my role as a Frontend Developer, I contributed to the BIIP project, a user-oriented web application aiding nature supervisors in collecting and reviewing data related to nature preservation. The application focuses on studying invasive and endangered species, making a positive impact on our environment.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tech Stack:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+HTML
+CSS
+Styled-Components
+TypeScript
+React
+Redux
+React Router
+Formik
+GitHub
+Postman
+Jira
+2. SRIS - Species Information System
+SRIS is an information system providing data on protected, endangered, and invasive species in the Republic of Lithuania. The system allows inspectors and the public to submit information on species, habitats, and locations.
+
+Tech Stack:
+
+React
+TypeScript
+Formik
+Redux
+React-Router
+Styled-Components
+3. E-Study - Learning-oriented Landing Page
+E-Study is a React-based landing page designed for educational purposes, showcasing the practical application of various React libraries.
+
+Tech Stack:
+
+React
+TypeScript
+Styled-Components
+React-Icons
+React-Scroll
+...
 
 ## Learn More
+Explore each project in detail to understand the technologies, challenges, and outcomes. Feedback and contributions are always welcome!
 
-To learn more about Next.js, take a look at the following resources:
+...
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deploy
+To deploy this portfolio, consider using the Vercel Platform. Check the Next.js deployment documentation for more details.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+...
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Thank you for visiting my portfolio! If you have any questions or collaboration inquiries, feel free to reach out.
