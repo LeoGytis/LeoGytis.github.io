@@ -5,6 +5,8 @@ const About: any = () => {
       className="flex flex-col gap-4 text-lg lg:p-6 mb-16 md:mb-20 hover_border"
     >
       <p>
+      {/* // output: "export",
+  // images: { unoptimized: true }, */}
         I have experience developing web applications, from simple landing pages
         to progressive web applications. I strive to create software that not
         only functions efficiently under the hood, but also provides intuitive,
