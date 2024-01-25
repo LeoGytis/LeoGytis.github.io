@@ -1,12 +1,33 @@
 /**
  * @type {import('next').NextConfig}
  */
+// const nextConfig = {
+// 	output: "export",
+// 	images: { unoptimized: true },
+// };
+
 const nextConfig = {
-	output: "export",
-	images: { unoptimized: true },
+  webpack: (config, options) => {
+    config.module.rules.push({
+      test: /\.svg/,
+      use: {
+        loader: 'svg-url-loader',
+      },
+    });
+    config.module.rules.push({
+      test: /\.(png|jpe?g|gif)$/i,
+      use: {
+        loader: 'file-loader',
+        options: {
+          name: '[path][name].[hash].[ext]',
+          publicPath: '/_next/static',
+          outputPath: 'static',
+          emitFile: !options.isServer,
+        },
+      },
+    });
+    return config;
+  },
 };
 
-module.exports = (_phase, { defaultConfig }) => {
-  const plugins = [withStaticImport, withBundleAnalyzer, withCustomWebpack]
-  return plugins.reduce((acc, plugin) => plugin(acc), { ...defaultConfig, ...config })
-}
+module.exports = nextConfig;
