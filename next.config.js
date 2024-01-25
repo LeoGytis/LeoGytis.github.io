@@ -8,14 +8,14 @@
 
 const nextConfig = {
   webpack: (config, options) => {
+    // config.module.rules.push({
+    //   test: /\.svg/,
+    //   use: {
+    //     loader: 'svg-url-loader',
+    //   },
+    // });
     config.module.rules.push({
-      test: /\.svg/,
-      use: {
-        loader: 'svg-url-loader',
-      },
-    });
-    config.module.rules.push({
-      test: /\.(png|jpe?g|gif)$/i,
+      test: /\.(jpe?g|png|svg|eot|woff2?|ttf)$/i,
       use: {
         loader: 'file-loader',
         options: {
