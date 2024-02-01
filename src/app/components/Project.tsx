@@ -3,6 +3,9 @@
 import Image from "next/image";
 import { StaticImageData } from "next/image";
 import ToolTags from "../utils/ToolTags";
+import { FaLink } from "react-icons/fa";
+import { FaLink as FasLink } from "react-icons/fa6";
+import { BsLink45Deg } from "react-icons/bs";
 
 interface ProjectProps {
 	imageSrc: StaticImageData;
@@ -29,12 +32,13 @@ const Project = ({
 						className="rounded hover:scale-125 ease-out duration-1000 transform origin-top w-[400px] sm:w-[250px]"
 					/>
 				</div>
-				<div className="flex flex-col sm:w-2/3 title_underline">
+				<div className="flex flex-col sm:w-2/3">
 					<a
 						href={link}
 						className="whitespace-nowrap text-lg group-hover:text-secondary underline-animation"
 					>
 						{title}
+						<BsLink45Deg className="absolute top-[6px] right-[-20px] text-tag link-icon" />
 					</a>
 					<p className="mb-3">{description}</p>
 					<div className="flex flex-wrap gap-2">

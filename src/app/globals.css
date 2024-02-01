@@ -130,19 +130,31 @@ h5 {
 .underline-animation:after {
 	content: "";
 	position: absolute;
-	width: 150%;
+	/* width: 150%; */
+	width: calc(100% + 20px);
 	transform: scaleX(0);
 	height: 1px;
 	bottom: 0;
 	left: 0;
 	background-color: var(--color-secondary);
 	transform-origin: bottom right;
-	transition: transform 0.25s ease-out;
+	transition: transform 0.3s ease-out;
 }
 
 .group:hover .underline-animation:after {
 	transform: scaleX(1);
 	transform-origin: bottom left;
+}
+
+.link-icon {
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out;
+}
+
+.group:hover .link-icon {
+	visibility: visible;
+	opacity: 1;
 }
 
 @keyframes lineFall {
