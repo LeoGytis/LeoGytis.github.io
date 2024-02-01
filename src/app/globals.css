@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @import "styles/matrix.css";
+@import "styles/animations.css";
 
 @layer base {
 	html {
@@ -104,66 +105,4 @@ h5 {
 	margin-right: 10px;
 	background-color: var(--color-tag);
 	transition: all 1s;
-}
-
-.underline-animation {
-	display: inline-block;
-	width: min-content !important;
-	position: relative;
-}
-
-.underline-animation:after {
-	content: "";
-	position: absolute;
-	/* width: 150%; */
-	width: calc(100% + 20px);
-	transform: scaleX(0);
-	height: 1px;
-	bottom: 0;
-	left: 0;
-	background-color: var(--color-secondary);
-	transform-origin: bottom right;
-	transition: transform 0.3s ease-out;
-}
-
-.group:hover .underline-animation:after {
-	transform: scaleX(1);
-	transform-origin: bottom left;
-}
-
-.link-icon {
-	visibility: hidden;
-	opacity: 0;
-	transition: opacity 0.3s ease-in-out;
-}
-
-.group:hover .link-icon {
-	visibility: visible;
-	opacity: 1;
-}
-
-.falling_line {
-	z-index: 100;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 2px;
-	height: 200px;
-	background-image: linear-gradient(#ffffff00, var(--color-tag));
-	animation-name: lineFall;
-	animation-delay: 2s;
-	animation-duration: 30s;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
-}
-
-@keyframes lineFall {
-	0% {
-		top: 0;
-		opacity: 0.3;
-	}
-	100% {
-		top: 90%;
-		opacity: 0.8;
-	}
 }
