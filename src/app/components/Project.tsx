@@ -3,8 +3,6 @@
 import Image from "next/image";
 import { StaticImageData } from "next/image";
 import ToolTags from "../utils/ToolTags";
-import { FaLink } from "react-icons/fa";
-import { FaLink as FasLink } from "react-icons/fa6";
 import { BsLink45Deg } from "react-icons/bs";
 
 interface ProjectProps {

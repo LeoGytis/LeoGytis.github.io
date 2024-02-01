@@ -3,11 +3,11 @@ import Project from "./Project";
 import pz from "../../../public/images/pz.png";
 import brofinity from "../../../public/images/brofinity.png";
 import sris from "../../../public/images/sris6.png";
-import study from "../../../public/images/e-study.png";
+import study from "../../../public/images/e-study.jpg";
 import braintech from "../../../public/images/braintech.png";
 import gridster from "../../../public/images/gridster.png";
 import ip_royal from "../../../public/images/ip_royal.png";
-import futbolo_batai from "../../../public/images/futbolo_batai.png";
+import futbolo_batai from "../../../public/images/futbolo_batai.jpg";
 
 const Projecs: any = () => {
 	return (
@@ -37,7 +37,7 @@ const Projecs: any = () => {
 					"HTML",
 					"CSS",
 					"WordPress",
-          "Elementor",
+					"Elementor",
 					"Jquery",
 					"PHP",
 				]}
