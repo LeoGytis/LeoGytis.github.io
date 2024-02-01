@@ -1,12 +1,12 @@
 html[data-theme="matrix"] {
-  --color-primary: #00ff41;
-  --color-text-primary: #00b02c;
-  --color-text-secondary: #00760e;
-  --color-secondary: #00ff41;
-  --color-tag: #00ff41;
-  --color-tag-bg: rgba(46, 41, 44, 0.5);
-  --color-tag-border: rgba(0, 255, 64, 0.5);
-  --color-background-start: #0d0208;
-  --color-background-end: #0d0208;
-  --color-stars: #00ff41;
+	--color-primary: #00ff41;
+	--color-text-primary: #00b02c;
+	--color-text-secondary: #00760e;
+	--color-secondary: #00ff41;
+	--color-tag: #00ff41;
+	--color-tag-bg: rgba(46, 41, 44, 0.5);
+	--color-tag-border: rgba(0, 255, 64, 0.5);
+	--color-background-start: #0f0f0f;
+	--color-background-end: #1a1a1a;
+	--color-stars: #00ff41;
 }

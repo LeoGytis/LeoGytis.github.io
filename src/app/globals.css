@@ -106,21 +106,6 @@ h5 {
 	transition: all 1s;
 }
 
-.falling_line {
-	z-index: 100;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 2px;
-	height: 200px;
-	background-image: linear-gradient(#ffffff00, var(--color-tag));
-	animation-name: lineFall;
-	animation-delay: 2s;
-	animation-duration: 30s;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
-}
-
 .underline-animation {
 	display: inline-block;
 	width: min-content !important;
@@ -155,6 +140,21 @@ h5 {
 .group:hover .link-icon {
 	visibility: visible;
 	opacity: 1;
+}
+
+.falling_line {
+	z-index: 100;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 2px;
+	height: 200px;
+	background-image: linear-gradient(#ffffff00, var(--color-tag));
+	animation-name: lineFall;
+	animation-delay: 2s;
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
 }
 
 @keyframes lineFall {
