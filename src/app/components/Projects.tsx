@@ -1,13 +1,13 @@
 /* eslint-disable react/no-unescaped-entities */
 import Project from "./Project";
-import pz from "../../../public/images/pz.png";
-import brofinity from "../../../public/images/brofinity.png";
-import sris from "../../../public/images/sris6.png";
-import study from "../../../public/images/e-study.jpg";
-import braintech from "../../../public/images/braintech.png";
-import gridster from "../../../public/images/gridster.png";
-import ip_royal from "../../../public/images/ip_royal.png";
-import futbolo_batai from "../../../public/images/futbolo_batai.jpg";
+import pz from "../../../public/images/projects/pz.jpg";
+import brofinity from "../../../public/images/projects/brofinity.jpg";
+import sris from "../../../public/images/projects/sris.jpg";
+import study from "../../../public/images/projects/e-study.jpg";
+import braintech from "../../../public/images/projects/braintech.jpg";
+import gridster from "../../../public/images/projects/gridster.jpg";
+import ip_royal from "../../../public/images/projects/ip_royal.jpg";
+import futbolo_batai from "../../../public/images/projects/futbolo_batai.jpg";
 
 const Projecs: any = () => {
 	return (
