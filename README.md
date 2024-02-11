@@ -1,5 +1,5 @@
 ##  Portfolio Project - Gytis Leonavičius
-WebPage: https://leogytis.github.io/ <br>
+WebPage: https://leogytis.github.io/ <br><br>
 This portfolio is a showcase of my diverse web development projects, each highlighting unique challenges and demonstrating my skills in crafting compelling digital experiences. The projects encompass a range of technologies and frameworks, showcasing my proficiency in creating everything from e-commerce interfaces to educational landing pages.
 
 ## Technologies Used:
