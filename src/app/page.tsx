@@ -1,11 +1,11 @@
 "use client";
-import NavBar from "./components/NavBar";
-import About from "./components/About";
-import Experience from "./components/Experience";
-import Projecs from "./components/Projects";
-import Education from "./components/Education";
-import ThemeSwitch from "../app/utils/ThemeSwitch";
-import StarsScene from "./components/StarsScene";
+import NavBar from "../components/NavBar";
+import About from "../components/About";
+import Experience from "../components/Experience";
+import Projecs from "../components/Projects";
+import Education from "../components/Education";
+import ThemeSwitch from "../utils/ThemeSwitch";
+import StarsScene from "../components/StarsScene";
 
 export default function Home() {
 	return (

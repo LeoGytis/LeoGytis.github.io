@@ -13,13 +13,7 @@ interface ProjectProps {
 	link: string;
 }
 
-const Project = ({
-	title,
-	imageSrc,
-	link,
-	description,
-	tags,
-}: ProjectProps) => {
+const Project = ({ title, imageSrc, link, description, tags }: ProjectProps) => {
 	return (
 		<div className="mb-12 lg:p-6 hover_border group">
 			<div className="flex flex-col sm:flex-row gap-6 w-full">
@@ -31,10 +25,7 @@ const Project = ({
 					/>
 				</div>
 				<div className="flex flex-col sm:w-2/3">
-					<a
-						href={link}
-						className="whitespace-nowrap text-lg group-hover:text-secondary underline-animation"
-					>
+					<a href={link} className="whitespace-nowrap text-lg group-hover:text-secondary underline-animation">
 						{title}
 						<BsLink45Deg className="absolute top-[6px] right-[-20px] text-tag link-icon" />
 					</a>

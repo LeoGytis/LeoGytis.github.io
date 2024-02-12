@@ -1,6 +1,6 @@
 import { BsGithub, BsFacebook } from "react-icons/bs";
-import SvgGmail from "../../../public/images/svg/svgGmail";
-import SvgLinkedIn from "../../../public/images/svg/svgLinkedIn";
+import SvgGmail from "../../public/images/svg/svgGmail";
+import SvgLinkedIn from "../../public/images/svg/svgLinkedIn";
 
 const SocialMedia: any = () => {
 	return (
