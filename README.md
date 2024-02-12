@@ -18,6 +18,3 @@ To deploy this portfolio, consider using the Vercel Platform. Check the Next.js 
 ## Reach Me Out
 
 Thank you for visiting my portfolio! If you have any questions or collaboration inquiries, feel free to reach out.
-<a href="https://www.facebook.com/divergytis" title="Facebook" style="margin-right: 20px"><img src="icons/facebook.png" width="30" height="30"/></a>&nbsp;
-<a href="https://www.linkedin.com/in/gytis-leonavicius-74839519a/" title="LinkedIn" style="padding-right: 20px"><img src="icons/linkedin.png" width="30" height="30"/></a> &nbsp;
-<a href="mailto:leogytis@gmail.com" title="Gmail"><img src="icons/gmail.png" width="30" height="27"/></a>
