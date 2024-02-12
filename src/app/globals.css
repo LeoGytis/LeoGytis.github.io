@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@import "styles/matrix.css";
-@import "styles/animations.css";
+@import "../styles/matrix.css";
+@import "../styles/animations.css";
 
 @layer base {
 	html {
@@ -34,12 +34,7 @@ body {
 
 body {
 	color: var(--color-primary);
-	background: linear-gradient(
-			to bottom,
-			transparent,
-			var(--color-background-end)
-		)
-		var(--color-background-start);
+	background: linear-gradient(to bottom, transparent, var(--color-background-end)) var(--color-background-start);
 }
 
 h3,

@@ -1,13 +1,13 @@
 /* eslint-disable react/no-unescaped-entities */
 import Project from "./Project";
-import pz from "../../../public/images/projects/pz.jpg";
-import brofinity from "../../../public/images/projects/brofinity.jpg";
-import sris from "../../../public/images/projects/sris.jpg";
-import study from "../../../public/images/projects/e-study.jpg";
-import braintech from "../../../public/images/projects/braintech.jpg";
-import gridster from "../../../public/images/projects/gridster.jpg";
-import ip_royal from "../../../public/images/projects/ip_royal.jpg";
-import futbolo_batai from "../../../public/images/projects/futbolo_batai.jpg";
+import pz from "../../public/images/projects/pz.jpg";
+import brofinity from "../../public/images/projects/brofinity.jpg";
+import sris from "../../public/images/projects/sris.jpg";
+import study from "../../public/images/projects/e-study.jpg";
+import braintech from "../../public/images/projects/braintech.jpg";
+import gridster from "../../public/images/projects/gridster.jpg";
+import ip_royal from "../../public/images/projects/ip_royal.jpg";
+import futbolo_batai from "../../public/images/projects/futbolo_batai.jpg";
 
 const Projecs: any = () => {
 	return (
@@ -17,43 +17,21 @@ const Projecs: any = () => {
 				imageSrc={sris}
 				link="https://sris.biip.lt/"
 				description="An information system for protected, endangered, and invasive species. Offering data on the plants, animals, and fungal species in the Republic of Lithuania, along with their habitats and locations. Inspectors as well as public users could fill in the form if they spot or would like to track any specie on the list."
-				tags={[
-					"HTML",
-					"CSS",
-					"React",
-					"TypeScript",
-					"Formik",
-					"Redux",
-					"React-Router",
-					"Styled-Components",
-				]}
+				tags={["HTML", "CSS", "React", "TypeScript", "Formik", "Redux", "React-Router", "Styled-Components"]}
 			/>
 			<Project
 				title="Futbolobatai"
 				imageSrc={futbolo_batai}
 				link="https://futbolobatai.lt/"
 				description="Football shoe store with options for all players from you children to adults. Easy browsing, simple user friendly webpage to buy shoes. I was working with WordPress and Elemenetor on this page. Used jquery and PHP to help me with creating optimal user experience."
-				tags={[
-					"HTML",
-					"CSS",
-					"WordPress",
-					"Elementor",
-					"Jquery",
-					"PHP",
-				]}
+				tags={["HTML", "CSS", "WordPress", "Elementor", "Jquery", "PHP"]}
 			/>
 			<Project
 				title="E-Study"
 				imageSrc={study}
 				link="https://leogytis.github.io/e-study/"
 				description="Learning-oriented landing page that showcases my use of various React libraries. It's designed to provide a practical demonstration of React-based web development for educational purposes."
-				tags={[
-					"React",
-					"TypeScript",
-					"Styled-Components",
-					"React-Icons",
-					"React-Scroll",
-				]}
+				tags={["React", "TypeScript", "Styled-Components", "React-Icons", "React-Scroll"]}
 			/>
 
 			<Project
