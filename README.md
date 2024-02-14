@@ -18,3 +18,5 @@ To deploy this portfolio, consider using the Vercel Platform. Check the Next.js 
 ## Reach Me Out
 
 Thank you for visiting my portfolio! If you have any questions or collaboration inquiries, feel free to reach out.
+
+[![My Skills](https://skillicons.dev/icons?i=gmail,gcp,azure,react,vue,flutter&perline=3)](https://skillicons.dev)
