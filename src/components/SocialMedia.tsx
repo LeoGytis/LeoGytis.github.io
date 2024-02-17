@@ -1,25 +1,28 @@
-import { BsGithub, BsFacebook } from "react-icons/bs";
-import SvgGmail from "../../public/images/svg/svgGmail";
-import SvgLinkedIn from "../../public/images/svg/svgLinkedIn";
+import { FaInstagram, FaFacebookF, FaLinkedinIn, FaGithub, FaPaperPlane } from "react-icons/fa";
 
 const SocialMedia: any = () => {
 	return (
 		<div className="flex items-center ml-1 gap-4 blur-animation">
-			<a href="https://www.facebook.com/divergytis" className=" ">
-				<BsFacebook className="text-2xl text-tag hover:cursor-pointer hover:text-primary" />
-			</a>
-			<a href="https://github.com/LeoGytis">
-				<BsGithub className="text-2xl text-tag hover:cursor-pointer hover:text-primary" />
-			</a>
-
-			<a href="https://www.linkedin.com/in/gytis-leonavicius-74839519a/">
-				<SvgLinkedIn className="w-7 text-[1.7rem] fill-tag hover:cursor-pointer hover:fill-primary" />
-			</a>
-			<a href="mailto:leogytis@gmail.com">
-				<SvgGmail className="text-2xl fill-tag hover:cursor-pointer hover:fill-primary" />
-			</a>
+			<SocialMediaLink icon={FaInstagram} href="https://www.instagram.com/leogytis" />
+			<SocialMediaLink icon={FaFacebookF} href="https://www.facebook.com/divergytis" />
+			<SocialMediaLink icon={FaLinkedinIn} href="https://www.linkedin.com/in/gytis-leonavicius-74839519a/" />
+			<SocialMediaLink icon={FaGithub} href="https://github.com/LeoGytis" />
+			<SocialMediaLink icon={FaPaperPlane} href="mailto:leogytis@gmail.com" />
 		</div>
 	);
 };
 
 export default SocialMedia;
+
+interface SocialMediaLinkProps {
+	icon: React.ElementType;
+	href: string;
+}
+
+const SocialMediaLink = ({ icon: Icon, href }: SocialMediaLinkProps) => {
+	return (
+		<a href={href} className="border border-tag rounded-full p-2">
+			<Icon className="text-lg text-tag hover:cursor-pointer hover:text-primary" />
+		</a>
+	);
+};
