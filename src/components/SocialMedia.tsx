@@ -21,8 +21,11 @@ interface SocialMediaLinkProps {
 
 const SocialMediaLink = ({ icon: Icon, href }: SocialMediaLinkProps) => {
 	return (
-		<a href={href} className="border border-tag rounded-full p-2">
-			<Icon className="text-lg text-tag hover:cursor-pointer hover:text-primary" />
+		<a
+			href={href}
+			className="group border border-tag rounded-full hover:cursor-pointer hover:text-primary hover:border-primary p-2"
+		>
+			<Icon className="text-lg text-tag group-hover:text-primary" />
 		</a>
 	);
 };
