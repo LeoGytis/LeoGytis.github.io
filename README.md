@@ -16,4 +16,4 @@ Explore each project in detail to understand the technologies, challenges, and o
 To deploy this portfolio, consider using the Vercel Platform. Check the Next.js deployment documentation for more details.
 
 ## Reach Me Out
-Thank you for visiting my portfolio! If you have any questions or collaboration inquiries, feel free to reach out.
+Thank you for visiting my portfolio! If you have any questions or collaboration inquiries, feel free to reach out!
