@@ -31,7 +31,7 @@ const Projecs: any = () => {
 			<Project
 				title="E-Study"
 				imageSrc={study}
-				link="https://leogytis.github.io/e-study/"
+				link="https://github.com/LeoGytis/acterio"
 				description="Learning-oriented landing page that showcases my use of various React libraries. It's designed to provide a practical demonstration of React-based web development for educational purposes."
 				tags={["React", "TypeScript", "Styled-Components", "React-Icons", "React-Scroll"]}
 			/>
