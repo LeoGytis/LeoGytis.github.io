@@ -3,6 +3,17 @@
 WebPage: https://leogytis.github.io/ <br><br>
 This portfolio is a showcase of my diverse web development projects, each highlighting unique challenges and demonstrating my skills in crafting compelling digital experiences. The projects encompass a range of technologies and frameworks, showcasing my proficiency in creating everything from e-commerce interfaces to educational landing pages.
 
+
+## Technologies Used
+- Next.js
+- React 
+- TypeScript
+- Three.js
+- Tailwind
+- React-Icons 
+- React-Scroll
+
+
 ## Technologies Used:
 
 HTML • CSS • Three.js • Tailwind • TypeScript • React • Next.js • GitHub
