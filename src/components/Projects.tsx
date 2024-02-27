@@ -31,14 +31,14 @@ const Projecs: any = () => {
 			<Project
 				title="E-Study"
 				imageSrc={study}
-				link="https://github.com/LeoGytis/acterio"
+				link="https://leogytis.github.io/e-study/"
 				description="Learning-oriented landing page that showcases my use of various React libraries. It's designed to provide a practical demonstration of React-based web development for educational purposes."
 				tags={["React", "TypeScript", "Styled-Components", "React-Icons", "React-Scroll"]}
 			/>
 			<Project
 				title="Acterio"
 				imageSrc={acterio}
-				link="https://leogytis.github.io/"
+				link="https://github.com/LeoGytis/acterio"
 				description="
 				In the Acterio project, fetching data from the DummyJSON API involves sending requests to retrieve relevant information for processing. Error handling mechanisms are implemented to gracefully manage instances where the API may be unavailable or return unexpected responses. Next.js is used for efficient dynamic routing."
 				tags={["Next.js", "React", "TypeScript", "Tailwind", "API"]}
