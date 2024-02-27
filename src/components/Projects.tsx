@@ -3,6 +3,7 @@ import Project from "./Project";
 import pz from "../../public/images/projects/pz.jpg";
 import brofinity from "../../public/images/projects/brofinity.jpg";
 import sris from "../../public/images/projects/sris.jpg";
+import acterio from "../../public/images/projects/acterio.jpg";
 import toolster from "../../public/images/projects/toolster.jpg";
 import study from "../../public/images/projects/e-study.jpg";
 import braintech from "../../public/images/projects/braintech.jpg";
@@ -28,19 +29,27 @@ const Projecs: any = () => {
 				tags={["HTML", "CSS", "WordPress", "Elementor", "Jquery", "PHP"]}
 			/>
 			<Project
+				title="E-Study"
+				imageSrc={study}
+				link="https://leogytis.github.io/e-study/"
+				description="Learning-oriented landing page that showcases my use of various React libraries. It's designed to provide a practical demonstration of React-based web development for educational purposes."
+				tags={["React", "TypeScript", "Styled-Components", "React-Icons", "React-Scroll"]}
+			/>
+			<Project
+				title="Acterio"
+				imageSrc={acterio}
+				link="https://leogytis.github.io/"
+				description="
+				In the Acterio project, fetching data from the DummyJSON API involves sending requests to retrieve relevant information for processing. Error handling mechanisms are implemented to gracefully manage instances where the API may be unavailable or return unexpected responses. Next.js is used for efficient dynamic routing."
+				tags={["Next.js", "React", "TypeScript", "Tailwind", "API"]}
+			/>
+			<Project
 				title="Toolster"
 				imageSrc={toolster}
 				link="https://leogytis.github.io/toolster/"
 				description="
 				Toolster is a convenient platform to keep myself informed about the stats I care about. Its customizable features allow me to tailor my experience to suit my specific needs and preferences."
 				tags={["React", "TypeScript", "Next.js", "Tailwind", "React-Icons", "TanStack Query"]}
-			/>
-			<Project
-				title="E-Study"
-				imageSrc={study}
-				link="https://leogytis.github.io/e-study/"
-				description="Learning-oriented landing page that showcases my use of various React libraries. It's designed to provide a practical demonstration of React-based web development for educational purposes."
-				tags={["React", "TypeScript", "Styled-Components", "React-Icons", "React-Scroll"]}
 			/>
 			<Project
 				title="Braintech"
