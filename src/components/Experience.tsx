@@ -2,7 +2,7 @@ import Link from "next/link";
 import ToolTags from "../utils/ToolTags";
 import Image from "next/image";
 import elnis from "../../public/images/experience/elnis.jpg";
-import telesofts from "../../public/images/experience/telesoftas.png";
+import telesoftas from "../../public/images/experience/telesoftas.png";
 import aplinkos_ministerija from "../../public/images/experience/aplinkos_ministerija.png";
 
 const Experience: any = () => {
@@ -11,12 +11,12 @@ const Experience: any = () => {
 			<div className="mb-12 hover_border">
 				<div className="lg:p-6">
 					<div className="flex gap-4">
-						<Image src={elnis} alt="elnis" className="w-20 h-20" />
+						<Image src={elnis} alt="elnis" className="w-20 h-20 rounded" />
 						<div>
-							<h1 className="font-bold text-xl hover:bg-transparent">Web Developer</h1>
 							<Link href="https://telesoftas.com/" className="hover:text-secondary">
 								<h2 className="inline-block text-lg hover:bg-transparent">Elnis</h2>
 							</Link>
+							<h1 className="font-semibold text-xl hover:bg-transparent">Web Developer</h1>
 							<h5 className="text-xs mb-4 hover:bg-transparent">2023 October - present</h5>
 						</div>
 					</div>
@@ -31,11 +31,16 @@ const Experience: any = () => {
 			</div>
 			<div className="mb-12 hover_border">
 				<div className="lg:p-6">
-					<h1 className="font-bold text-xl hover:bg-transparent">Web Developer</h1>
-					<Link href="https://telesoftas.com/" className="hover:text-secondary">
-						<h2 className="inline-block text-lg hover:bg-transparent">TeleSoftas</h2>
-					</Link>
-					<h5 className="text-xs mb-4 hover:bg-transparent">2023 June - September</h5>
+					<div className="flex gap-4">
+						<Image src={telesoftas} alt="elnis" className="w-20 h-20 rounded" />
+						<div>
+							<h1 className="font-semibold text-xl hover:bg-transparent">Web Developer</h1>
+							<Link href="https://telesoftas.com/" className="hover:text-secondary">
+								<h2 className="inline-block text-lg hover:bg-transparent">TeleSoftas</h2>
+							</Link>
+							<h5 className="text-xs mb-4 hover:bg-transparent">2023 June - September</h5>
+						</div>
+					</div>
 					<p className="mb-4 hover:bg-transparent">
 						Working with an e-commerce projects specializing in products and fashion, I was responsible for
 						creating visually engaging and responsive web interfaces. This role involved designing
@@ -59,15 +64,19 @@ const Experience: any = () => {
 			</div>
 			<div className="mb-12 hover_border">
 				<div className="lg:p-6">
-					<h1 className="font-bold text-xl hover:bg-transparent">Front-end Developer</h1>
-					<Link href="https://telesoftas.com/" className="hover:text-secondary">
-						<h2 className="inline-block text-lg hover:bg-transparent">
-							Ministry of Environment of the Republic of Lithuania
-						</h2>
-					</Link>
+					<div className="flex gap-4">
+						<Image src={aplinkos_ministerija} alt="elnis" className="w-20 h-20 rounded" />
+						<div className="">
+							<h1 className="font-semibold text-xl hover:bg-transparent">Front-end Developer</h1>
+							<Link href="https://telesoftas.com/" className="hover:text-secondary">
+								<h2 className="inline-block text-lg hover:bg-transparent">
+									Ministry of Environment of the Republic of Lithuania
+								</h2>
+							</Link>
 
-					<h5 className="text-xs mb-4 hover:bg-transparent">October 2022 - June 2023</h5>
-
+							<h5 className="text-xs mb-4 hover:bg-transparent">October 2022 - June 2023</h5>
+						</div>
+					</div>
 					<p className="mb-4 hover:bg-transparent">
 						In my role as a Frontend Developer at the BIIP project, I contributed to the development of a
 						user orieanted web application, which focused on helping nature supervisors collect and review
