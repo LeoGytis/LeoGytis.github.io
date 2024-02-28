@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import Project from "./Project";
+import ProjectWrapper from "./ProjectWrapper";
 import pz from "../../public/images/projects/pz.jpg";
 import brofinity from "../../public/images/projects/brofinity.jpg";
 import sris from "../../public/images/projects/sris.jpg";
@@ -14,28 +14,28 @@ import futbolo_batai from "../../public/images/projects/futbolo_batai.jpg";
 const Projecs: any = () => {
 	return (
 		<div id="projects">
-			<Project
+			<ProjectWrapper
 				title="SRIS"
 				imageSrc={sris}
 				link="https://sris.biip.lt/"
 				description="An information system for protected, endangered, and invasive species. Offering data on the plants, animals, and fungal species in the Republic of Lithuania, along with their habitats and locations. Inspectors as well as public users could fill in the form if they spot or would like to track any specie on the list."
 				tags={["HTML", "CSS", "React", "TypeScript", "Formik", "Redux", "React-Router", "Styled-Components"]}
 			/>
-			<Project
+			<ProjectWrapper
 				title="Futbolobatai"
 				imageSrc={futbolo_batai}
 				link="https://futbolobatai.lt/"
 				description="Football shoe store with options for all players from you children to adults. Easy browsing, simple user friendly webpage to buy shoes. I was working with WordPress and Elemenetor on this page. Used jquery and PHP to help me with creating optimal user experience."
 				tags={["HTML", "CSS", "WordPress", "Elementor", "Jquery", "PHP"]}
 			/>
-			<Project
+			<ProjectWrapper
 				title="E-Study"
 				imageSrc={study}
 				link="https://leogytis.github.io/e-study/"
 				description="Learning-oriented landing page that showcases my use of various React libraries. It's designed to provide a practical demonstration of React-based web development for educational purposes."
 				tags={["React", "TypeScript", "Styled-Components", "React-Icons", "React-Scroll"]}
 			/>
-			<Project
+			<ProjectWrapper
 				title="Acterio"
 				imageSrc={acterio}
 				link="https://github.com/LeoGytis/acterio"
@@ -43,7 +43,7 @@ const Projecs: any = () => {
 				In the Acterio project, fetching data from the DummyJSON API involves sending requests to retrieve relevant information for processing. Error handling mechanisms are implemented to gracefully manage instances where the API may be unavailable or return unexpected responses. Next.js is used for efficient dynamic routing."
 				tags={["Next.js", "React", "TypeScript", "Tailwind", "API"]}
 			/>
-			<Project
+			<ProjectWrapper
 				title="Toolster"
 				imageSrc={toolster}
 				link="https://leogytis.github.io/toolster/"
@@ -51,7 +51,7 @@ const Projecs: any = () => {
 				Toolster is a convenient platform to keep myself informed about the stats I care about. Its customizable features allow me to tailor my experience to suit my specific needs and preferences."
 				tags={["React", "TypeScript", "Next.js", "Tailwind", "React-Icons", "TanStack Query"]}
 			/>
-			<Project
+			<ProjectWrapper
 				title="Braintech"
 				imageSrc={braintech}
 				link="https://leogytis.github.io/braintech/"
@@ -59,7 +59,7 @@ const Projecs: any = () => {
 				tags={["HTML", "CSS", "GitHub", "Vanilla.js"]}
 			/>
 
-			<Project
+			<ProjectWrapper
 				title="Brofinity"
 				imageSrc={brofinity}
 				link="https://brofinity.com/"
@@ -67,7 +67,7 @@ const Projecs: any = () => {
 				tags={["Shopify", "Liquid", "JavaScript", "Tailwind"]}
 			/>
 
-			<Project
+			<ProjectWrapper
 				title="Pieno Žvaigždės"
 				imageSrc={pz}
 				link="https://pienozvaigzdes.lt/business-solutions-and-ingredients/"
@@ -75,7 +75,7 @@ const Projecs: any = () => {
 				tags={["Next.js", "React", "TypeScript", "Tailwind", "CSS"]}
 			/>
 
-			<Project
+			<ProjectWrapper
 				title="Gridster"
 				imageSrc={gridster}
 				link="https://leogytis.github.io/gridster/"
@@ -83,7 +83,7 @@ const Projecs: any = () => {
 				tags={["React", "TypeScript", "Styled-Components", "CSS"]}
 			/>
 
-			<Project
+			<ProjectWrapper
 				title="IP Royal"
 				imageSrc={ip_royal}
 				link="https://leogytis.github.io/ip_royal/"
