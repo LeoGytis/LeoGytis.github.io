@@ -4,10 +4,21 @@ import Image from "next/image";
 import elnis from "../../public/images/experience/elnis.jpg";
 import telesoftas from "../../public/images/experience/telesoftas.png";
 import aplinkos_ministerija from "../../public/images/experience/aplinkos_ministerija.png";
+import ExperienceWrapper from "./ExperienceWrapper";
 
 const Experience: any = () => {
 	return (
 		<div id="experience">
+			<ExperienceWrapper
+				imageSrc={elnis}
+				title="Elnis"
+				link="https://sris.biip.lt/"
+				role="Web Developer"
+				date="2023 October - present"
+				description="An information system for protected, endangered, and invasive species. Offering data on the plants, animals, and fungal species in the Republic of Lithuania, along with their habitats and locations. Inspectors as well as public users could fill in the form if they spot or would like to track any specie on the list."
+				tags={["HTML", "CSS", "React", "TypeScript", "Formik", "Redux", "React-Router", "Styled-Components"]}
+			/>
+
 			<div className="mb-12 hover_border">
 				<div className="lg:p-6">
 					<div className="flex gap-4 mb-4">
