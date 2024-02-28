@@ -10,14 +10,14 @@ const Experience: any = () => {
 		<div id="experience">
 			<div className="mb-12 hover_border">
 				<div className="lg:p-6">
-					<div className="flex gap-4">
-						<Image src={elnis} alt="elnis" className="w-20 h-20 rounded" />
+					<div className="flex gap-4 mb-4">
+						<Image src={elnis} alt="elnis" className="w-16 h-16 rounded" />
 						<div>
 							<Link href="https://telesoftas.com/" className="inline-block text-xl hover:text-secondary">
 								Elnis
 							</Link>
-							<h2 className="text-lg">Web Developer</h2>
-							<h5 className="text-xs mb-4">2023 October - present</h5>
+							<h2>Web Developer</h2>
+							<h5 className="text-xs">2023 October - present</h5>
 						</div>
 					</div>
 					<p className="mb-4">
@@ -31,14 +31,14 @@ const Experience: any = () => {
 			</div>
 			<div className="mb-12 hover_border">
 				<div className="lg:p-6">
-					<div className="flex gap-4">
-						<Image src={telesoftas} alt="elnis" className="w-20 h-20 rounded" />
+					<div className="flex gap-4 mb-4">
+						<Image src={telesoftas} alt="elnis" className="w-16 h-16 rounded" />
 						<div>
 							<Link href="https://telesoftas.com/" className="inline-block text-xl hover:text-secondary">
 								TeleSoftas
 							</Link>
-							<h2 className="text-lg">Web Developer</h2>
-							<h5 className="text-xs mb-4">2023 June - September</h5>
+							<h2>Web Developer</h2>
+							<h5 className="text-xs">2023 June - September</h5>
 						</div>
 					</div>
 					<p className="mb-4">
@@ -64,14 +64,14 @@ const Experience: any = () => {
 			</div>
 			<div className="mb-12 hover_border">
 				<div className="lg:p-6">
-					<div className="flex gap-4">
-						<Image src={aplinkos_ministerija} alt="elnis" className="w-20 h-20 rounded" />
+					<div className="flex gap-4 mb-4">
+						<Image src={aplinkos_ministerija} alt="elnis" className="w-16 h-16 rounded" />
 						<div className="">
 							<Link href="https://telesoftas.com/" className="inline-block text-xl hover:text-secondary">
 								Ministry of Environment of the Republic of Lithuania
 							</Link>
-							<h2 className="font-medium text-xl">Front-end Developer</h2>
-							<h5 className="text-xs mb-4">October 2022 - June 2023</h5>
+							<h2>Front-end Developer</h2>
+							<h5 className="text-xs">October 2022 - June 2023</h5>
 						</div>
 					</div>
 					<p className="mb-4">
