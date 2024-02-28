@@ -1,6 +1,7 @@
 import Image, { StaticImageData } from "next/image";
 import ToolTags from "../utils/ToolTags";
 import { BsLink45Deg } from "react-icons/bs";
+import Link from "next/link";
 
 interface ProjectProps {
 	imageSrc: StaticImageData;
@@ -22,10 +23,13 @@ const Project = ({ title, imageSrc, link, description, tags }: ProjectProps) => 
 					/>
 				</div>
 				<div className="flex flex-col sm:w-2/3">
-					<a href={link} className="whitespace-nowrap text-lg group-hover:text-secondary underline-animation">
+					<Link
+						href={link}
+						className="whitespace-nowrap text-lg group-hover:text-secondary underline-animation"
+					>
 						{title}
 						<BsLink45Deg className="absolute top-[6px] right-[-20px] text-tag link-icon" />
-					</a>
+					</Link>
 					<p className="mb-3">{description}</p>
 					<div className="flex flex-wrap gap-2">
 						<ToolTags tags={tags} />

@@ -23,9 +23,12 @@ const ExperienceWrapper = ({ imageSrc, title, link, role, date, description, tag
 				<div className="flex gap-4 mb-4">
 					<Image src={imageSrc} alt={title} className="w-16 h-16 rounded" />
 					<div className="">
-						<Link href={link} className="inline-block text-xl hover:text-secondary">
+						<Link
+							href={link}
+							className="whitespace-nowrap text-xl group-hover:text-secondary underline-animation"
+						>
 							{title}
-							{/* <BsLink45Deg className="absolute top-[6px] right-[-20px] text-tag link-icon" /> */}
+							<BsLink45Deg className="absolute top-[6px] right-[-20px] text-tag link-icon" />
 						</Link>
 						<h2>{role}</h2>
 						<h5 className="text-xs">{date}</h5>
