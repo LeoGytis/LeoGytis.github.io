@@ -1,16 +1,27 @@
 import Link from "next/link";
 import ToolTags from "../utils/ToolTags";
+import Image from "next/image";
+import elnis from "../../public/images/experience/elnis.jpg";
 
 const Experience: any = () => {
 	return (
 		<div id="experience">
 			<div className="mb-12 hover_border">
 				<div className="lg:p-6">
-					<h1 className="font-bold text-xl hover:bg-transparent">Web Developer</h1>
-					<Link href="https://telesoftas.com/" className="hover:text-secondary">
-						<h2 className="inline-block text-lg hover:bg-transparent">Elnis</h2>
-					</Link>
-					<h5 className="text-xs mb-4 hover:bg-transparent">2023 October - present</h5>
+					<div className="flex gap-4">
+						<Image
+							src={elnis}
+							alt="labas"
+							className="rounded hover:scale-125 ease-out duration-1000 transform origin-top w-20 h-20"
+						/>
+						<div>
+							<h1 className="font-bold text-xl hover:bg-transparent">Web Developer</h1>
+							<Link href="https://telesoftas.com/" className="hover:text-secondary">
+								<h2 className="inline-block text-lg hover:bg-transparent">Elnis</h2>
+							</Link>
+							<h5 className="text-xs mb-4 hover:bg-transparent">2023 October - present</h5>
+						</div>
+					</div>
 					<p className="mb-4 hover:bg-transparent">
 						Currently working on e-commerce projects, specializing in diverse product categories, I am
 						responsible for crafting visually engaging and responsive web interfaces. In this role, I design
