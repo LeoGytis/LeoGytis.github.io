@@ -1,6 +1,4 @@
-// ExperienceCard.js
-
-import Image,  { StaticImageData } from "next/image";
+import Image, { StaticImageData } from "next/image";
 import ToolTags from "../utils/ToolTags";
 import { BsLink45Deg } from "react-icons/bs";
 
