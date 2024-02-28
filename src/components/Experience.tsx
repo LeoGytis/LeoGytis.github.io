@@ -2,6 +2,8 @@ import Link from "next/link";
 import ToolTags from "../utils/ToolTags";
 import Image from "next/image";
 import elnis from "../../public/images/experience/elnis.jpg";
+import telesofts from "../../public/images/experience/telesoftas.png";
+import aplinkos_ministerija from "../../public/images/experience/aplinkos_ministerija.png";
 
 const Experience: any = () => {
 	return (
@@ -9,11 +11,7 @@ const Experience: any = () => {
 			<div className="mb-12 hover_border">
 				<div className="lg:p-6">
 					<div className="flex gap-4">
-						<Image
-							src={elnis}
-							alt="labas"
-							className="rounded hover:scale-125 ease-out duration-1000 transform origin-top w-20 h-20"
-						/>
+						<Image src={elnis} alt="elnis" className="w-20 h-20" />
 						<div>
 							<h1 className="font-bold text-xl hover:bg-transparent">Web Developer</h1>
 							<Link href="https://telesoftas.com/" className="hover:text-secondary">
