@@ -1,6 +1,3 @@
-import Link from "next/link";
-import ToolTags from "../utils/ToolTags";
-import Image from "next/image";
 import elnis from "../../public/images/experience/elnis.jpg";
 import telesoftas from "../../public/images/experience/telesoftas.png";
 import aplinkos_ministerija from "../../public/images/experience/aplinkos_ministerija.png";
@@ -12,105 +9,43 @@ const Experience: any = () => {
 			<ExperienceWrapper
 				imageSrc={elnis}
 				title="Elnis"
-				link="https://sris.biip.lt/"
+				link="https://www.elnis.lt/"
 				role="Web Developer"
 				date="2023 October - present"
 				description="An information system for protected, endangered, and invasive species. Offering data on the plants, animals, and fungal species in the Republic of Lithuania, along with their habitats and locations. Inspectors as well as public users could fill in the form if they spot or would like to track any specie on the list."
-				tags={["HTML", "CSS", "React", "TypeScript", "Formik", "Redux", "React-Router", "Styled-Components"]}
+				tags={["HTML", "CSS", "Jquery", "PHP", "WordPress", "PrestaShop", "Paymo"]}
 			/>
-
-			<div className="mb-12 hover_border">
-				<div className="lg:p-6">
-					<div className="flex gap-4 mb-4">
-						<Image src={elnis} alt="elnis" className="w-16 h-16 rounded" />
-						<div>
-							<Link href="https://telesoftas.com/" className="inline-block text-xl hover:text-secondary">
-								Elnis
-							</Link>
-							<h2>Web Developer</h2>
-							<h5 className="text-xs">2023 October - present</h5>
-						</div>
-					</div>
-					<p className="mb-4">
-						Currently working on e-commerce projects, specializing in diverse product categories, I am
-						responsible for crafting visually engaging and responsive web interfaces. In this role, I design
-						user-friendly product pages and ensure cross-browser compatibility to enhance the overall online
-						shopping experience.
-					</p>
-					<ToolTags tags={["HTML", "CSS", "Jquery", "PHP", "WordPress", "PrestaShop", "Paymo"]} />
-				</div>
-			</div>
-			<div className="mb-12 hover_border">
-				<div className="lg:p-6">
-					<div className="flex gap-4 mb-4">
-						<Image src={telesoftas} alt="elnis" className="w-16 h-16 rounded" />
-						<div>
-							<Link href="https://telesoftas.com/" className="inline-block text-xl hover:text-secondary">
-								TeleSoftas
-							</Link>
-							<h2>Web Developer</h2>
-							<h5 className="text-xs">2023 June - September</h5>
-						</div>
-					</div>
-					<p className="mb-4">
-						Working with an e-commerce projects specializing in products and fashion, I was responsible for
-						creating visually engaging and responsive web interfaces. This role involved designing
-						user-friendly product pages, optimizing site performance, and ensuring cross-browser
-						compatibility to enhance the overall online shopping experience.
-					</p>
-					<ToolTags
-						tags={[
-							"HTML",
-							"CSS",
-							"Tailwind",
-							"TypeScript",
-							"React",
-							"Next.js",
-							"GitHub",
-							"Shopify",
-							"Liquid",
-						]}
-					/>
-				</div>
-			</div>
-			<div className="mb-12 hover_border">
-				<div className="lg:p-6">
-					<div className="flex gap-4 mb-4">
-						<Image src={aplinkos_ministerija} alt="elnis" className="w-16 h-16 rounded" />
-						<div className="">
-							<Link href="https://telesoftas.com/" className="inline-block text-xl hover:text-secondary">
-								Ministry of Environment of the Republic of Lithuania
-							</Link>
-							<h2>Front-end Developer</h2>
-							<h5 className="text-xs">October 2022 - June 2023</h5>
-						</div>
-					</div>
-					<p className="mb-4">
-						In my role as a Frontend Developer at the BIIP project, I contributed to the development of a
-						user orieanted web application, which focused on helping nature supervisors collect and review
-						data related to the preservation of nature and the study of invasive and endangered species.
-						This work was both intriguing and deeply rewarding, as it allowed me to play a meaningful role
-						in making a positive impact on our environment.
-					</p>
-					<div className="flex"></div>
-
-					<ToolTags
-						tags={[
-							"HTML",
-							"CSS",
-							"Styled-Components",
-							"TypeScript",
-							"React",
-							"Redux",
-							"React Router",
-							"Formik",
-							"GitHub",
-							"Postman",
-							"Jira",
-						]}
-					/>
-				</div>
-			</div>
+			<ExperienceWrapper
+				imageSrc={telesoftas}
+				title="TeleSoftas"
+				link="https://telesoftas.com/"
+				role="Web Developer"
+				date="2023 June - September"
+				description="Working with an e-commerce projects specializing in products and fashion, I was responsible for creating visually engaging and responsive web interfaces. This role involved designing	user-friendly product pages, optimizing site performance, and ensuring cross-browser
+				compatibility to enhance the overall online shopping experience."
+				tags={["HTML", "CSS", "Tailwind", "TypeScript", "React", "Next.js", "GitHub", "Shopify", "Liquid"]}
+			/>
+			<ExperienceWrapper
+				imageSrc={aplinkos_ministerija}
+				title="Ministry of Environment of the Republic of Lithuania"
+				link="https://am.lrv.lt/lt/"
+				role="Front-end Developer"
+				date="2022 October - 2023 June"
+				description="	In my role as a Frontend Developer at the BIIP project, I contributed to the development of a	user orieanted web application, which focused on helping nature supervisors collect and review data related to the preservation of nature and the study of invasive and endangered species. This work was both intriguing and deeply rewarding, as it allowed me to play a meaningful role in making a positive impact on our environment."
+				tags={[
+					"HTML",
+					"CSS",
+					"Styled-Components",
+					"TypeScript",
+					"React",
+					"Redux",
+					"React Router",
+					"Formik",
+					"GitHub",
+					"Postman",
+					"Jira",
+				]}
+			/>
 		</div>
 	);
 };
