@@ -1,3 +1,4 @@
+import acterio from "../../public/images/experience/acterio.jpg";
 import elnis from "../../public/images/experience/elnis.jpg";
 import telesoftas from "../../public/images/experience/telesoftas.png";
 import aplinkos_ministerija from "../../public/images/experience/aplinkos_ministerija.png";
@@ -6,6 +7,15 @@ import ExperienceWrapper from "./ExperienceWrapper";
 const Experience: any = () => {
 	return (
 		<div id="experience">
+			<ExperienceWrapper
+				imageSrc={acterio}
+				title="Acterio"
+				link="https://www.acterio.com/"
+				role="Front-end Developer Intership"
+				date="2024 March - present"
+				description="I contribute to the creation of a user-friendly platform that centralizes and streamlines the management of innovation ecosystems. My role involves implementing intuitive user interfaces, ensuring smooth navigation, and optimizing the user experience across various devices. By collaborating with designers and backend developers, I help bring innovative features to life, empowering administrators to focus on value creation within their ecosystems."
+				tags={["HTML", "CSS", "Material UI", "React", "TypeScript", " Figma"]}
+			/>
 			<ExperienceWrapper
 				imageSrc={elnis}
 				title="Elnis"

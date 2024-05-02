@@ -14,6 +14,13 @@ import futbolo_batai from "../../public/images/projects/futbolo_batai.jpg";
 const Projecs: any = () => {
 	return (
 		<div id="projects">
+			{/* <ProjectWrapper
+				title="Acterio"
+				imageSrc={sris}
+				link="https://acterio.com/"
+				description=""
+				tags={["HTML", "CSS", "Material UI", "React", "TypeScript", " Figma"]}
+			/> */}
 			<ProjectWrapper
 				title="SRIS"
 				imageSrc={sris}
@@ -58,15 +65,6 @@ const Projecs: any = () => {
 				description="Educational landing page project was undertaken as part of my coursework at BIT School, signifying an important chapter in my academic journey. It is a practical demonstration of web development, with a focus on using plain JavaScript."
 				tags={["HTML", "CSS", "GitHub", "Vanilla.js"]}
 			/>
-
-			<ProjectWrapper
-				title="Brofinity"
-				imageSrc={brofinity}
-				link="https://brofinity.com/"
-				description="Developed fashion clothing e-commerce site on Shopify, leveraging Liquid to to provide an effortless and visually appealing shopping experience for customers curated collection."
-				tags={["Shopify", "Liquid", "JavaScript", "Tailwind"]}
-			/>
-
 			<ProjectWrapper
 				title="Pieno Žvaigždės"
 				imageSrc={pz}
@@ -74,7 +72,6 @@ const Projecs: any = () => {
 				description="Developed a dynamic B2B products page for seamless access to our offerings by potential business clients. The page prioritizes clarity and ease of navigation, ensuring a smooth user experience."
 				tags={["Next.js", "React", "TypeScript", "Tailwind", "CSS"]}
 			/>
-
 			<ProjectWrapper
 				title="Gridster"
 				imageSrc={gridster}
@@ -82,7 +79,6 @@ const Projecs: any = () => {
 				description="UI project that involves creating a resizable grid interface. User can set the grid dimensions, interactively mark squares as 'clear' or 'filled'. The project includes a pathfinding algorithm to highlight the shortest path from 'start' to 'end' on the grid."
 				tags={["React", "TypeScript", "Styled-Components", "CSS"]}
 			/>
-
 			<ProjectWrapper
 				title="IP Royal"
 				imageSrc={ip_royal}
@@ -90,6 +86,13 @@ const Projecs: any = () => {
 				description="Interactive dashboard using Tailwind  and TypeScript to evaluate my skills with Vue.js framework. The project was an excellent opportunity to demonstrate adaptability by quickly gaining proficiency in new technologies."
 				tags={["Vue.js", "TypeScript", "Tailwind", "CSS"]}
 			/>
+			{/* <ProjectWrapper
+				title="Brofinity"
+				imageSrc={brofinity}
+				link="https://brofinity.com/"
+				description="Developed fashion clothing e-commerce site on Shopify, leveraging Liquid to to provide an effortless and visually appealing shopping experience for customers curated collection."
+				tags={["Shopify", "Liquid", "JavaScript", "Tailwind"]}
+			/> */}
 		</div>
 	);
 };
