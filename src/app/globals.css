@@ -8,8 +8,10 @@
 @layer base {
 	html {
 		--color-primary: #fff;
-		--color-text-primary: #cbd5e1;
-		--color-text-secondary: #94a4b7;
+		/* --color-text-primary: #cbd5e1; */
+		--color-text-primary: #fff;
+		/* --color-text-secondary: #94a4b7; */
+		--color-text-secondary: #fff;
 		--color-secondary: #5eead4;
 		--color-tag: #5eead4;
 		--color-tag-bg: #2dd4bf1a;
