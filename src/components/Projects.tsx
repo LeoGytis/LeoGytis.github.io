@@ -39,9 +39,9 @@ const Projecs: any = () => {
 			<ProjectWrapper
 				title="Checkouter"
 				imageSrc={checkouter}
-				link="https://leogytis.github.io/e-study/"
+				link="https://leogytis.github.io/checkouter/"
 				description="Checkouter is built with Next.js utilizing React for dynamic UI components and Tailwind CSS for styling, ensuring a sleek and responsive design. It features a checkout form tailored for collecting customer details and securely handling credit card credentials."
-				tags={["HTML", "CSS", "Next.js", "React", "Formik", "Yup"]}
+				tags={["HTML", "CSS", "Next.js", "React", "Formik", "Yup", "React-Icons", "Figma"]}
 			/>
 			<ProjectWrapper
 				title="E-Study"
