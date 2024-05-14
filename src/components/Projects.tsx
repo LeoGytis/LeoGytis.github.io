@@ -10,6 +10,7 @@ import braintech from "../../public/images/projects/braintech.jpg";
 import gridster from "../../public/images/projects/gridster.jpg";
 import ip_royal from "../../public/images/projects/ip_royal.jpg";
 import futbolo_batai from "../../public/images/projects/futbolo_batai.jpg";
+import checkouter from "../../public/images/projects/checkouter.jpg";
 
 const Projecs: any = () => {
 	return (
@@ -34,6 +35,13 @@ const Projecs: any = () => {
 				link="https://futbolobatai.lt/"
 				description="Football shoe store with options for all players from you children to adults. Easy browsing, simple user friendly webpage to buy shoes. I was working with WordPress and Elemenetor on this page. Used jquery and PHP to help me with creating optimal user experience."
 				tags={["HTML", "CSS", "WordPress", "Elementor", "Jquery", "PHP"]}
+			/>
+			<ProjectWrapper
+				title="Checkouter"
+				imageSrc={checkouter}
+				link="https://leogytis.github.io/e-study/"
+				description="Checkouter is built with Next.js utilizing React for dynamic UI components and Tailwind CSS for styling, ensuring a sleek and responsive design. It features a checkout form tailored for collecting customer details and securely handling credit card credentials."
+				tags={["HTML", "CSS", "Next.js", "React", "Formik", "Yup"]}
 			/>
 			<ProjectWrapper
 				title="E-Study"
