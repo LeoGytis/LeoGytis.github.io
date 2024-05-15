@@ -10,7 +10,7 @@ import braintech from "../../public/images/projects/braintech.jpg";
 import gridster from "../../public/images/projects/gridster.jpg";
 import ip_royal from "../../public/images/projects/ip_royal.jpg";
 import futbolo_batai from "../../public/images/projects/futbolo_batai.jpg";
-import imged from "../../public/images/projects/imged2.jpg";
+import imged from "../../public/images/projects/imged4.jpg";
 import checkouter from "../../public/images/projects/checkouter.jpg";
 
 const Projecs: any = () => {
