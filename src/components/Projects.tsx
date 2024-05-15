@@ -40,7 +40,7 @@ const Projecs: any = () => {
 			<ProjectWrapper
 				title="Imged"
 				imageSrc={imged}
-				link="https://github.com/LeoGytis/imged"
+				link="https://leogytis.github.io/imged/"
 				description="Project fetches images with Flickr API, implementing both infinite scroll and lazy loading for seamless browsing. It was tested with Jest and includes lazy loading, ensuring images load only when visible on the screen. Users can also favorite items, with favorites persisting across sessions. The design closely mirrors provided screenshots, including hover states."
 				tags={["HTML", "CSS", "API", "Jest", "React", "TypeScript"]}
 			/>
