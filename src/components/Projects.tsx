@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import ProjectWrapper from "./ProjectWrapper";
-import pz from "../../public/images/projects/pz.jpg";
 import brofinity from "../../public/images/projects/brofinity.jpg";
+import pz from "../../public/images/projects/pz.jpg";
 import sris from "../../public/images/projects/sris.jpg";
 import acterio from "../../public/images/projects/acterio.jpg";
 import toolster from "../../public/images/projects/toolster.jpg";
@@ -10,7 +10,7 @@ import braintech from "../../public/images/projects/braintech.jpg";
 import gridster from "../../public/images/projects/gridster.jpg";
 import ip_royal from "../../public/images/projects/ip_royal.jpg";
 import futbolo_batai from "../../public/images/projects/futbolo_batai.jpg";
-import imged from "../../public/images/projects/imged4.jpg";
+import imged from "../../public/images/projects/imged.jpg";
 import checkouter from "../../public/images/projects/checkouter.jpg";
 
 const Projecs: any = () => {
@@ -58,8 +58,23 @@ const Projecs: any = () => {
 				description="Learning-oriented landing page that showcases my use of various React libraries. It's designed to provide a practical demonstration of React-based web development for educational purposes."
 				tags={["React", "TypeScript", "Styled-Components", "React-Icons", "React-Scroll"]}
 			/>
+
 			<ProjectWrapper
-				title="Acterio"
+				title="Braintech"
+				imageSrc={braintech}
+				link="https://leogytis.github.io/braintech/"
+				description="Educational landing page project was undertaken as part of my coursework at BIT School, signifying an important chapter in my academic journey. It is a practical demonstration of web development, with a focus on using plain JavaScript."
+				tags={["HTML", "CSS", "GitHub", "Vanilla.js"]}
+			/>
+			<ProjectWrapper
+				title="Royal DashBoard"
+				imageSrc={ip_royal}
+				link="https://leogytis.github.io/ip_royal/"
+				description="Interactive dashboard using Tailwind  and TypeScript to evaluate my skills with Vue.js framework. The project was an excellent opportunity to demonstrate adaptability by quickly gaining proficiency in new technologies."
+				tags={["Vue.js", "TypeScript", "Tailwind", "CSS"]}
+			/>
+			<ProjectWrapper
+				title="Acterio API"
 				imageSrc={acterio}
 				link="https://github.com/LeoGytis/acterio"
 				description="
@@ -74,13 +89,7 @@ const Projecs: any = () => {
 				Toolster is a convenient platform to keep myself informed about the stats I care about. Its customizable features allow me to tailor my experience to suit my specific needs and preferences."
 				tags={["React", "TypeScript", "Next.js", "Tailwind", "React-Icons", "TanStack Query"]}
 			/>
-			<ProjectWrapper
-				title="Braintech"
-				imageSrc={braintech}
-				link="https://leogytis.github.io/braintech/"
-				description="Educational landing page project was undertaken as part of my coursework at BIT School, signifying an important chapter in my academic journey. It is a practical demonstration of web development, with a focus on using plain JavaScript."
-				tags={["HTML", "CSS", "GitHub", "Vanilla.js"]}
-			/>
+
 			<ProjectWrapper
 				title="Pieno Žvaigždės"
 				imageSrc={pz}
@@ -88,6 +97,7 @@ const Projecs: any = () => {
 				description="Developed a dynamic B2B products page for seamless access to our offerings by potential business clients. The page prioritizes clarity and ease of navigation, ensuring a smooth user experience."
 				tags={["Next.js", "React", "TypeScript", "Tailwind", "CSS"]}
 			/>
+
 			<ProjectWrapper
 				title="Gridster"
 				imageSrc={gridster}
@@ -96,19 +106,12 @@ const Projecs: any = () => {
 				tags={["React", "TypeScript", "Styled-Components", "CSS"]}
 			/>
 			<ProjectWrapper
-				title="IP Royal"
-				imageSrc={ip_royal}
-				link="https://leogytis.github.io/ip_royal/"
-				description="Interactive dashboard using Tailwind  and TypeScript to evaluate my skills with Vue.js framework. The project was an excellent opportunity to demonstrate adaptability by quickly gaining proficiency in new technologies."
-				tags={["Vue.js", "TypeScript", "Tailwind", "CSS"]}
-			/>
-			{/* <ProjectWrapper
 				title="Brofinity"
 				imageSrc={brofinity}
-				link="https://brofinity.com/"
+				link="https://leogytis.github.io/"
 				description="Developed fashion clothing e-commerce site on Shopify, leveraging Liquid to to provide an effortless and visually appealing shopping experience for customers curated collection."
 				tags={["Shopify", "Liquid", "JavaScript", "Tailwind"]}
-			/> */}
+			/>
 		</div>
 	);
 };
