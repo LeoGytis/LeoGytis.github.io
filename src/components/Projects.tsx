@@ -22,7 +22,7 @@ const Projecs: any = () => {
 				imageSrc={acterio}
 				link="https://acterio.com/"
 				description="Acterio is an all-in-one innovation management platform designed for startups and innovation ecosystems. It offers comprehensive tools for managing and supporting startups, streamlining operations, and fostering community engagement. Features include application tracking, workspace management, networking, event management, and detailed reporting. The platform simplifies administrative tasks and enhances collaboration, making it a valuable resource for innovation hubs."
-				tags={["HTML", "CSS", "Material UI", "React", "TypeScript", " Figma"]}
+				tags={["HTML", "CSS", "Material UI", "React", "TypeScript", " Figma", "Jira"]}
 			/>
 			<ProjectWrapper
 				title="SRIS"
