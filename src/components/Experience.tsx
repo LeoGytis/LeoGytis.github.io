@@ -1,7 +1,7 @@
 import acterio from "../../public/images/experience/acterio.jpg";
 import elnis from "../../public/images/experience/elnis.jpg";
 import telesoftas from "../../public/images/experience/telesoftas.png";
-import aplinkos_ministerija from "../../public/images/experience/aplinkos_ministerija.png";
+import aplinkos_ministerija from "../../public/images/experience/aplinkos_ministerija.jpg";
 import ExperienceWrapper from "./ExperienceWrapper";
 
 const Experience: any = () => {
