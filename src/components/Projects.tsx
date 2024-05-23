@@ -1,9 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
 import ProjectWrapper from "./ProjectWrapper";
-import brofinity from "../../public/images/projects/brofinity.jpg";
+import acterio from "../../public/images/projects/acterio.jpg";
 import pz from "../../public/images/projects/pz.jpg";
 import sris from "../../public/images/projects/sris.jpg";
-import acterio from "../../public/images/projects/acterio.jpg";
+import acterio_api from "../../public/images/projects/acterio_api.jpg";
 import toolster from "../../public/images/projects/toolster.jpg";
 import study from "../../public/images/projects/e-study.jpg";
 import braintech from "../../public/images/projects/braintech.jpg";
@@ -12,17 +12,18 @@ import ip_royal from "../../public/images/projects/ip_royal.jpg";
 import futbolo_batai from "../../public/images/projects/futbolo_batai.jpg";
 import imged from "../../public/images/projects/imged.jpg";
 import checkouter from "../../public/images/projects/checkouter.jpg";
+import brofinity from "../../public/images/projects/brofinity.jpg";
 
 const Projecs: any = () => {
 	return (
 		<div id="projects">
-			{/* <ProjectWrapper
+			<ProjectWrapper
 				title="Acterio"
-				imageSrc={sris}
+				imageSrc={acterio}
 				link="https://acterio.com/"
-				description=""
+				description="Acterio is an all-in-one innovation management platform designed for startups and innovation ecosystems. It offers comprehensive tools for managing and supporting startups, streamlining operations, and fostering community engagement. Features include application tracking, workspace management, networking, event management, and detailed reporting. The platform simplifies administrative tasks and enhances collaboration, making it a valuable resource for innovation hubs."
 				tags={["HTML", "CSS", "Material UI", "React", "TypeScript", " Figma"]}
-			/> */}
+			/>
 			<ProjectWrapper
 				title="SRIS"
 				imageSrc={sris}
@@ -75,7 +76,7 @@ const Projecs: any = () => {
 			/>
 			<ProjectWrapper
 				title="Acterio API"
-				imageSrc={acterio}
+				imageSrc={acterio_api}
 				link="https://github.com/LeoGytis/acterio"
 				description="
 				In the Acterio project, fetching data from the DummyJSON API involves sending requests to retrieve relevant information for processing. Error handling mechanisms are implemented to gracefully manage instances where the API may be unavailable or return unexpected responses. Next.js is used for efficient dynamic routing."
