@@ -31,8 +31,7 @@ const Experience: any = () => {
 				link="https://telesoftas.com/"
 				role="Web Developer"
 				date="2023 June - September"
-				description="Working with an e-commerce projects specializing in products and fashion, I was responsible for creating visually engaging and responsive web interfaces. This role involved designing	user-friendly product pages, optimizing site performance, and ensuring cross-browser
-				compatibility to enhance the overall online shopping experience."
+				description="Worked on e-commerce projects specializing in products and fashion, creating visually engaging and responsive web interfaces. Designed user-friendly product pages, optimized site performance, and ensured cross-browser compatibility to enhance the overall online shopping experience."
 				tags={['HTML', 'CSS', 'Tailwind', 'TypeScript', 'React', 'Next.js', 'GitHub', 'Shopify', 'Liquid']}
 			/>
 			<ExperienceWrapper
