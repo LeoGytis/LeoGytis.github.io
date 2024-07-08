@@ -43,21 +43,21 @@ const Projecs: any = () => {
 				imageSrc={imged}
 				link="https://leogytis.github.io/imged/"
 				description="Project fetches images with Flickr API, implementing both infinite scroll and lazy loading for seamless browsing. It was tested with Jest and includes lazy loading, ensuring images load only when visible on the screen. Users can also favorite items, with favorites persisting across sessions. The design closely mirrors provided screenshots, including hover states."
-				tags={['HTML', 'CSS', 'API', 'Jest', 'React', 'TypeScript']}
+				tags={['HTML', 'CSS', 'REST API', 'Jest', 'React', 'TypeScript']}
 			/>
 			<ProjectWrapper
 				title="Checkouter"
 				imageSrc={checkouter}
 				link="https://leogytis.github.io/checkouter/"
 				description="Checkouter is built with Next.js utilizing React for dynamic UI components and Tailwind CSS for styling, ensuring a sleek and responsive design. It features a checkout form tailored for collecting customer details and securely handling credit card credentials."
-				tags={['HTML', 'CSS', 'Next.js', 'React', 'Formik', 'Yup', 'React-Icons', 'Figma']}
+				tags={['TypeScript ', 'React', 'Next.js', 'Formik', 'Yup', 'React-Icons', 'Tailwind', 'Figma']}
 			/>
 			<ProjectWrapper
 				title="E-Study"
 				imageSrc={study}
 				link="https://leogytis.github.io/e-study/"
 				description="Learning-oriented landing page that showcases my use of various React libraries. It's designed to provide a practical demonstration of React-based web development for educational purposes."
-				tags={['React', 'TypeScript', 'Styled-Components', 'React-Icons', 'React-Scroll']}
+				tags={['TypeScript', 'React', 'Styled-Components', 'React-Icons', 'React-Scroll']}
 			/>
 
 			<ProjectWrapper
