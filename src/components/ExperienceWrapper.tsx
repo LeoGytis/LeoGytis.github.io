@@ -1,10 +1,10 @@
-import Link from "next/link";
-import ToolTags from "../utils/ToolTags";
-import Image, { StaticImageData } from "next/image";
-import elnis from "../../public/images/experience/elnis.jpg";
-import telesoftas from "../../public/images/experience/telesoftas.png";
-import aplinkos_ministerija from "../../public/images/experience/aplinkos_ministerija.png";
-import { BsLink45Deg } from "react-icons/bs";
+import Link from 'next/link';
+import ToolTags from '../utils/ToolTags';
+import Image, {StaticImageData} from 'next/image';
+import elnis from '../../public/images/experience/elnis.jpg';
+import telesoftas from '../../public/images/experience/telesoftas.png';
+import aplinkos_ministerija from '../../public/images/experience/aplinkos_ministerija.png';
+import {BsLink45Deg} from 'react-icons/bs';
 
 interface ExperienceProps {
 	imageSrc: StaticImageData;
@@ -13,10 +13,10 @@ interface ExperienceProps {
 	role: string;
 	date: string;
 	description: string;
-	tags: string[];
+	// tags: string[];
 }
 
-const ExperienceWrapper = ({ imageSrc, title, link, role, date, description, tags }: ExperienceProps) => {
+const ExperienceWrapper = ({imageSrc, title, link, role, date, description}: ExperienceProps) => {
 	return (
 		<div className="mb-12 hover_border group">
 			<div className="lg:p-6">
@@ -36,7 +36,6 @@ const ExperienceWrapper = ({ imageSrc, title, link, role, date, description, tag
 				</div>
 				<p className="mb-4">{description}</p>
 				<div className="flex"></div>
-				<ToolTags tags={tags} />
 			</div>
 		</div>
 	);
