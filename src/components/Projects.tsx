@@ -10,7 +10,7 @@ import braintech from '../../public/images/projects/braintech.jpg';
 import gridster from '../../public/images/projects/gridster.jpg';
 import ip_royal from '../../public/images/projects/ip_royal.jpg';
 import futbolo_batai from '../../public/images/projects/futbolo_batai.jpg';
-import imged from '../../public/images/projects/imged.jpg';
+import images_hub from '../../public/images/projects/imged.jpg';
 import checkouter from '../../public/images/projects/checkouter.jpg';
 import brofinity from '../../public/images/projects/brofinity.jpg';
 
@@ -39,8 +39,8 @@ const Projecs: any = () => {
 				tags={['HTML', 'CSS', 'WordPress', 'Elementor', 'Jquery', 'PHP']}
 			/>
 			<ProjectWrapper
-				title="Imged"
-				imageSrc={imged}
+				title="ImagesHub"
+				imageSrc={images_hub}
 				link="https://github.com/LeoGytis/ImagesHub"
 				description="Project fetches images with Flickr API, implementing both infinite scroll and lazy loading for seamless browsing. It was tested with Jest and includes lazy loading, ensuring images load only when visible on the screen. Users can also favorite items, with favorites persisting across sessions. The design closely mirrors provided screenshots, including hover states."
 				tags={['HTML', 'CSS', 'REST API', 'Jest', 'React', 'TypeScript']}
