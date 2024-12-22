@@ -59,7 +59,7 @@ h5 {
 
 .hover_border:hover {
   @media (min-width: 1024px) {
-    border-radius: 4px;
+    border-radius: 8px;
     background-color: rgba(0, 0, 0, 0.2);
     box-shadow: 0px 0px 12px 0px var(--color-tag-border);
   }
