@@ -9,7 +9,6 @@ interface ExperienceProps {
   role: string;
   date: string;
   description: string;
-  // tags: string[];
 }
 
 const ExperienceWrapper = ({
