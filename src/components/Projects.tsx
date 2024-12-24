@@ -10,6 +10,7 @@ import futbolo_batai from "../../public/images/projects/futbolo_batai.jpg";
 import gridster from "../../public/images/projects/gridster.jpg";
 import images_hub from "../../public/images/projects/imageshub.jpg";
 import ip_royal from "../../public/images/projects/ip_royal.jpg";
+import medeja from "../../public/images/projects/medeja.jpg";
 import pz from "../../public/images/projects/pz.jpg";
 import sris from "../../public/images/projects/sris.jpg";
 import toolster from "../../public/images/projects/toolster.jpg";
@@ -67,6 +68,13 @@ const Projecs: any = () => {
           " Figma",
           "Jira",
         ]}
+      />
+      <ProjectWrapper
+        title="Medėja"
+        imageSrc={medeja}
+        link="https://medeja.lt/"
+        description="An e-shop dedicated to home brewing accessories for wine and beer enthusiasts. The platform offers a wide range of tools and equipment for beginners and experts alike, with a focus on intuitive navigation and seamless shopping. "
+        tags={["Prestahop", "JavaScript", "CSS", "Figma"]}
       />
       <ProjectWrapper
         title="Futbolobatai"
