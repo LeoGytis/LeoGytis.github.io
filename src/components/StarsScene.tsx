@@ -1,6 +1,5 @@
-import React, { useRef, useEffect } from "react";
+import { useEffect, useRef } from "react";
 import * as THREE from "three";
-import { OrbitControls } from "three/addons/controls/OrbitControls.js";
 
 const StarsScene = () => {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -61,7 +60,7 @@ const StarsScene = () => {
 
       const moveCamera = () => {
         const t = document.body.getBoundingClientRect().top;
-        camera.position.z = t * 0.03;
+        camera.position.z = t * 0.02;
 
         // --- Update background color based on camera position ---
         const backgroundIntensity = Math.abs(camera.position.z / 50);
