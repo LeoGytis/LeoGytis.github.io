@@ -24,14 +24,14 @@ const Project = ({
         <div className="overflow-hidden rounded-lg cursor-pointer h-full hover_border">
           <Image
             src={imageSrc}
-            alt={title}
+            alt="project_image"
             className="rounded-lg hover:scale-125 ease-out duration-1000 transform origin-top w-[400px] sm:w-[250px]"
           />
         </div>
         <div className="flex flex-col sm:w-2/3">
           <Link
             href={link}
-            className="whitespace-nowrap text-lg font-semibold group-hover:text-secondary underline-animation"
+            className="whitespace-nowrap text-xl font-semibold group-hover:text-secondary underline-animation"
           >
             {title}
             <BsLink45Deg className="absolute top-[6px] right-[-20px] text-tag link-icon" />
