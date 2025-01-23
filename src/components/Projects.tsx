@@ -11,6 +11,7 @@ import gridster from "../../public/images/projects/gridster.jpg";
 import images_hub from "../../public/images/projects/imageshub.jpg";
 import ip_royal from "../../public/images/projects/ip_royal.jpg";
 import medeja from "../../public/images/projects/medeja.jpg";
+import nodeblog from "../../public/images/projects/nodeblog.jpg";
 import pz from "../../public/images/projects/pz.jpg";
 import sris from "../../public/images/projects/sris.jpg";
 import toolster from "../../public/images/projects/toolster.jpg";
@@ -141,6 +142,14 @@ const Projecs: any = () => {
         description="
 				In the Acterio project, fetching data from the DummyJSON API involves sending requests to retrieve relevant information for processing. Error handling mechanisms are implemented to gracefully manage instances where the API may be unavailable or return unexpected responses. Next.js is used for efficient dynamic routing."
         tags={["Next.js", "React", "TypeScript", "Tailwind", "API"]}
+      />
+      <ProjectWrapper
+        title="Node Blog"
+        imageSrc={nodeblog}
+        link="https://github.com/LeoGytis"
+        description="
+				This is project is made with Node.js and MongoDB This project is built using Node.js and MongoDB, designed to manage a simple blogging platform. It allows users to create, read, update, and delete blog posts. "
+        tags={["Node.js", "Express.js", "MongoDB", "JavaScript", "EJS"]}
       />
       <ProjectWrapper
         title="Toolster"
