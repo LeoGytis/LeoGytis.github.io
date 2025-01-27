@@ -84,6 +84,7 @@ const Projecs: any = () => {
         description="Football shoe store with options for all players from you children to adults. Easy browsing, simple user friendly webpage to buy shoes. I was working with WordPress and Elemenetor on this page. Used jquery and PHP to help me with creating optimal user experience."
         tags={["HTML", "CSS", "WordPress", "Elementor", "Jquery", "PHP"]}
       />
+
       <ProjectWrapper
         title="ImagesHub"
         imageSrc={images_hub}
@@ -91,22 +92,24 @@ const Projecs: any = () => {
         description="Project fetches images with Flickr API, implementing both infinite scroll and lazy loading for seamless browsing. It was tested with Jest and includes lazy loading, ensuring images load only when visible on the screen. Users can also favorite items, with favorites persisting across sessions. The design closely mirrors provided screenshots, including hover states."
         tags={["HTML", "CSS", "REST API", "Jest", "React", "TypeScript"]}
       />
+
       <ProjectWrapper
-        title="Checkouter"
-        imageSrc={checkouter}
-        link="https://leogytis.github.io/checkouter/"
-        description="Checkouter is built with Next.js utilizing React for dynamic UI components and Tailwind CSS for styling, ensuring a sleek and responsive design. It features a checkout form tailored for collecting customer details and securely handling credit card credentials."
-        tags={[
-          "TypeScript ",
-          "React",
-          "Next.js",
-          "Formik",
-          "Yup",
-          "React-Icons",
-          "Tailwind",
-          "Figma",
-        ]}
+        title="Nestjs Rest API + Prisma"
+        imageSrc={nodeblog}
+        link="https://github.com/LeoGytis/nestjs-restapi"
+        description="This project is a NestJS-based REST API that implements CRUD operations with a focus on modern web development practices. It integrates JWT-based authentication for secure access, along with modules for user management, bookmarking, and Prisma ORM for database interactions."
+        tags={["Node.js", "Nest.js", "Prisma", "Docker", "Jest"]}
       />
+
+      <ProjectWrapper
+        title="Node Blog"
+        imageSrc={nodeblog}
+        link="https://github.com/LeoGytis/node-blog"
+        description="
+				This is project is made with Node.js and MongoDB This project is built using Node.js and MongoDB, designed to manage a simple blogging platform. It allows users to create, read, update, and delete blog posts. "
+        tags={["Node.js", "Express.js", "MongoDB", "JavaScript", "EJS"]}
+      />
+
       <ProjectWrapper
         title="E-Study"
         imageSrc={study}
@@ -128,6 +131,24 @@ const Projecs: any = () => {
         description="Educational landing page project was undertaken as part of my coursework at BIT School, signifying an important chapter in my academic journey. It is a practical demonstration of web development, with a focus on using plain JavaScript."
         tags={["HTML", "CSS", "GitHub", "Vanilla.js"]}
       />
+
+      <ProjectWrapper
+        title="Checkouter"
+        imageSrc={checkouter}
+        link="https://leogytis.github.io/checkouter/"
+        description="Checkouter is built with Next.js utilizing React for dynamic UI components and Tailwind CSS for styling, ensuring a sleek and responsive design. It features a checkout form tailored for collecting customer details and securely handling credit card credentials."
+        tags={[
+          "TypeScript ",
+          "React",
+          "Next.js",
+          "Formik",
+          "Yup",
+          "React-Icons",
+          "Tailwind",
+          "Figma",
+        ]}
+      />
+
       <ProjectWrapper
         title="Royal DashBoard"
         imageSrc={ip_royal}
@@ -135,6 +156,7 @@ const Projecs: any = () => {
         description="Interactive dashboard using Tailwind  and TypeScript to evaluate my skills with Vue.js framework. The project was an excellent opportunity to demonstrate adaptability by quickly gaining proficiency in new technologies."
         tags={["Vue.js", "TypeScript", "Tailwind", "CSS"]}
       />
+
       <ProjectWrapper
         title="Acterio API"
         imageSrc={acterio_api}
@@ -143,14 +165,7 @@ const Projecs: any = () => {
 				In the Acterio project, fetching data from the DummyJSON API involves sending requests to retrieve relevant information for processing. Error handling mechanisms are implemented to gracefully manage instances where the API may be unavailable or return unexpected responses. Next.js is used for efficient dynamic routing."
         tags={["Next.js", "React", "TypeScript", "Tailwind", "API"]}
       />
-      <ProjectWrapper
-        title="Node Blog"
-        imageSrc={nodeblog}
-        link="https://github.com/LeoGytis"
-        description="
-				This is project is made with Node.js and MongoDB This project is built using Node.js and MongoDB, designed to manage a simple blogging platform. It allows users to create, read, update, and delete blog posts. "
-        tags={["Node.js", "Express.js", "MongoDB", "JavaScript", "EJS"]}
-      />
+
       <ProjectWrapper
         title="Toolster"
         imageSrc={toolster}
