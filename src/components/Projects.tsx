@@ -11,6 +11,7 @@ import gridster from "../../public/images/projects/gridster.jpg";
 import images_hub from "../../public/images/projects/imageshub.jpg";
 import ip_royal from "../../public/images/projects/ip_royal.jpg";
 import medeja from "../../public/images/projects/medeja.jpg";
+import nestjs_restapi from "../../public/images/projects/nestjs_restapi.jpg";
 import nodeblog from "../../public/images/projects/nodeblog.jpg";
 import pz from "../../public/images/projects/pz.jpg";
 import sris from "../../public/images/projects/sris.jpg";
@@ -95,7 +96,7 @@ const Projecs: any = () => {
 
       <ProjectWrapper
         title="Nestjs Rest API + Prisma"
-        imageSrc={nodeblog}
+        imageSrc={nestjs_restapi}
         link="https://github.com/LeoGytis/nestjs-restapi"
         description="This project is a NestJS-based REST API that implements CRUD operations with a focus on modern web development practices. It integrates JWT-based authentication for secure access, along with modules for user management, bookmarking, and Prisma ORM for database interactions."
         tags={["Node.js", "Nest.js", "Prisma", "Docker", "Jest"]}
