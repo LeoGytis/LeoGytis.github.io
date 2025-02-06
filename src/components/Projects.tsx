@@ -115,7 +115,7 @@ const Projecs: any = () => {
       <ProjectWrapper
         title="Table Manager"
         imageSrc={table_manager}
-        link="https://github.com/LeoGytis/node-blog"
+        link="https://github.com/LeoGytis/table-manager"
         description="
 				Table Manager is a web-based application for managing and visualizing tabular data. It provides an interactive table view with filtering, sorting, and column customization, as well as a chart visualization mode."
         tags={[
