@@ -15,6 +15,7 @@ import nestjs_restapi from "../../public/images/projects/nestjs_restapi.jpg";
 import nodeblog from "../../public/images/projects/nodeblog.jpg";
 import pz from "../../public/images/projects/pz.jpg";
 import sris from "../../public/images/projects/sris.jpg";
+import table_manager from "../../public/images/projects/table_manager.jpg";
 import toolster from "../../public/images/projects/toolster.jpg";
 import ProjectWrapper from "./ProjectWrapper";
 
@@ -109,6 +110,23 @@ const Projecs: any = () => {
         description="
 				This is project is made with Node.js and MongoDB This project is built using Node.js and MongoDB, designed to manage a simple blogging platform. It allows users to create, read, update, and delete blog posts. "
         tags={["Node.js", "Express.js", "MongoDB", "JavaScript", "EJS"]}
+      />
+
+      <ProjectWrapper
+        title="Table Manager"
+        imageSrc={table_manager}
+        link="https://github.com/LeoGytis/node-blog"
+        description="
+				Table Manager is a web-based application for managing and visualizing tabular data. It provides an interactive table view with filtering, sorting, and column customization, as well as a chart visualization mode."
+        tags={[
+          "Next.js",
+          "React",
+          "Tanstack Query",
+          "Tanstack Table",
+          "ReCharts",
+          "Tailwind",
+          "React Icons",
+        ]}
       />
 
       <ProjectWrapper
