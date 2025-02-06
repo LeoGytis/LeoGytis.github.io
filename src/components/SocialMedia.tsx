@@ -19,7 +19,7 @@ const SocialMedia: any = () => {
       />
       <SocialMediaLink
         icon={FaLinkedinIn}
-        href="https://www.linkedin.com/in/gytis-leonavicius-74839519a/"
+        href="https://www.linkedin.com/in/leogytis"
       />
       <SocialMediaLink icon={FaGithub} href="https://github.com/LeoGytis" />
       <SocialMediaLink icon={FaPaperPlane} href="mailto:leogytis@gmail.com" />
