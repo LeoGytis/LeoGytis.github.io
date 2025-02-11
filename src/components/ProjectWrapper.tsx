@@ -1,3 +1,4 @@
+import { generateImagePaths } from "@/utils/generateImagePaths";
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 import { useState } from "react";
@@ -25,24 +26,7 @@ const Project = ({
 }: ProjectProps) => {
   const [open, setOpen] = useState(false);
 
-  // Generate image paths dynamically based on the imagesToDisplay
-  const images =
-    imageCount === 1
-      ? [
-          {
-            src: `/images/projects/${title.toLowerCase()}.jpg`, // No numbering for a single image
-            alt: `${title} image`,
-          },
-        ]
-      : Array.from({ length: imageCount }, (_, i) => ({
-          src: `/images/projects/${title.toLowerCase()}/${title.toLowerCase()}${(
-            i + 1
-          )
-            .toString()
-            .padStart(2, "0")}.jpg`, // For multiple images, with numbering
-          alt: `Image ${i + 1}`,
-        }));
-  console.log("🔥 :: images ::", images);
+  const images = generateImagePaths(title, imageCount);
 
   return (
     <div className="mb-12 lg:p-6 hover_border group">
