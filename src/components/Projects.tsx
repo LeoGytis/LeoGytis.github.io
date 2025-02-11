@@ -2,6 +2,7 @@
 import acertip from "../../public/images/projects/acertip.jpg";
 import acterio from "../../public/images/projects/acterio.jpg";
 import acterio_api from "../../public/images/projects/acterio_api.jpg";
+import betsy from "../../public/images/projects/betsy/Betsy_01.jpg";
 import braintech from "../../public/images/projects/braintech.jpg";
 import brofinity from "../../public/images/projects/brofinity.jpg";
 import checkouter from "../../public/images/projects/checkouter.jpg";
@@ -72,19 +73,13 @@ const Projecs: any = () => {
           "Jira",
         ]}
       />
+
       <ProjectWrapper
-        title="Medėja"
-        imageSrc={medeja}
-        link="https://medeja.lt/"
-        description="An e-shop dedicated to home brewing accessories for wine and beer enthusiasts. The platform offers a wide range of tools and equipment for beginners and experts alike, with a focus on intuitive navigation and seamless shopping. "
-        tags={["Prestahop", "JavaScript", "CSS", "Figma"]}
-      />
-      <ProjectWrapper
-        title="Futbolobatai"
-        imageSrc={futbolo_batai}
-        link="https://futbolobatai.lt/"
-        description="Football shoe store with options for all players from you children to adults. Easy browsing, simple user friendly webpage to buy shoes. I was working with WordPress and Elemenetor on this page. Used jquery and PHP to help me with creating optimal user experience."
-        tags={["HTML", "CSS", "WordPress", "Elementor", "Jquery", "PHP"]}
+        title="Betsy"
+        imageSrc={betsy}
+        link="https://github.com/LeoGytis/betsy"
+        description="Project fetches images with Flickr API, implementing both infinite scroll and lazy loading for seamless browsing. It was tested with Jest and includes lazy loading, ensuring images load only when visible on the screen. Users can also favorite items, with favorites persisting across sessions. The design closely mirrors provided screenshots, including hover states."
+        tags={["HTML", "CSS", "REST API", "Jest", "React", "TypeScript"]}
       />
 
       <ProjectWrapper
@@ -101,6 +96,22 @@ const Projecs: any = () => {
         link="https://github.com/LeoGytis/nestjs-restapi"
         description="This project is a NestJS-based REST API that implements CRUD operations with a focus on modern web development practices. It integrates JWT-based authentication for secure access, along with modules for user management, bookmarking, and Prisma ORM for database interactions."
         tags={["Node.js", "Nest.js", "Prisma", "Docker", "Jest"]}
+      />
+
+      <ProjectWrapper
+        title="Medėja"
+        imageSrc={medeja}
+        link="https://medeja.lt/"
+        description="An e-shop dedicated to home brewing accessories for wine and beer enthusiasts. The platform offers a wide range of tools and equipment for beginners and experts alike, with a focus on intuitive navigation and seamless shopping. "
+        tags={["Prestahop", "JavaScript", "CSS", "Figma"]}
+      />
+
+      <ProjectWrapper
+        title="Futbolobatai"
+        imageSrc={futbolo_batai}
+        link="https://futbolobatai.lt/"
+        description="Football shoe store with options for all players from you children to adults. Easy browsing, simple user friendly webpage to buy shoes. I was working with WordPress and Elemenetor on this page. Used jquery and PHP to help me with creating optimal user experience."
+        tags={["HTML", "CSS", "WordPress", "Elementor", "Jquery", "PHP"]}
       />
 
       <ProjectWrapper
