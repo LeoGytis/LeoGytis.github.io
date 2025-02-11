@@ -69,7 +69,7 @@ const Projecs: any = () => {
           "Redux",
           "React-Router",
           "Styled-Components",
-          " Figma",
+          "Figma",
           "Jira",
         ]}
       />
@@ -78,8 +78,19 @@ const Projecs: any = () => {
         title="Betsy"
         imageSrc={betsy}
         link="https://github.com/LeoGytis/betsy"
-        description="Project fetches images with Flickr API, implementing both infinite scroll and lazy loading for seamless browsing. It was tested with Jest and includes lazy loading, ensuring images load only when visible on the screen. Users can also favorite items, with favorites persisting across sessions. The design closely mirrors provided screenshots, including hover states."
-        tags={["HTML", "CSS", "REST API", "Jest", "React", "TypeScript"]}
+        description="This web-based betting platform lets users place bets, track transactions, and manage accounts with real-time balance updates via WebSocket. Authentication is handled with JWT and stored in LocalStorage for persistence. Forms use React Hook Form with Zod validation, while API requests are managed through reusable services. Users can filter bets and transactions in a responsive UI styled with Tailwind, featuring a theme switcher for light/dark modes."
+        tags={[
+          "Node.js",
+          "Express.js",
+          "Websockets",
+          "REST API",
+          "Next.js",
+          "React",
+          "TypeScript",
+          "React Hook Form",
+          "TypeScript",
+          "Tailwind",
+        ]}
       />
 
       <ProjectWrapper
