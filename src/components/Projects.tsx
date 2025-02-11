@@ -26,6 +26,7 @@ const Projecs: any = () => {
       <ProjectWrapper
         title="Acertip"
         imageSrc={acertip}
+        imageCount={5}
         link="https://acertip.com/"
         description="Acertip is an innovative platform that unites architects, engineers and constructors. Share knowledge, showcase your projects, and easily find the right specialists and companies."
         tags={[
@@ -44,6 +45,7 @@ const Projecs: any = () => {
       <ProjectWrapper
         title="Acterio"
         imageSrc={acterio}
+        imageCount={3}
         link="https://acterio.com/"
         description="Acterio is an all-in-one innovation management platform designed for startups and innovation ecosystems. It offers comprehensive tools for managing and supporting startups, streamlining operations, and fostering community engagement. Features include application tracking, workspace management, networking, event management, and detailed reporting. The platform simplifies administrative tasks and enhances collaboration, making it a valuable resource for innovation hubs."
         tags={[
@@ -60,6 +62,7 @@ const Projecs: any = () => {
       <ProjectWrapper
         title="SRIS"
         imageSrc={sris}
+        imageCount={3}
         link="https://sris.biip.lt/"
         description="An information system for protected, endangered, and invasive species. Offering data on the plants, animals, and fungal species in the Republic of Lithuania, along with their habitats and locations. Inspectors as well as public users could fill in the form if they spot or would like to track any specie on the list."
         tags={[
@@ -77,6 +80,7 @@ const Projecs: any = () => {
       <ProjectWrapper
         title="Betsy"
         imageSrc={betsy}
+        imageCount={4}
         link="https://github.com/LeoGytis/betsy"
         description="This web-based betting platform lets users place bets, track transactions, and manage accounts with real-time balance updates via WebSocket. Authentication is handled with JWT and stored in LocalStorage for persistence. Forms use React Hook Form with Zod validation, while API requests are managed through reusable services. Users can filter bets and transactions in a responsive UI styled with Tailwind, featuring a theme switcher for light/dark modes."
         tags={[

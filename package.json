@@ -24,7 +24,8 @@
     "react-scroll": "^1.8.9",
     "sharp": "^0.33.2",
     "three": "^0.158.0",
-    "typescript": "5.2.2"
+    "typescript": "5.2.2",
+    "yet-another-react-lightbox": "^3.21.7"
   },
   "devDependencies": {
     "@types/react-scroll": "^1.8.8",
