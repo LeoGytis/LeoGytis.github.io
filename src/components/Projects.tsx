@@ -7,13 +7,13 @@ import braintech from "../../public/images/projects/braintech.jpg";
 import brofinity from "../../public/images/projects/brofinity.jpg";
 import checkouter from "../../public/images/projects/checkouter.jpg";
 import study from "../../public/images/projects/e-study.jpg";
-import futbolo_batai from "../../public/images/projects/futbolo_batai.jpg";
+import futbolobatai from "../../public/images/projects/futbolobatai.jpg";
 import gridster from "../../public/images/projects/gridster.jpg";
 import images_hub from "../../public/images/projects/imageshub.jpg";
 import ip_royal from "../../public/images/projects/ip_royal.jpg";
-import medeja from "../../public/images/projects/medeja.jpg";
+import medeja from "../../public/images/projects/medėja.jpg";
 import nestjs_restapi from "../../public/images/projects/nestjs_restapi.jpg";
-import nodeblog from "../../public/images/projects/nodeblog.jpg";
+import nodeblog from "../../public/images/projects/node_blog.jpg";
 import pz from "../../public/images/projects/pz.jpg";
 import sris from "../../public/images/projects/sris/sris01.jpg";
 import table_manager from "../../public/images/projects/table_manager.jpg";
@@ -106,7 +106,7 @@ const Projecs: any = () => {
       />
 
       <ProjectWrapper
-        title="Nestjs Rest API + Prisma"
+        title="Nestjs_RestAPI"
         imageSrc={nestjs_restapi}
         link="https://github.com/LeoGytis/nestjs-restapi"
         description="This project is a NestJS-based REST API that implements CRUD operations with a focus on modern web development practices. It integrates JWT-based authentication for secure access, along with modules for user management, bookmarking, and Prisma ORM for database interactions."
@@ -123,14 +123,14 @@ const Projecs: any = () => {
 
       <ProjectWrapper
         title="Futbolobatai"
-        imageSrc={futbolo_batai}
+        imageSrc={futbolobatai}
         link="https://futbolobatai.lt/"
         description="Football shoe store with options for all players from you children to adults. Easy browsing, simple user friendly webpage to buy shoes. I was working with WordPress and Elemenetor on this page. Used jquery and PHP to help me with creating optimal user experience."
         tags={["HTML", "CSS", "WordPress", "Elementor", "Jquery", "PHP"]}
       />
 
       <ProjectWrapper
-        title="Node Blog"
+        title="Node_Blog"
         imageSrc={nodeblog}
         link="https://github.com/LeoGytis/node-blog"
         description="

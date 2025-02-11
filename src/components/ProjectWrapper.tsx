@@ -24,32 +24,31 @@ const Project = ({
   tags,
 }: ProjectProps) => {
   const [open, setOpen] = useState(false);
-  const [index, setIndex] = useState(0);
 
   // Generate image paths dynamically based on the imagesToDisplay
-  const images = Array.from({ length: imageCount }, (_, i) => ({
-    src: `/images/projects/${title.toLowerCase()}/${title.toLowerCase()}${(
-      i + 1
-    )
-      .toString()
-      .padStart(2, "0")}.jpg`,
-    alt: `Image ${i + 1}`,
-  }));
-
+  const images =
+    imageCount === 1
+      ? [
+          {
+            src: `/images/projects/${title.toLowerCase()}.jpg`, // No numbering for a single image
+            alt: `${title} image`,
+          },
+        ]
+      : Array.from({ length: imageCount }, (_, i) => ({
+          src: `/images/projects/${title.toLowerCase()}/${title.toLowerCase()}${(
+            i + 1
+          )
+            .toString()
+            .padStart(2, "0")}.jpg`, // For multiple images, with numbering
+          alt: `Image ${i + 1}`,
+        }));
   console.log("🔥 :: images ::", images);
 
   return (
     <div className="mb-12 lg:p-6 hover_border group">
-      <Lightbox
-        open={open}
-        close={() => setOpen(false)}
-        slides={images}
-        index={index}
-      />
       <div className="flex flex-col sm:flex-row gap-6 w-full">
         <div
           onClick={() => {
-            setIndex(1);
             setOpen(true);
           }}
           className="overflow-hidden rounded-lg cursor-pointer h-full hover_border"
@@ -74,6 +73,12 @@ const Project = ({
           </div>
         </div>
       </div>
+      <Lightbox
+        open={open}
+        close={() => setOpen(false)}
+        slides={images}
+        index={0}
+      />
     </div>
   );
 };
