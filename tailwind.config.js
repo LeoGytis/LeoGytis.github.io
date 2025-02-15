@@ -1,18 +1,17 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
+  content: ['./src/**/*.{js,ts,jsx,tsx,mdx}'],
   important: true,
   theme: {
     extend: {
       colors: {
-        primary: "var(--color-primary)",
-        secondary: "var(--color-secondary)",
-        nav_inactive: "var(--color-text-primary)",
-        tag: "var(--color-tag)",
-        tag_border: "var(--color-tag-border)",
+        primary: 'var(--color-primary)',
+        secondary: 'var(--color-text-secondary)',
+        tag: 'var(--color-secondary)',
+        tag_border: 'var(--color-tag-border)',
       },
     },
   },
   plugins: [],
-  darkMode: "class",
+  darkMode: 'class',
 };

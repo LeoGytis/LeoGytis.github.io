@@ -11,7 +11,7 @@ const NavBar: any = () => {
         <h2 className="text-lg sm:text-xl font-medium">Web developer</h2>
         <h3>Passionate about building intuitive digital solutions.</h3>
       </div>
-      <nav className="hidden lg:flex flex-col text-lg text-nav_inactive gap-2 mb-14 blur-animation">
+      <nav className="hidden lg:flex flex-col text-lg text-primary gap-2 mb-14 blur-animation">
         <ScrollLink className="nav_item" spy smooth offset={-80} to="about">
           <div className="nav_indicator" />
           About

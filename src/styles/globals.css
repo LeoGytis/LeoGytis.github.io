@@ -27,14 +27,13 @@
 html[class='dark'],
 html[class='light'] {
   --color-primary: #fff;
-  /* --color-text-primary: #cbd5e1; */
-  --color-text-primary: #fff;
-  /* --color-text-secondary: #94a4b7; */
-  --color-text-secondary: #fff;
   --color-secondary: #5eead4;
-  --color-tag: #5eead4;
+  --color-text-secondary: #ff0000;
+  --color-tag: #09ff00;
+
   --color-tag-bg: #2dd4bf1a;
   --color-tag-border: #5eead480;
+
   --color-background-start: #042d41;
   --color-background-end: #043e55;
   --color-stars: #a8ff4b;
@@ -67,9 +66,9 @@ p {
   color: var(--color-text-primary);
 }
 
-a:hover {
-  color: var(--color-tag);
-}
+/* a:hover {
+  color: var(--color-secondary);
+} */
 
 h5 {
   color: var(--color-text-secondary);
@@ -93,7 +92,7 @@ h5 {
   line-height: 1rem;
   font-weight: 500;
   line-height: 1.5rem;
-  color: var(--color-tag);
+  color: var(--color-secondary);
   border: 0.5px solid var(--color-tag-border);
   border-radius: 8px;
   &:hover {
@@ -109,11 +108,11 @@ h5 {
   font-weight: 500;
   &:hover {
     cursor: pointer;
-    color: var(--color-tag);
+    color: var(--color-secondary);
   }
 
   &.active {
-    color: var(--color-tag);
+    color: var(--color-secondary);
     .nav_indicator {
       width: 50px;
     }
@@ -125,6 +124,6 @@ h5 {
   width: 4px;
   height: 2px;
   margin-right: 10px;
-  background-color: var(--color-tag);
+  background-color: var(--color-secondary);
   transition: all 1s;
 }
