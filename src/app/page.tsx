@@ -1,5 +1,4 @@
 'use client';
-import ThemeSwitch from '@/utils/ThemeSwitch';
 import About from '../components/About';
 import Education from '../components/Education';
 import Experience from '../components/Experience';
@@ -19,7 +18,7 @@ export default function Home() {
         </header>
         <main className="lg:w-2/3 lg:pl-12 relative blur-animation">
           <span className="hidden lg:inline-block falling_line"></span>
-          <ThemeSwitch />
+          {/* <ThemeSwitch /> */}
           <About />
           <Education />
           <Experience />
