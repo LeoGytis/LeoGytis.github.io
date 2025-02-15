@@ -7,7 +7,7 @@ module.exports = {
       colors: {
         primary: 'var(--color-primary)',
         secondary: 'var(--color-secondary)',
-        // tag_border: 'var(--color-secondary)',
+        background: 'var(--color-background)',
       },
     },
   },

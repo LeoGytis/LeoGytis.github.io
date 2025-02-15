@@ -29,7 +29,7 @@ const Project = ({
   const images = generateImagePaths(title, imageCount);
 
   return (
-    <div className="mb-12 lg:p-6 hover_border group">
+    <div className="mb-12 lg:p-4 hover_border group hover:bg-background">
       <div className="flex flex-col sm:flex-row gap-6 w-full">
         <div
           onClick={() => {
