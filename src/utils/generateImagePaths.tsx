@@ -11,7 +11,7 @@ export const generateImagePaths = (title: string, imageCount: number) => {
           i + 1
         )
           .toString()
-          .padStart(2, "0")}.jpg`, // For multiple images, with numbering
+          .padStart(2, '0')}.jpg`, // For multiple images, with numbering
         alt: `Image ${i + 1}`,
       }));
 };

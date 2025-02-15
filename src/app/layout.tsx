@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "../styles/globals.css";
 // import {Nunito, Inter, Lato, Quicksand} from "next/font/google";
+import { Providers } from "@/utils/providers";
 import { Quicksand } from "next/font/google";
 import website_image from "../../public/images/website_image.png";
 
@@ -31,8 +32,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={font.className}>{children}</body>
+    <html lang="en" suppressHydrationWarning>
+      <body className={font.className}>
+        <Providers>{children}</Providers>
+      </body>
     </html>
   );
 }

@@ -1,9 +1,9 @@
-import acertip from "../../public/images/experience/acertip.jpg";
-import acterio from "../../public/images/experience/acterio.jpg";
-import aplinkos_ministerija from "../../public/images/experience/aplinkos_ministerija.jpg";
-import elnis from "../../public/images/experience/elnis.jpg";
-import telesoftas from "../../public/images/experience/telesoftas.png";
-import ExperienceWrapper from "./ExperienceWrapper";
+import acertip from '../../public/images/experience/acertip.jpg';
+import acterio from '../../public/images/experience/acterio.jpg';
+import aplinkos_ministerija from '../../public/images/experience/aplinkos_ministerija.jpg';
+import elnis from '../../public/images/experience/elnis.jpg';
+import telesoftas from '../../public/images/experience/telesoftas.png';
+import ExperienceWrapper from './ExperienceWrapper';
 
 const Experience = () => {
   return (
