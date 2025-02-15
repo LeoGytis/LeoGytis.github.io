@@ -1,10 +1,11 @@
-import { generateImagePaths } from "@/utils/generateImagePaths";
-import Image, { StaticImageData } from "next/image";
-import Link from "next/link";
-import { useState } from "react";
-import { BsLink45Deg } from "react-icons/bs";
-import "yet-another-react-lightbox/styles.css";
-import ToolTags from "../utils/ToolTags";
+import { generateImagePaths } from '@/utils/generateImagePaths';
+import Image, { StaticImageData } from 'next/image';
+import Link from 'next/link';
+import { useState } from 'react';
+import { BsLink45Deg } from 'react-icons/bs';
+import Lightbox from 'yet-another-react-lightbox';
+import 'yet-another-react-lightbox/styles.css';
+import ToolTags from '../utils/ToolTags';
 
 interface ProjectProps {
   title: string;
@@ -56,12 +57,12 @@ const Project = ({
           </div>
         </div>
       </div>
-      {/* <Lightbox
+      <Lightbox
         open={open}
         close={() => setOpen(false)}
         slides={images}
         index={0}
-      /> */}
+      />
     </div>
   );
 };
