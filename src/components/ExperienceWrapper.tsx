@@ -1,6 +1,6 @@
-import Image, { StaticImageData } from "next/image";
-import Link from "next/link";
-import { BsLink45Deg } from "react-icons/bs";
+import Image, { StaticImageData } from 'next/image';
+import Link from 'next/link';
+import { BsLink45Deg } from 'react-icons/bs';
 
 interface ExperienceProps {
   imageSrc: StaticImageData;
@@ -30,14 +30,13 @@ const ExperienceWrapper = ({
               className="whitespace-nowrap text-xl font-semibold group-hover:text-secondary underline-animation"
             >
               {title}
-              <BsLink45Deg className="absolute top-[6px] right-[-20px] text-tag link-icon" />
+              <BsLink45Deg className="absolute top-[6px] right-[-20px] text-secondary link-icon" />
             </Link>
             <h2>{role}</h2>
             <h5 className="text-xs">{date}</h5>
           </div>
         </div>
         <p className="text-lg font-light mb-4">{description}</p>
-        <div className="flex"></div>
       </div>
     </div>
   );

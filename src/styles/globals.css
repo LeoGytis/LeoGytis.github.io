@@ -18,7 +18,6 @@
   --color-secondary: #25a69c;
   --color-tag: #25a69c;
   --color-tag-bg: rgba(37, 166, 155, 0.288);
-  --color-tag-border: rgb(37, 166, 156);
   --color-background-start: #fff;
   --color-background-end: #fff;
   --color-stars: #fff;
@@ -28,11 +27,7 @@ html[class='dark'],
 html[class='light'] {
   --color-primary: #fff;
   --color-secondary: #5eead4;
-  --color-text-secondary: #ff0000;
-  --color-tag: #09ff00;
-
-  --color-tag-bg: #2dd4bf1a;
-  --color-tag-border: #5eead480;
+  --color-background: #043e55;
 
   --color-background-start: #042d41;
   --color-background-end: #043e55;
@@ -71,33 +66,33 @@ p {
 } */
 
 h5 {
-  color: var(--color-text-secondary);
+  color: var(--color-primary);
 }
 
 .hover_border:hover {
   @media (min-width: 1024px) {
     border-radius: 8px;
     background-color: rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 0px 12px 0px var(--color-tag-border);
+    box-shadow: 0px 0px 12px 0px var(--color-secondary);
   }
 }
 
 .tool_tag {
   display: flex;
   align-items: center;
-  background-color: var(--color-tag-bg);
   padding-left: 0.75rem;
   padding-right: 0.75rem;
+  background-color: var(--color-background);
   font-size: 0.8rem;
   line-height: 1rem;
   font-weight: 500;
   line-height: 1.5rem;
   color: var(--color-secondary);
-  border: 0.5px solid var(--color-tag-border);
+  border: 0.5px solid var(--color-secondary);
   border-radius: 8px;
   &:hover {
     cursor: default;
-    box-shadow: 0px 0px 6px 0px var(--color-tag-border);
+    box-shadow: 0px 0px 6px 0px var(--color-secondary);
   }
 }
 

@@ -49,7 +49,7 @@ const Project = ({
             className="whitespace-nowrap text-xl font-semibold group-hover:text-secondary underline-animation"
           >
             {title}
-            <BsLink45Deg className="absolute top-[6px] right-[-20px] text-tag link-icon" />
+            <BsLink45Deg className="absolute top-[6px] right-[-20px] text-secondary link-icon" />
           </Link>
           <p className="mb-3">{description}</p>
           <div className="flex flex-wrap gap-2">

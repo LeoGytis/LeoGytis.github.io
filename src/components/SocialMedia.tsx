@@ -4,7 +4,7 @@ import {
   FaInstagram,
   FaLinkedinIn,
   FaPaperPlane,
-} from "react-icons/fa";
+} from 'react-icons/fa';
 
 const SocialMedia: any = () => {
   return (
@@ -38,9 +38,9 @@ const SocialMediaLink = ({ icon: Icon, href }: SocialMediaLinkProps) => {
   return (
     <a
       href={href}
-      className="group border border-tag rounded-full hover:cursor-pointer hover:text-primary hover:border-primary p-2"
+      className="group border border-secondary rounded-full hover:cursor-pointer hover:text-primary hover:border-primary p-2"
     >
-      <Icon className="text-lg text-tag group-hover:text-primary" />
+      <Icon className="text-lg text-secondary group-hover:text-primary" />
     </a>
   );
 };

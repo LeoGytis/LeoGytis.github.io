@@ -13,7 +13,7 @@ const Education: any = () => {
         href="https://en.ktu.edu/"
         className="flex items-center gap-2 group"
       >
-        <SvgKtu width={40} height={40} className="fill-tag mr-3" />
+        <SvgKtu width={40} height={40} className="fill-secondary mr-3" />
         <div className="group-hover:text-secondary">
           <div>Kaunas University of Technology</div>
           <p className="text-sm group-hover:text-secondary">
@@ -23,7 +23,7 @@ const Education: any = () => {
       </Link>
 
       <Link href="https://bit.lt/" className="flex items-center gap-2 group">
-        <SvgBit width={40} height={40} className="fill-tag mr-3" />
+        <SvgBit width={40} height={40} className="fill-secondary mr-3" />
         <div className="group-hover:text-secondary">
           <div>Baltic Institute of Technology</div>
           <p className="text-sm group-hover:text-secondary">

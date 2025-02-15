@@ -6,9 +6,8 @@ module.exports = {
     extend: {
       colors: {
         primary: 'var(--color-primary)',
-        secondary: 'var(--color-text-secondary)',
-        tag: 'var(--color-secondary)',
-        tag_border: 'var(--color-tag-border)',
+        secondary: 'var(--color-secondary)',
+        // tag_border: 'var(--color-secondary)',
       },
     },
   },
