@@ -3,7 +3,6 @@ import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { BsLink45Deg } from "react-icons/bs";
-import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 import ToolTags from "../utils/ToolTags";
 
@@ -57,12 +56,12 @@ const Project = ({
           </div>
         </div>
       </div>
-      <Lightbox
+      {/* <Lightbox
         open={open}
         close={() => setOpen(false)}
         slides={images}
         index={0}
-      />
+      /> */}
     </div>
   );
 };

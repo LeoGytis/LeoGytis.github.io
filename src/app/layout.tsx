@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import "./globals.css";
+import "../styles/globals.css";
 // import {Nunito, Inter, Lato, Quicksand} from "next/font/google";
 import { Quicksand } from "next/font/google";
 import website_image from "../../public/images/website_image.png";
