@@ -5,7 +5,7 @@
 @import './animations.css';
 @import './switch.css';
 
-html[class='light'] {
+/* html[class='light'] {
   --background: #d3ebed;
   --foreground: #171717;
   --color-primary: #25a69c;
@@ -22,9 +22,10 @@ html[class='light'] {
   --color-background-start: #fff;
   --color-background-end: #fff;
   --color-stars: #fff;
-}
+} */
 
-html[class='dark'] {
+html[class='dark'],
+html[class='light'] {
   --color-primary: #fff;
   /* --color-text-primary: #cbd5e1; */
   --color-text-primary: #fff;
