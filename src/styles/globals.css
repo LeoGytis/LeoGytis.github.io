@@ -6,18 +6,10 @@
 @import './switch.css';
 
 /* html[class='light'] {
-  --background: #d3ebed;
-  --foreground: #171717;
-  --color-primary: #25a69c;
-  --color-primary-light: #25a69c;
+  --color-primary: #124945;
   --color-secondary: #25a69c;
-  --color-secondary-dark: #25a69c;
+  --color-background: #c2fffa;
 
-  --color-text-primary: #111;
-  --color-text-secondary: rgba(37, 166, 155, 0.288);
-  --color-secondary: #25a69c;
-  --color-tag: #25a69c;
-  --color-tag-bg: rgba(37, 166, 155, 0.288);
   --color-background-start: #fff;
   --color-background-end: #fff;
   --color-stars: #fff;
