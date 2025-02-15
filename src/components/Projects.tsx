@@ -1,7 +1,7 @@
 import acertip from '../../public/images/projects/acertip/acertip01.jpg';
 import acterio from '../../public/images/projects/acterio/acterio01.jpg';
 import acterio_api from '../../public/images/projects/acterio_api.jpg';
-import betsy from '../../public/images/projects/betsy/bet01.jpg';
+import bet from '../../public/images/projects/betsy/bet01.jpg';
 import braintech from '../../public/images/projects/braintech.jpg';
 import brofinity from '../../public/images/projects/brofinity.jpg';
 import checkouter from '../../public/images/projects/checkouter.jpg';
@@ -77,8 +77,8 @@ const Projecs: any = () => {
       />
 
       <ProjectWrapper
-        title="Betsy"
-        imageSrc={betsy}
+        title="Bet"
+        imageSrc={bet}
         imageCount={4}
         link="https://github.com/LeoGytis/betsy"
         description="This web-based betting platform lets users place bets, track transactions, and manage accounts with real-time balance updates via WebSocket. Authentication is handled with JWT and stored in LocalStorage for persistence. Forms use React Hook Form with Zod validation, while API requests are managed through reusable services. Users can filter bets and transactions in a responsive UI styled with Tailwind, featuring a theme switcher for light/dark modes."
