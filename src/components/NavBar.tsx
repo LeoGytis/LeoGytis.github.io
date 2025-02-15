@@ -1,4 +1,3 @@
-import ThemeSwitchNew from '@/utils/ThemeSwitchNew';
 import { Link as ScrollLink } from 'react-scroll';
 import SocialMedia from './SocialMedia';
 
@@ -9,7 +8,6 @@ const NavBar: any = () => {
         <h1 className="text-4xl sm:text-5xl font-bold pb-6">
           Gytis Leonavičius
         </h1>
-        <ThemeSwitchNew />
         <h2 className="text-lg sm:text-xl font-medium">Web developer</h2>
         <h3>Passionate about building intuitive digital solutions.</h3>
       </div>

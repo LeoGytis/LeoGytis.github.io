@@ -1,11 +1,11 @@
-"use client";
-import ThemeSwitch from "@/utils/ThemeSwitch";
-import About from "../components/About";
-import Education from "../components/Education";
-import Experience from "../components/Experience";
-import NavBar from "../components/NavBar";
-import Projecs from "../components/Projects";
-import StarsScene from "../components/StarsScene";
+'use client';
+import ThemeSwitchNew from '@/utils/ThemeSwitchNew';
+import About from '../components/About';
+import Education from '../components/Education';
+import Experience from '../components/Experience';
+import NavBar from '../components/NavBar';
+import Projecs from '../components/Projects';
+import StarsScene from '../components/StarsScene';
 
 export default function Home() {
   return (
@@ -19,7 +19,8 @@ export default function Home() {
         </header>
         <main className="lg:w-2/3 lg:pl-12 relative blur-animation">
           <span className="hidden lg:inline-block falling_line"></span>
-          <ThemeSwitch />
+          {/* <ThemeSwitch /> */}
+          <ThemeSwitchNew />
           <About />
           <Education />
           <Experience />
