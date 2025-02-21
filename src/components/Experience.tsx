@@ -29,7 +29,7 @@ const Experience = () => {
         title="Elnis"
         link="https://www.elnis.lt/"
         role="Web Developer"
-        date="2023 October - March"
+        date="2023 October - 2024 March"
         description="Developing user-friendly e-commerce webpages: Optimizing accessibility and usability across various devices through responsive design principles. Enhancing online transactions and user engagement by integrating advanced features and functionalities."
       />
       <ExperienceWrapper
