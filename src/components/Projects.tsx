@@ -99,6 +99,20 @@ const Projecs: any = () => {
         tags={['HTML', 'CSS', 'REST API', 'Jest', 'React', 'TypeScript']}
       />
       <ProjectWrapper
+        title="E-Study"
+        gallerySrc="e-study"
+        imageCount={5}
+        link="https://leogytis.github.io/e-study/"
+        description="Learning-oriented landing page that showcases my use of various React libraries. It's designed to provide a practical demonstration of React-based web development for educational purposes."
+        tags={[
+          'TypeScript',
+          'React',
+          'Styled-Components',
+          'React-Icons',
+          'React-Scroll',
+        ]}
+      />
+      <ProjectWrapper
         title="Nestjs_RestAPI"
         gallerySrc="nestjs_restapi"
         link="https://github.com/LeoGytis/nestjs-restapi"
@@ -107,13 +121,12 @@ const Projecs: any = () => {
       />
       <ProjectWrapper
         title="Node_Blog"
-        gallerySrc="nodeblog"
+        gallerySrc="node_blog"
         link="https://github.com/LeoGytis/node-blog"
         description="
 				This is project is made with Node.js and MongoDB This project is built using Node.js and MongoDB, designed to manage a simple blogging platform. It allows users to create, read, update, and delete blog posts. "
         tags={['Node.js', 'Express.js', 'MongoDB', 'JavaScript', 'EJS']}
       />
-
       <ProjectWrapper
         title="Table Manager"
         gallerySrc="table_manager"
@@ -130,21 +143,6 @@ const Projecs: any = () => {
           'React Icons',
         ]}
       />
-
-      <ProjectWrapper
-        title="E-Study"
-        gallerySrc="study"
-        link="https://leogytis.github.io/e-study/"
-        description="Learning-oriented landing page that showcases my use of various React libraries. It's designed to provide a practical demonstration of React-based web development for educational purposes."
-        tags={[
-          'TypeScript',
-          'React',
-          'Styled-Components',
-          'React-Icons',
-          'React-Scroll',
-        ]}
-      />
-
       <ProjectWrapper
         title="Braintech"
         gallerySrc="braintech"
@@ -152,7 +150,6 @@ const Projecs: any = () => {
         description="Educational landing page project was undertaken as part of my coursework at BIT School, signifying an important chapter in my academic journey. It is a practical demonstration of web development, with a focus on using plain JavaScript."
         tags={['HTML', 'CSS', 'GitHub', 'Vanilla.js']}
       />
-
       <ProjectWrapper
         title="Checkouter"
         gallerySrc="checkouter"
@@ -169,7 +166,6 @@ const Projecs: any = () => {
           'Figma',
         ]}
       />
-
       <ProjectWrapper
         title="Royal DashBoard"
         gallerySrc="ip_royal"
@@ -177,7 +173,6 @@ const Projecs: any = () => {
         description="Interactive dashboard using Tailwind  and TypeScript to evaluate my skills with Vue.js framework. The project was an excellent opportunity to demonstrate adaptability by quickly gaining proficiency in new technologies."
         tags={['Vue.js', 'TypeScript', 'Tailwind', 'CSS']}
       />
-
       <ProjectWrapper
         title="Acterio API"
         gallerySrc="acterio_api"
@@ -186,7 +181,6 @@ const Projecs: any = () => {
 				In the Acterio project, fetching data from the DummyJSON API involves sending requests to retrieve relevant information for processing. Error handling mechanisms are implemented to gracefully manage instances where the API may be unavailable or return unexpected responses. Next.js is used for efficient dynamic routing."
         tags={['Next.js', 'React', 'TypeScript', 'Tailwind', 'API']}
       />
-
       <ProjectWrapper
         title="Toolster"
         gallerySrc="toolster"
@@ -202,7 +196,6 @@ const Projecs: any = () => {
           'TanStack Query',
         ]}
       />
-
       <ProjectWrapper
         title="Pieno Žvaigždės"
         gallerySrc="pz"
@@ -210,7 +203,6 @@ const Projecs: any = () => {
         description="Developed a dynamic B2B products page for seamless access to our offerings by potential business clients. The page prioritizes clarity and ease of navigation, ensuring a smooth user experience."
         tags={['Next.js', 'React', 'TypeScript', 'Tailwind', 'CSS']}
       />
-
       <ProjectWrapper
         title="Gridster"
         gallerySrc="gridster"
