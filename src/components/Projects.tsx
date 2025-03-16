@@ -56,7 +56,6 @@ const Projecs: any = () => {
           'Jira',
         ]}
       />
-
       <ProjectWrapper
         title="Medėja"
         gallerySrc="medeja"
@@ -92,25 +91,23 @@ const Projecs: any = () => {
           'Tailwind',
         ]}
       />
-      {/*<ProjectWrapper
+      <ProjectWrapper
         title="ImagesHub"
-        imageSrc={images_hub}
+        gallerySrc="images_hub"
         link="https://leogytis.github.io/imageshub/"
         description="Project fetches images with Flickr API, implementing both infinite scroll and lazy loading for seamless browsing. It was tested with Jest and includes lazy loading, ensuring images load only when visible on the screen. Users can also favorite items, with favorites persisting across sessions. The design closely mirrors provided screenshots, including hover states."
         tags={['HTML', 'CSS', 'REST API', 'Jest', 'React', 'TypeScript']}
       />
-
       <ProjectWrapper
         title="Nestjs_RestAPI"
-        imageSrc={nestjs_restapi}
+        gallerySrc="nestjs_restapi"
         link="https://github.com/LeoGytis/nestjs-restapi"
         description="This project is a NestJS-based REST API that implements CRUD operations with a focus on modern web development practices. It integrates JWT-based authentication for secure access, along with modules for user management, bookmarking, and Prisma ORM for database interactions."
         tags={['Node.js', 'Nest.js', 'Prisma', 'Docker', 'Jest']}
       />
-
       <ProjectWrapper
         title="Node_Blog"
-        imageSrc={nodeblog}
+        gallerySrc="nodeblog"
         link="https://github.com/LeoGytis/node-blog"
         description="
 				This is project is made with Node.js and MongoDB This project is built using Node.js and MongoDB, designed to manage a simple blogging platform. It allows users to create, read, update, and delete blog posts. "
@@ -119,7 +116,7 @@ const Projecs: any = () => {
 
       <ProjectWrapper
         title="Table Manager"
-        imageSrc={table_manager}
+        gallerySrc="table_manager"
         link="https://github.com/LeoGytis/table-manager"
         description="
 				Table Manager is a web-based application for managing and visualizing tabular data. It provides an interactive table view with filtering, sorting, and column customization, as well as a chart visualization mode."
@@ -136,7 +133,7 @@ const Projecs: any = () => {
 
       <ProjectWrapper
         title="E-Study"
-        imageSrc={study}
+        gallerySrc="study"
         link="https://leogytis.github.io/e-study/"
         description="Learning-oriented landing page that showcases my use of various React libraries. It's designed to provide a practical demonstration of React-based web development for educational purposes."
         tags={[
@@ -150,7 +147,7 @@ const Projecs: any = () => {
 
       <ProjectWrapper
         title="Braintech"
-        imageSrc={braintech}
+        gallerySrc="braintech"
         link="https://leogytis.github.io/braintech/"
         description="Educational landing page project was undertaken as part of my coursework at BIT School, signifying an important chapter in my academic journey. It is a practical demonstration of web development, with a focus on using plain JavaScript."
         tags={['HTML', 'CSS', 'GitHub', 'Vanilla.js']}
@@ -158,7 +155,7 @@ const Projecs: any = () => {
 
       <ProjectWrapper
         title="Checkouter"
-        imageSrc={checkouter}
+        gallerySrc="checkouter"
         link="https://leogytis.github.io/checkouter/"
         description="Checkouter is built with Next.js utilizing React for dynamic UI components and Tailwind CSS for styling, ensuring a sleek and responsive design. It features a checkout form tailored for collecting customer details and securely handling credit card credentials."
         tags={[
@@ -175,7 +172,7 @@ const Projecs: any = () => {
 
       <ProjectWrapper
         title="Royal DashBoard"
-        imageSrc={ip_royal}
+        gallerySrc="ip_royal"
         link="https://leogytis.github.io/ip_royal/"
         description="Interactive dashboard using Tailwind  and TypeScript to evaluate my skills with Vue.js framework. The project was an excellent opportunity to demonstrate adaptability by quickly gaining proficiency in new technologies."
         tags={['Vue.js', 'TypeScript', 'Tailwind', 'CSS']}
@@ -183,7 +180,7 @@ const Projecs: any = () => {
 
       <ProjectWrapper
         title="Acterio API"
-        imageSrc={acterio_api}
+        gallerySrc="acterio_api"
         link="https://github.com/LeoGytis/acterio"
         description="
 				In the Acterio project, fetching data from the DummyJSON API involves sending requests to retrieve relevant information for processing. Error handling mechanisms are implemented to gracefully manage instances where the API may be unavailable or return unexpected responses. Next.js is used for efficient dynamic routing."
@@ -192,7 +189,7 @@ const Projecs: any = () => {
 
       <ProjectWrapper
         title="Toolster"
-        imageSrc={toolster}
+        gallerySrc="toolster"
         link="https://leogytis.github.io/toolster/"
         description="
 				Toolster is a convenient platform to keep myself informed about the stats I care about. Its customizable features allow me to tailor my experience to suit my specific needs and preferences."
@@ -208,7 +205,7 @@ const Projecs: any = () => {
 
       <ProjectWrapper
         title="Pieno Žvaigždės"
-        imageSrc={pz}
+        gallerySrc="pz"
         link="https://pienozvaigzdes.lt/business-solutions-and-ingredients/"
         description="Developed a dynamic B2B products page for seamless access to our offerings by potential business clients. The page prioritizes clarity and ease of navigation, ensuring a smooth user experience."
         tags={['Next.js', 'React', 'TypeScript', 'Tailwind', 'CSS']}
@@ -216,18 +213,18 @@ const Projecs: any = () => {
 
       <ProjectWrapper
         title="Gridster"
-        imageSrc={gridster}
+        gallerySrc="gridster"
         link="https://leogytis.github.io/gridster/"
         description="UI project that involves creating a resizable grid interface. User can set the grid dimensions, interactively mark squares as 'clear' or 'filled'. The project includes a pathfinding algorithm to highlight the shortest path from 'start' to 'end' on the grid."
         tags={['React', 'TypeScript', 'Styled-Components', 'CSS']}
       />
       <ProjectWrapper
         title="Brofinity"
-        imageSrc={brofinity}
+        gallerySrc="brofinity"
         link="https://leogytis.github.io/"
         description="Developed fashion clothing e-commerce site on Shopify, leveraging Liquid to to provide an effortless and visually appealing shopping experience for customers curated collection."
         tags={['Shopify', 'Liquid', 'JavaScript', 'Tailwind']}
-      /> */}
+      />
     </div>
   );
 };

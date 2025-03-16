@@ -19,13 +19,16 @@ interface ProjectProps {
 const Project = ({
   title,
   gallerySrc,
-  imageCount = 1,
+  imageCount,
   link,
   description,
   tags,
 }: ProjectProps) => {
   const [open, setOpen] = useState(false);
-  const images = generateImagePaths(gallerySrc, imageCount);
+  const imageSrc = imageCount
+    ? `/images/projects/${gallerySrc}/${gallerySrc}01.jpg`
+    : `/images/projects/${gallerySrc}.jpg`;
+  const slidesSrc = generateImagePaths(gallerySrc, imageCount);
 
   return (
     <div className="mb-12 lg:p-4 hover_border group hover:bg-background">
@@ -34,10 +37,10 @@ const Project = ({
           onClick={() => {
             setOpen(true);
           }}
-          className=" h-full overflow-hidden rounded-lg cursor-pointer hover_border"
+          className="h-full overflow-hidden rounded-lg cursor-pointer hover_border"
         >
           <Image
-            src={`/images/projects/${gallerySrc}/${gallerySrc}01.jpg`}
+            src={imageSrc}
             width={400}
             height={250}
             alt="project_image"
@@ -61,7 +64,7 @@ const Project = ({
       <Lightbox
         open={open}
         close={() => setOpen(false)}
-        slides={images}
+        slides={slidesSrc}
         index={0}
       />
     </div>
