@@ -1,22 +1,3 @@
-import acertip from '../../public/images/projects/acertip/acertip01.jpg';
-import acterio from '../../public/images/projects/acterio/acterio01.jpg';
-import acterio_api from '../../public/images/projects/acterio_api.jpg';
-import bet from '../../public/images/projects/bet/bet01.jpg';
-import braintech from '../../public/images/projects/braintech.jpg';
-import brofinity from '../../public/images/projects/brofinity.jpg';
-import checkouter from '../../public/images/projects/checkouter.jpg';
-import study from '../../public/images/projects/e-study.jpg';
-import futbolobatai from '../../public/images/projects/futbolobatai.jpg';
-import gridster from '../../public/images/projects/gridster.jpg';
-import images_hub from '../../public/images/projects/imageshub.jpg';
-import ip_royal from '../../public/images/projects/ip_royal.jpg';
-import medeja from '../../public/images/projects/medėja.jpg';
-import nestjs_restapi from '../../public/images/projects/nestjs_restapi.jpg';
-import nodeblog from '../../public/images/projects/node_blog.jpg';
-import pz from '../../public/images/projects/pz.jpg';
-import sris from '../../public/images/projects/sris/sris01.jpg';
-import table_manager from '../../public/images/projects/table_manager.jpg';
-import toolster from '../../public/images/projects/toolster.jpg';
 import ProjectWrapper from './ProjectWrapper';
 
 const Projecs: any = () => {
@@ -24,7 +5,7 @@ const Projecs: any = () => {
     <div id="projects">
       <ProjectWrapper
         title="Acertip"
-        imageSrc={acertip}
+        gallerySrc="acertip"
         imageCount={5}
         link="https://acertip.com/"
         description="Acertip is an innovative platform that unites architects, engineers and constructors. Share knowledge, showcase your projects, and easily find the right specialists and companies."
@@ -43,7 +24,7 @@ const Projecs: any = () => {
       />
       <ProjectWrapper
         title="Acterio"
-        imageSrc={acterio}
+        gallerySrc="acterio"
         imageCount={3}
         link="https://acterio.com/"
         description="Acterio is an all-in-one innovation management platform designed for startups and innovation ecosystems. It offers comprehensive tools for managing and supporting startups, streamlining operations, and fostering community engagement. Features include application tracking, workspace management, networking, event management, and detailed reporting. The platform simplifies administrative tasks and enhances collaboration, making it a valuable resource for innovation hubs."
@@ -60,7 +41,7 @@ const Projecs: any = () => {
       />
       <ProjectWrapper
         title="SRIS"
-        imageSrc={sris}
+        gallerySrc="sris"
         imageCount={3}
         link="https://sris.biip.lt/"
         description="An information system for protected, endangered, and invasive species. Offering data on the plants, animals, and fungal species in the Republic of Lithuania, along with their habitats and locations. Inspectors as well as public users could fill in the form if they spot or would like to track any specie on the list."
@@ -78,7 +59,7 @@ const Projecs: any = () => {
 
       <ProjectWrapper
         title="Bet"
-        imageSrc={bet}
+        gallerySrc="betsy"
         imageCount={4}
         link="https://github.com/LeoGytis/betsy"
         description="This web-based betting platform lets users place bets, track transactions, and manage accounts with real-time balance updates via WebSocket. Authentication is handled with JWT and stored in LocalStorage for persistence. Forms use React Hook Form with Zod validation, while API requests are managed through reusable services. Users can filter bets and transactions in a responsive UI styled with Tailwind, featuring a theme switcher for light/dark modes."
@@ -97,13 +78,14 @@ const Projecs: any = () => {
       />
       <ProjectWrapper
         title="Medėja"
-        imageSrc={medeja}
+        gallerySrc="medeja"
+        imageCount={4}
         link="https://medeja.lt/"
         description="An e-shop dedicated to home brewing accessories for wine and beer enthusiasts. The platform offers a wide range of tools and equipment for beginners and experts alike, with a focus on intuitive navigation and seamless shopping. "
         tags={['Prestahop', 'JavaScript', 'CSS', 'HTML', 'Figma']}
       />
 
-      <ProjectWrapper
+      {/*   <ProjectWrapper
         title="Futbolobatai"
         imageSrc={futbolobatai}
         link="https://futbolobatai.lt/"
@@ -245,7 +227,7 @@ const Projecs: any = () => {
         link="https://leogytis.github.io/"
         description="Developed fashion clothing e-commerce site on Shopify, leveraging Liquid to to provide an effortless and visually appealing shopping experience for customers curated collection."
         tags={['Shopify', 'Liquid', 'JavaScript', 'Tailwind']}
-      />
+      /> */}
     </div>
   );
 };

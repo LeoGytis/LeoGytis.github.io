@@ -1,5 +1,5 @@
 import { generateImagePaths } from '@/utils/generateImagePaths';
-import Image, { StaticImageData } from 'next/image';
+import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 import { BsLink45Deg } from 'react-icons/bs';
@@ -9,7 +9,7 @@ import ToolTags from '../utils/ToolTags';
 
 interface ProjectProps {
   title: string;
-  imageSrc: StaticImageData;
+  gallerySrc: string;
   imageCount?: number;
   description: string;
   tags: string[];
@@ -18,15 +18,14 @@ interface ProjectProps {
 
 const Project = ({
   title,
-  imageSrc,
+  gallerySrc,
   imageCount = 1,
   link,
   description,
   tags,
 }: ProjectProps) => {
   const [open, setOpen] = useState(false);
-
-  const images = generateImagePaths(title, imageCount);
+  const images = generateImagePaths(gallerySrc, imageCount);
 
   return (
     <div className="mb-12 lg:p-4 hover_border group hover:bg-background">
@@ -35,12 +34,14 @@ const Project = ({
           onClick={() => {
             setOpen(true);
           }}
-          className="overflow-hidden rounded-lg cursor-pointer h-full hover_border"
+          className=" h-full overflow-hidden rounded-lg cursor-pointer hover_border"
         >
           <Image
-            src={imageSrc}
+            src={`/images/projects/${gallerySrc}/${gallerySrc}01.jpg`}
+            width={400}
+            height={250}
             alt="project_image"
-            className="rounded-lg hover:scale-125 ease-out duration-1000 transform origin-top w-[400px] sm:w-[250px]"
+            className="sm:w-[250px] w-[400px] hover:scale-125 ease-out duration-1000 transform origin-top"
           />
         </div>
         <div className="flex flex-col sm:w-2/3">
