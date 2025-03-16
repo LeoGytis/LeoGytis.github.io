@@ -2,3 +2,5 @@
 
  - Make light theme look good
  - Create smooth transition on hover section 
+ - Crete image gallery for other projects
+ - Add resume to download
