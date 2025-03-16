@@ -95,7 +95,21 @@ const Projecs: any = () => {
           'Tailwind',
         ]}
       />
+      <ProjectWrapper
+        title="Medėja"
+        imageSrc={medeja}
+        link="https://medeja.lt/"
+        description="An e-shop dedicated to home brewing accessories for wine and beer enthusiasts. The platform offers a wide range of tools and equipment for beginners and experts alike, with a focus on intuitive navigation and seamless shopping. "
+        tags={['Prestahop', 'JavaScript', 'CSS', 'HTML', 'Figma']}
+      />
 
+      <ProjectWrapper
+        title="Futbolobatai"
+        imageSrc={futbolobatai}
+        link="https://futbolobatai.lt/"
+        description="Football shoe store with options for all players from you children to adults. Easy browsing, simple user friendly webpage to buy shoes. I was working with WordPress and Elemenetor on this page. Used jquery and PHP to help me with creating optimal user experience."
+        tags={['HTML', 'CSS', 'WordPress', 'Elementor', 'Jquery', 'PHP']}
+      />
       <ProjectWrapper
         title="ImagesHub"
         imageSrc={images_hub}
@@ -110,22 +124,6 @@ const Projecs: any = () => {
         link="https://github.com/LeoGytis/nestjs-restapi"
         description="This project is a NestJS-based REST API that implements CRUD operations with a focus on modern web development practices. It integrates JWT-based authentication for secure access, along with modules for user management, bookmarking, and Prisma ORM for database interactions."
         tags={['Node.js', 'Nest.js', 'Prisma', 'Docker', 'Jest']}
-      />
-
-      <ProjectWrapper
-        title="Medėja"
-        imageSrc={medeja}
-        link="https://medeja.lt/"
-        description="An e-shop dedicated to home brewing accessories for wine and beer enthusiasts. The platform offers a wide range of tools and equipment for beginners and experts alike, with a focus on intuitive navigation and seamless shopping. "
-        tags={['Prestahop', 'JavaScript', 'CSS', 'Figma']}
-      />
-
-      <ProjectWrapper
-        title="Futbolobatai"
-        imageSrc={futbolobatai}
-        link="https://futbolobatai.lt/"
-        description="Football shoe store with options for all players from you children to adults. Easy browsing, simple user friendly webpage to buy shoes. I was working with WordPress and Elemenetor on this page. Used jquery and PHP to help me with creating optimal user experience."
-        tags={['HTML', 'CSS', 'WordPress', 'Elementor', 'Jquery', 'PHP']}
       />
 
       <ProjectWrapper

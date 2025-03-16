@@ -13,7 +13,7 @@ const Experience = () => {
         title="Acertip"
         link="https://www.acertip.com/"
         role="Front-end Developer"
-        date="2024 August - present"
+        date="2024 August - 2025 March"
         description="As a Front-End Developer at Acertip, I took on a broad range of responsibilities to build the platform from scratch, given its early-stage development. I implemented REST API integrations, developed forms, and created custom hooks to enhance functionality. By adhering to Figma designs and collaborating with the team, I ensured the platform aligned with UX/UI best practices, delivering an intuitive and visually cohesive user experience."
       />
       <ExperienceWrapper
