@@ -151,6 +151,13 @@ const Projecs: any = () => {
         tags={['HTML', 'CSS', 'GitHub', 'Vanilla.js']}
       />
       <ProjectWrapper
+        title="Shift Mind"
+        gallerySrc="shift_mind"
+        link="https://leogytis.github.io/shift_mind/"
+        description="This project provides a stylish and functional checkout payment modal built with Next.js, utilizing React Hook Form for form handling and Zod for validation. The modal is designed to streamline the checkout experience with a clean, user-friendly interface."
+        tags={['HTML', 'CSS', 'GitHub', 'Figma', 'TypeScript', 'Next.js']}
+      />
+      <ProjectWrapper
         title="Checkouter"
         gallerySrc="checkouter"
         link="https://leogytis.github.io/checkouter/"
