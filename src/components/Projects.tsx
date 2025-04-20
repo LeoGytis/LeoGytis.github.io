@@ -6,7 +6,7 @@ const Projecs: any = () => {
       <ProjectWrapper
         title="Acertip"
         gallerySrc="acertip"
-        imageCount={5}
+        imageCount={6}
         link="https://acertip.com/"
         description="Acertip is an innovative platform that unites architects, engineers and constructors. Share knowledge, showcase your projects, and easily find the right specialists and companies."
         tags={[
