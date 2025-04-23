@@ -8,16 +8,30 @@ const Projecs: any = () => {
         gallerySrc="acertip"
         imageCount={6}
         link="https://acertip.com/"
-        description="Acertip is an innovative platform that unites architects, engineers and constructors. Share knowledge, showcase your projects, and easily find the right specialists and companies."
+        description="Acertip is an innovative platform that unites architects, engineers and constructors. Share knowledge, showcase your projects, and easily find the right specialists and companies.      "
+        // accomplishments={[
+        //   'React Query for efficient data fetching and caching',
+        //   'Comprehensive user profile management system',
+        //   'Advanced form handling with React Hook Form and Zod validation',
+        //   'Interactive talents and projects filtering system',
+        //   'Image cropping and uploading functionality using CropperJS',
+        //   'Modern, clean UI with Shadcn and Tailwind',
+        //   'Responsive design for all screen sizes',
+        //   'Carousel/slider functionality',
+        //   'Smooth scrolling functionality',
+        //   'Questionnaire, answer, and voting functionality for interactive user engagement',
+        // ]}
         tags={[
-          'Next.js',
-          'React',
           'TypeScript',
-          'REST API',
-          'React-query',
-          'React-form',
-          'Tailwind',
+          'React',
+          'Next.js',
+          'Swagger',
+          'RestAPI',
+          'TanStack Query',
+          'React Hook Form',
+          'Zod',
           'Shadcn',
+          'Tailwind',
           'Figma',
           'Jira',
         ]}

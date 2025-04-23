@@ -12,6 +12,7 @@ interface ProjectProps {
   gallerySrc: string;
   imageCount?: number;
   description: string;
+  accomplishments?: string[];
   tags: string[];
   link: string;
 }
@@ -23,6 +24,7 @@ const Project = ({
   link,
   description,
   tags,
+  accomplishments,
 }: ProjectProps) => {
   const [open, setOpen] = useState(false);
   const imageSrc = imageCount
@@ -56,6 +58,18 @@ const Project = ({
             <BsLink45Deg className="absolute top-[6px] right-[-20px] text-secondary link-icon" />
           </Link>
           <p className="mb-3">{description}</p>
+          {accomplishments && (
+            <ul className="mb-3 list-disc_">
+              {accomplishments.map((accomplishment, index) => (
+                <li
+                  key={index}
+                  className="mb-1 border-b border-secondary rounded-lg px-2 py-1"
+                >
+                  {accomplishment}
+                </li>
+              ))}
+            </ul>
+          )}
           <div className="flex flex-wrap gap-2">
             <ToolTags tags={tags} />
           </div>
