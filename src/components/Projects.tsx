@@ -53,6 +53,7 @@ const Projecs: any = () => {
           'SCRUM',
         ]}
       />
+
       <ProjectWrapper
         title="SRIS"
         gallerySrc="sris"
@@ -70,6 +71,7 @@ const Projecs: any = () => {
           'Jira',
         ]}
       />
+
       <ProjectWrapper
         title="Medėja"
         gallerySrc="medeja"
@@ -78,6 +80,7 @@ const Projecs: any = () => {
         description="An e-shop dedicated to home brewing accessories for wine and beer enthusiasts. The platform offers a wide range of tools and equipment for beginners and experts alike, with a focus on intuitive navigation and seamless shopping. "
         tags={['Prestahop', 'JavaScript', 'CSS', 'HTML', 'Figma']}
       />
+
       <ProjectWrapper
         title="Futbolobatai"
         gallerySrc="futbolobatai"
@@ -86,7 +89,48 @@ const Projecs: any = () => {
         description="Football shoe store with options for all players from you children to adults. Easy browsing, simple user friendly webpage to buy shoes. I was working with WordPress and Elemenetor on this page. Used jquery and PHP to help me with creating optimal user experience."
         tags={['HTML', 'CSS', 'WordPress', 'Elementor', 'Jquery', 'PHP']}
       />
+
       <ProjectWrapper
+        title="E-Study"
+        gallerySrc="e-study"
+        imageCount={5}
+        link="https://leogytis.github.io/e-study/"
+        description="Learning-oriented landing page that showcases my use of various React libraries. It's designed to provide a practical demonstration of React-based web development for educational purposes."
+        tags={[
+          'TypeScript',
+          'React',
+          'Styled-Components',
+          'React-Icons',
+          'React-Scroll',
+        ]}
+      />
+
+      <ProjectWrapper
+        title="Braintech"
+        gallerySrc="braintech"
+        imageCount={10}
+        link="https://leogytis.github.io/braintech/"
+        description="Educational landing page project was undertaken as part of my coursework at BIT School, signifying an important chapter in my academic journey. It is a practical demonstration of web development, with a focus on using plain JavaScript."
+        tags={['HTML', 'CSS', 'GitHub', 'Vanilla.js']}
+      />
+
+      <ProjectWrapper
+        title="Shift Mind"
+        imageCount={2}
+        gallerySrc="shift_mind"
+        link="https://leogytis.github.io/shift_mind/"
+        description="This project provides a stylish and functional checkout payment modal built with Next.js, utilizing React Hook Form for form handling and Zod for validation. The modal is designed to streamline the checkout experience with a clean, user-friendly interface."
+        tags={['HTML', 'CSS', 'GitHub', 'Figma', 'TypeScript', 'Next.js']}
+      />
+
+      <ProjectWrapper
+        title="ImagesHub"
+        gallerySrc="images_hub"
+        link="https://leogytis.github.io/imageshub/"
+        description="Project fetches images with Flickr API, implementing both infinite scroll and lazy loading for seamless browsing. It was tested with Jest and includes lazy loading, ensuring images load only when visible on the screen. Users can also favorite items, with favorites persisting across sessions. The design closely mirrors provided screenshots, including hover states."
+        tags={['HTML', 'CSS', 'REST API', 'Jest', 'React', 'TypeScript']}
+      />
+      {/* <ProjectWrapper
         title="Betsy"
         gallerySrc="betsy"
         imageCount={4}
@@ -104,44 +148,23 @@ const Projecs: any = () => {
           'TypeScript',
           'Tailwind',
         ]}
-      />
-      <ProjectWrapper
-        title="ImagesHub"
-        gallerySrc="images_hub"
-        link="https://leogytis.github.io/imageshub/"
-        description="Project fetches images with Flickr API, implementing both infinite scroll and lazy loading for seamless browsing. It was tested with Jest and includes lazy loading, ensuring images load only when visible on the screen. Users can also favorite items, with favorites persisting across sessions. The design closely mirrors provided screenshots, including hover states."
-        tags={['HTML', 'CSS', 'REST API', 'Jest', 'React', 'TypeScript']}
-      />
-      <ProjectWrapper
-        title="E-Study"
-        gallerySrc="e-study"
-        imageCount={5}
-        link="https://leogytis.github.io/e-study/"
-        description="Learning-oriented landing page that showcases my use of various React libraries. It's designed to provide a practical demonstration of React-based web development for educational purposes."
-        tags={[
-          'TypeScript',
-          'React',
-          'Styled-Components',
-          'React-Icons',
-          'React-Scroll',
-        ]}
-      />
-      <ProjectWrapper
+      /> */}
+      {/* <ProjectWrapper
         title="Nestjs_RestAPI"
         gallerySrc="nestjs_restapi"
         link="https://github.com/LeoGytis/nestjs-restapi"
         description="This project is a NestJS-based REST API that implements CRUD operations with a focus on modern web development practices. It integrates JWT-based authentication for secure access, along with modules for user management, bookmarking, and Prisma ORM for database interactions."
         tags={['Node.js', 'Nest.js', 'Prisma', 'Docker', 'Jest']}
-      />
-      <ProjectWrapper
+      /> */}
+      {/* <ProjectWrapper
         title="Node_Blog"
         gallerySrc="node_blog"
         link="https://github.com/LeoGytis/node-blog"
         description="
 				This is project is made with Node.js and MongoDB This project is built using Node.js and MongoDB, designed to manage a simple blogging platform. It allows users to create, read, update, and delete blog posts. "
         tags={['Node.js', 'Express.js', 'MongoDB', 'JavaScript', 'EJS']}
-      />
-      <ProjectWrapper
+      /> */}
+      {/* <ProjectWrapper
         title="Table Manager"
         gallerySrc="table_manager"
         link="https://github.com/LeoGytis/table-manager"
@@ -156,24 +179,8 @@ const Projecs: any = () => {
           'Tailwind',
           'React Icons',
         ]}
-      />
-      <ProjectWrapper
-        title="Braintech"
-        gallerySrc="braintech"
-        imageCount={10}
-        link="https://leogytis.github.io/braintech/"
-        description="Educational landing page project was undertaken as part of my coursework at BIT School, signifying an important chapter in my academic journey. It is a practical demonstration of web development, with a focus on using plain JavaScript."
-        tags={['HTML', 'CSS', 'GitHub', 'Vanilla.js']}
-      />
-      <ProjectWrapper
-        title="Shift Mind"
-        imageCount={2}
-        gallerySrc="shift_mind"
-        link="https://leogytis.github.io/shift_mind/"
-        description="This project provides a stylish and functional checkout payment modal built with Next.js, utilizing React Hook Form for form handling and Zod for validation. The modal is designed to streamline the checkout experience with a clean, user-friendly interface."
-        tags={['HTML', 'CSS', 'GitHub', 'Figma', 'TypeScript', 'Next.js']}
-      />
-      <ProjectWrapper
+      /> */}
+      {/* <ProjectWrapper
         title="Checkouter"
         gallerySrc="checkouter"
         link="https://leogytis.github.io/checkouter/"
@@ -188,23 +195,23 @@ const Projecs: any = () => {
           'Tailwind',
           'Figma',
         ]}
-      />
-      <ProjectWrapper
+      /> */}
+      {/* <ProjectWrapper
         title="Royal DashBoard"
         gallerySrc="ip_royal"
         link="https://leogytis.github.io/ip_royal/"
         description="Interactive dashboard using Tailwind  and TypeScript to evaluate my skills with Vue.js framework. The project was an excellent opportunity to demonstrate adaptability by quickly gaining proficiency in new technologies."
         tags={['Vue.js', 'TypeScript', 'Tailwind', 'CSS']}
-      />
-      <ProjectWrapper
+      /> */}
+      {/* <ProjectWrapper
         title="Acterio API"
         gallerySrc="acterio_api"
         link="https://github.com/LeoGytis/acterio"
         description="
 				In the Acterio project, fetching data from the DummyJSON API involves sending requests to retrieve relevant information for processing. Error handling mechanisms are implemented to gracefully manage instances where the API may be unavailable or return unexpected responses. Next.js is used for efficient dynamic routing."
         tags={['Next.js', 'React', 'TypeScript', 'Tailwind', 'API']}
-      />
-      <ProjectWrapper
+      /> */}
+      {/* <ProjectWrapper
         title="Toolster"
         gallerySrc="toolster"
         link="https://leogytis.github.io/toolster/"
@@ -218,21 +225,21 @@ const Projecs: any = () => {
           'React-Icons',
           'TanStack Query',
         ]}
-      />
-      <ProjectWrapper
+      /> */}
+      {/* <ProjectWrapper
         title="Pieno Žvaigždės"
         gallerySrc="pz"
         link="https://pienozvaigzdes.lt/business-solutions-and-ingredients/"
         description="Developed a dynamic B2B products page for seamless access to our offerings by potential business clients. The page prioritizes clarity and ease of navigation, ensuring a smooth user experience."
         tags={['Next.js', 'React', 'TypeScript', 'Tailwind', 'CSS']}
-      />
-      <ProjectWrapper
+      /> */}
+      {/* <ProjectWrapper
         title="Gridster"
         gallerySrc="gridster"
         link="https://leogytis.github.io/gridster/"
         description="UI project that involves creating a resizable grid interface. User can set the grid dimensions, interactively mark squares as 'clear' or 'filled'. The project includes a pathfinding algorithm to highlight the shortest path from 'start' to 'end' on the grid."
         tags={['React', 'TypeScript', 'Styled-Components', 'CSS']}
-      />
+      /> */}
       <ProjectWrapper
         title="Brofinity"
         gallerySrc="brofinity"
