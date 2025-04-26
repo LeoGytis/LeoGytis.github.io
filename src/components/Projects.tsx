@@ -160,6 +160,7 @@ const Projecs: any = () => {
       <ProjectWrapper
         title="Braintech"
         gallerySrc="braintech"
+        imageCount={10}
         link="https://leogytis.github.io/braintech/"
         description="Educational landing page project was undertaken as part of my coursework at BIT School, signifying an important chapter in my academic journey. It is a practical demonstration of web development, with a focus on using plain JavaScript."
         tags={['HTML', 'CSS', 'GitHub', 'Vanilla.js']}
