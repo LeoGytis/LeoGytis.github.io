@@ -116,7 +116,7 @@ const Projecs: any = () => {
 
       <ProjectWrapper
         title="Shift Mind"
-        imageCount={2}
+        imageCount={9}
         gallerySrc="shift_mind"
         link="https://leogytis.github.io/shift_mind/"
         description="This project provides a stylish and functional checkout payment modal built with Next.js, utilizing React Hook Form for form handling and Zod for validation. The modal is designed to streamline the checkout experience with a clean, user-friendly interface."
