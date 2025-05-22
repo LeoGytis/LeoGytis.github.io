@@ -106,12 +106,12 @@ const Projecs: any = () => {
       />
 
       <ProjectWrapper
-        title="Braintech"
-        gallerySrc="braintech"
-        imageCount={10}
-        link="https://leogytis.github.io/braintech/"
-        description="Educational landing page project was undertaken as part of my coursework at BIT School, signifying an important chapter in my academic journey. It is a practical demonstration of web development, with a focus on using plain JavaScript."
-        tags={['HTML', 'CSS', 'GitHub', 'Vanilla.js']}
+        title="Elastic"
+        imageCount={13}
+        gallerySrc="elastic"
+        link="https://leogytis.github.io/elastic/"
+        description="This project provides a stylish responsive landing page built with React, Tailwind, and TypeScript. It showcases a clean and modern design with a focus on user experience and responsiveness."
+        tags={['HTML', 'CSS', 'Figma', 'TypeScript', 'React']}
       />
 
       <ProjectWrapper
@@ -121,6 +121,15 @@ const Projecs: any = () => {
         link="https://leogytis.github.io/shift_mind/"
         description="This project provides a stylish and functional checkout payment modal built with Next.js, utilizing React Hook Form for form handling and Zod for validation. The modal is designed to streamline the checkout experience with a clean, user-friendly interface."
         tags={['HTML', 'CSS', 'GitHub', 'Figma', 'TypeScript', 'Next.js']}
+      />
+
+      <ProjectWrapper
+        title="Braintech"
+        gallerySrc="braintech"
+        imageCount={10}
+        link="https://leogytis.github.io/braintech/"
+        description="Educational landing page project was undertaken as part of my coursework at BIT School, signifying an important chapter in my academic journey. It is a practical demonstration of web development, with a focus on using plain JavaScript."
+        tags={['HTML', 'CSS', 'GitHub', 'Vanilla.js']}
       />
 
       <ProjectWrapper
