@@ -1,5 +1,5 @@
-import { useEffect, useRef } from "react";
-import * as THREE from "three";
+import { useEffect, useRef } from 'react';
+import * as THREE from 'three';
 
 const StarsScene = () => {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -11,7 +11,7 @@ const StarsScene = () => {
   }
 
   useEffect(() => {
-    if (typeof window !== "undefined") {
+    if (typeof window !== 'undefined') {
       const scene = new THREE.Scene();
       const camera = new THREE.PerspectiveCamera(
         75,
@@ -41,7 +41,7 @@ const StarsScene = () => {
         const material = new THREE.MeshBasicMaterial({
           transparent: true,
           opacity: 0.8,
-          color: new THREE.Color(getColor("--color-stars")),
+          color: new THREE.Color(getColor('--color-stars')),
         });
         const star = new THREE.Mesh(geometry, material);
 
@@ -65,9 +65,9 @@ const StarsScene = () => {
         // --- Update background color based on camera position ---
         const backgroundIntensity = Math.abs(camera.position.z / 50);
         const updatedColor = new THREE.Color(
-          getColor("--color-background-start")
+          getColor('--color-background-start')
         ).lerp(
-          new THREE.Color(getColor("--color-background-end")),
+          new THREE.Color(getColor('--color-background-end')),
           backgroundIntensity
         );
 
@@ -87,7 +87,7 @@ const StarsScene = () => {
     }
   }, []);
 
-  return <div ref={containerRef} />;
+  return <div ref={containerRef} className="fixed inset-0" />;
 };
 
 export default StarsScene;

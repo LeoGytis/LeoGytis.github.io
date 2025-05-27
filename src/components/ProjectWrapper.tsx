@@ -34,25 +34,25 @@ const Project = ({
 
   return (
     <div className="mb-12 lg:p-4 hover_border group hover:bg-background">
-      <div className="flex flex-col sm:flex-row gap-6 w-full">
+      <div className="flex w-full gap-6 max-md:flex-col">
         <div
           onClick={() => {
             setOpen(true);
           }}
-          className="h-full overflow-hidden rounded-lg cursor-pointer hover_border"
+          className="h-full overflow-hidden rounded-lg cursor-pointer md:w-2/5 hover_border"
         >
           <Image
             src={imageSrc}
-            width={400}
+            width={500}
             height={250}
             alt="project_image"
-            className="sm:w-[250px] w-[400px] hover:scale-125 ease-out duration-1000 transform origin-top"
+            className="w-full duration-1000 ease-out transform hover:scale-125"
           />
         </div>
-        <div className="flex flex-col sm:w-2/3">
+        <div className="flex flex-col flex-1">
           <Link
             href={link}
-            className="whitespace-nowrap text-xl font-semibold group-hover:text-secondary underline-animation"
+            className="text-xl font-semibold whitespace-nowrap group-hover:text-secondary underline-animation"
           >
             {title}
             <BsLink45Deg className="absolute top-[6px] right-[-20px] text-secondary link-icon" />
@@ -63,7 +63,7 @@ const Project = ({
               {accomplishments.map((accomplishment, index) => (
                 <li
                   key={index}
-                  className="mb-1 border-b border-secondary rounded-lg px-2 py-1"
+                  className="px-2 py-1 mb-1 border-b rounded-lg border-secondary"
                 >
                   {accomplishment}
                 </li>

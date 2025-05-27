@@ -1,23 +1,23 @@
-import type { Metadata } from "next";
-import "../styles/globals.css";
+import type { Metadata } from 'next';
+import '../styles/globals.css';
 // import {Nunito, Inter, Lato, Quicksand} from "next/font/google";
-import { Providers } from "@/utils/providers";
-import { Quicksand } from "next/font/google";
-import website_image from "../../public/images/website_image.png";
+import { Providers } from '@/utils/providers';
+import { Quicksand } from 'next/font/google';
+import website_image from '../../public/images/website_image.png';
 
 const font = Quicksand({
   //   weight: "400",
-  subsets: ["latin"],
+  subsets: ['latin'],
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://leogytis.github.io/"),
-  title: "Gytis | Web Developer",
-  description: "Inclusive products and digital experiences for the web.",
-  authors: [{ name: "Gytis Leonavicius", url: "https://leogytis.github.io/" }],
+  metadataBase: new URL('https://leogytis.github.io/'),
+  title: 'Gytis | Web Developer',
+  description: 'Inclusive products and digital experiences for the web.',
+  authors: [{ name: 'Gytis Leonavicius', url: 'https://leogytis.github.io/' }],
   openGraph: {
-    title: "Gytis | Web Developer",
-    description: "Inclusive products and digital experiences for the web.",
+    title: 'Gytis | Web Developer',
+    description: 'Inclusive products and digital experiences for the web.',
     images: [
       {
         url: website_image.src,
