@@ -8,13 +8,13 @@ import StarsScene from '../components/StarsScene';
 
 export default function Home() {
   return (
-    <div className="p-6 mx-auto max-w-7xl">
+    <>
       <StarsScene />
-      <div className="flex flex-col gap-10 lg:flex-row">
+      <div className="flex gap-10 mx-auto max-xl:p-6 max-lg:flex-col max-w-7xl">
         <header className="lg:w-1/3">
           <NavBar />
         </header>
-        <main className="relative lg:w-2/3 lg:pl-6 blur-animation">
+        <main className="relative md:py-6 lg:w-2/3 blur-animation">
           <span className="hidden lg:inline-block falling_line"></span>
           {/* <ThemeSwitch /> */}
           <About />
@@ -23,6 +23,6 @@ export default function Home() {
           <Projecs />
         </main>
       </div>
-    </div>
+    </>
   );
 }

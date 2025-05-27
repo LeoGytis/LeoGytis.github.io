@@ -3,7 +3,7 @@ import SocialMedia from './SocialMedia';
 
 const NavBar: any = () => {
   return (
-    <div className="relative lg:fixed flex flex-col justify-between gap-10 lg:h-[90%] pt-6">
+    <div className="relative flex flex-col justify-between gap-10 lg:py-12 lg:fixed lg:h-[100dvh]">
       <div className="blur-animation">
         <h1 className="pb-1 text-4xl font-bold sm:text-5xl">Gytis</h1>
         <h1 className="pb-6 text-4xl font-bold sm:text-5xl">Leonavičius</h1>
