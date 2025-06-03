@@ -133,13 +133,6 @@ const Projecs: any = () => {
       />
 
       <ProjectWrapper
-        title="ImagesHub"
-        gallerySrc="images_hub"
-        link="https://leogytis.github.io/imageshub/"
-        description="Project fetches images with Flickr API, implementing both infinite scroll and lazy loading for seamless browsing. It was tested with Jest and includes lazy loading, ensuring images load only when visible on the screen. Users can also favorite items, with favorites persisting across sessions. The design closely mirrors provided screenshots, including hover states."
-        tags={['HTML', 'CSS', 'REST API', 'Jest', 'React', 'TypeScript']}
-      />
-      {/* <ProjectWrapper
         title="Betsy"
         gallerySrc="betsy"
         imageCount={4}
@@ -157,23 +150,23 @@ const Projecs: any = () => {
           'TypeScript',
           'Tailwind',
         ]}
-      /> */}
-      {/* <ProjectWrapper
+      />
+      <ProjectWrapper
         title="Nestjs_RestAPI"
         gallerySrc="nestjs_restapi"
         link="https://github.com/LeoGytis/nestjs-restapi"
         description="This project is a NestJS-based REST API that implements CRUD operations with a focus on modern web development practices. It integrates JWT-based authentication for secure access, along with modules for user management, bookmarking, and Prisma ORM for database interactions."
         tags={['Node.js', 'Nest.js', 'Prisma', 'Docker', 'Jest']}
-      /> */}
-      {/* <ProjectWrapper
+      />
+      <ProjectWrapper
         title="Node_Blog"
         gallerySrc="node_blog"
         link="https://github.com/LeoGytis/node-blog"
         description="
 				This is project is made with Node.js and MongoDB This project is built using Node.js and MongoDB, designed to manage a simple blogging platform. It allows users to create, read, update, and delete blog posts. "
         tags={['Node.js', 'Express.js', 'MongoDB', 'JavaScript', 'EJS']}
-      /> */}
-      {/* <ProjectWrapper
+      />
+      <ProjectWrapper
         title="Table Manager"
         gallerySrc="table_manager"
         link="https://github.com/LeoGytis/table-manager"
@@ -188,8 +181,8 @@ const Projecs: any = () => {
           'Tailwind',
           'React Icons',
         ]}
-      /> */}
-      {/* <ProjectWrapper
+      />
+      <ProjectWrapper
         title="Checkouter"
         gallerySrc="checkouter"
         link="https://leogytis.github.io/checkouter/"
@@ -204,7 +197,7 @@ const Projecs: any = () => {
           'Tailwind',
           'Figma',
         ]}
-      /> */}
+      />
       {/* <ProjectWrapper
         title="Royal DashBoard"
         gallerySrc="ip_royal"
@@ -249,6 +242,13 @@ const Projecs: any = () => {
         description="UI project that involves creating a resizable grid interface. User can set the grid dimensions, interactively mark squares as 'clear' or 'filled'. The project includes a pathfinding algorithm to highlight the shortest path from 'start' to 'end' on the grid."
         tags={['React', 'TypeScript', 'Styled-Components', 'CSS']}
       /> */}
+      <ProjectWrapper
+        title="ImagesHub"
+        gallerySrc="images_hub"
+        link="https://leogytis.github.io/imageshub/"
+        description="Project fetches images with Flickr API, implementing both infinite scroll and lazy loading for seamless browsing. It was tested with Jest and includes lazy loading, ensuring images load only when visible on the screen. Users can also favorite items, with favorites persisting across sessions. The design closely mirrors provided screenshots, including hover states."
+        tags={['HTML', 'CSS', 'REST API', 'Jest', 'React', 'TypeScript']}
+      />
       <ProjectWrapper
         title="Brofinity"
         gallerySrc="brofinity"
