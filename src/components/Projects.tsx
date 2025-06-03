@@ -166,7 +166,7 @@ const Projecs: any = () => {
 				This is project is made with Node.js and MongoDB This project is built using Node.js and MongoDB, designed to manage a simple blogging platform. It allows users to create, read, update, and delete blog posts. "
         tags={['Node.js', 'Express.js', 'MongoDB', 'JavaScript', 'EJS']}
       />
-      <ProjectWrapper
+      {/* <ProjectWrapper
         title="Table Manager"
         gallerySrc="table_manager"
         link="https://github.com/LeoGytis/table-manager"
@@ -181,8 +181,8 @@ const Projecs: any = () => {
           'Tailwind',
           'React Icons',
         ]}
-      />
-      <ProjectWrapper
+      /> */}
+      {/* <ProjectWrapper
         title="Checkouter"
         gallerySrc="checkouter"
         link="https://leogytis.github.io/checkouter/"
@@ -197,7 +197,7 @@ const Projecs: any = () => {
           'Tailwind',
           'Figma',
         ]}
-      />
+      /> */}
       {/* <ProjectWrapper
         title="Royal DashBoard"
         gallerySrc="ip_royal"
