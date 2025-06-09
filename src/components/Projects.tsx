@@ -1,6 +1,6 @@
 import ProjectWrapper from './ProjectWrapper';
 
-const Projecs: any = () => {
+const Projects: any = () => {
   return (
     <div id="projects">
       <ProjectWrapper
@@ -260,4 +260,4 @@ const Projecs: any = () => {
   );
 };
 
-export default Projecs;
+export default Projects;

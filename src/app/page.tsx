@@ -3,7 +3,7 @@ import About from '../components/About';
 import Education from '../components/Education';
 import Experience from '../components/Experience';
 import NavBar from '../components/NavBar';
-import Projecs from '../components/Projects';
+import Projects from '../components/Projects';
 import StarsScene from '../components/StarsScene';
 
 export default function Home() {
@@ -20,7 +20,7 @@ export default function Home() {
           <About />
           <Education />
           <Experience />
-          <Projecs />
+          <Projects />
         </main>
       </div>
     </>

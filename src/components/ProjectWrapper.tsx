@@ -1,3 +1,4 @@
+import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
 import { generateImagePaths } from '@/utils/generateImagePaths';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -27,13 +28,20 @@ const Project = ({
   accomplishments,
 }: ProjectProps) => {
   const [open, setOpen] = useState(false);
+  const elementRef = useIntersectionObserver({
+    threshold: 0.8,
+    rootMargin: '0px',
+  });
   const imageSrc = imageCount
     ? `/images/projects/${gallerySrc}/${gallerySrc}01.jpg`
     : `/images/projects/${gallerySrc}.jpg`;
   const slidesSrc = generateImagePaths(gallerySrc, imageCount);
 
   return (
-    <div className="p-4 mb-12 lg:mb-24 shadow-border group hover:bg-background">
+    <div
+      ref={elementRef}
+      className="p-4 mb-12 lg:mb-24 shadow-border group hover:bg-background"
+    >
       <div className="flex w-full gap-6 max-md:flex-col">
         <div
           onClick={() => {
