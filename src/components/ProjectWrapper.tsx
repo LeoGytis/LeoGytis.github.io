@@ -33,13 +33,13 @@ const Project = ({
   const slidesSrc = generateImagePaths(gallerySrc, imageCount);
 
   return (
-    <div className="mb-12 lg:p-4 hover_border group hover:bg-background">
+    <div className="p-4 mb-12 lg:mb-24 shadow-border group hover:bg-background">
       <div className="flex w-full gap-6 max-md:flex-col">
         <div
           onClick={() => {
             setOpen(true);
           }}
-          className="h-full overflow-hidden rounded-lg cursor-pointer md:w-2/5 hover_border"
+          className="h-full overflow-hidden rounded-lg cursor-pointer md:w-2/5 shadow-border"
         >
           <Image
             src={imageSrc}

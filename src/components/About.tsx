@@ -2,7 +2,7 @@ const About: any = () => {
   return (
     <div
       id="about"
-      className="flex flex-col gap-4 text-lg lg:p-6 mb-16 md:mb-20 hover_border hover:bg-background"
+      className="flex flex-col gap-4 p-4 mb-16 text-lg md:mb-20 shadow-border hover:bg-background"
     >
       <p>
         I have experience developing web applications, from simple landing pages

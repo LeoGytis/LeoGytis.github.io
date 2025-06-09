@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <StarsScene />
-      <div className="flex gap-10 mx-auto max-xl:p-6 max-lg:flex-col max-w-7xl">
+      <div className="flex gap-10 mx-auto max-xl:p-4 max-lg:flex-col max-w-7xl">
         <header className="lg:w-1/3">
           <NavBar />
         </header>

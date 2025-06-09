@@ -20,13 +20,13 @@ const ExperienceWrapper = ({
   description,
 }: ExperienceProps) => {
   return (
-    <div className="mb-12 lg:p-4 hover_border group hover:bg-background">
+    <div className="p-4 mb-12 shadow-border group hover:bg-background">
       <div className="flex gap-4 mb-4">
         <Image src={imageSrc} alt={title} className="w-16 h-16 rounded" />
         <div>
           <Link
             href={link}
-            className="whitespace-nowrap text-xl font-semibold group-hover:text-secondary underline-animation"
+            className="w-5/6 text-xl font-semibold md:whitespace-nowrap_ group-hover:text-secondary underline-animation text-wrap"
           >
             {title}
             <BsLink45Deg className="absolute top-[6px] right-[-20px] text-secondary link-icon" />
@@ -35,7 +35,7 @@ const ExperienceWrapper = ({
           <h5 className="text-xs">{date}</h5>
         </div>
       </div>
-      <p className="text-lg font-light mb-4">{description}</p>
+      <p className="mb-4 text-lg font-light">{description}</p>
     </div>
   );
 };
