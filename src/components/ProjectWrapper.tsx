@@ -64,10 +64,19 @@ const Project = ({
         <div className="flex flex-col flex-1">
           <Link
             href={link}
-            className="text-xl font-semibold whitespace-nowrap group-hover:text-secondary underline-animation"
+            className={cn(
+              'mb-2 text-xl font-semibold whitespace-nowrap group-hover:text-secondary underline-animation',
+              inView && 'text-secondary'
+            )}
           >
             {title}
-            <BsLink45Deg className="absolute top-[6px] right-[-20px] text-secondary link-icon" />
+            <BsLink45Deg
+              className={cn(
+                'absolute top-[6px] right-[-20px] text-secondary link-icon group-hover:visible group-hover:underline-animation',
+                inView &&
+                  'text-secondary opacity-100 visible underline-animation'
+              )}
+            />
           </Link>
           <p className="mb-3">{description}</p>
           {accomplishments && (
