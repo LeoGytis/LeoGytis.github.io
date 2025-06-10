@@ -1,5 +1,6 @@
 import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
 import { generateImagePaths } from '@/utils/generateImagePaths';
+import { cn } from '@/utils/utils';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
@@ -28,7 +29,7 @@ const Project = ({
   accomplishments,
 }: ProjectProps) => {
   const [open, setOpen] = useState(false);
-  const elementRef = useIntersectionObserver({
+  const { elementRef, inView } = useIntersectionObserver({
     threshold: 0.8,
     rootMargin: '0px',
   });
@@ -40,7 +41,10 @@ const Project = ({
   return (
     <div
       ref={elementRef}
-      className="p-4 mb-12 lg:mb-24 shadow-border group hover:bg-background"
+      className={cn(
+        'p-4 mb-12 lg:mb-24 hover:shadow-border group hover:bg-background',
+        inView && 'bg-background shadow-border md:bg-transparent md:shadow-none'
+      )}
     >
       <div className="flex w-full gap-6 max-md:flex-col">
         <div

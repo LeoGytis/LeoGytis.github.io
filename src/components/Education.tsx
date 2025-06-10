@@ -1,13 +1,23 @@
-/* eslint-disable react/no-unescaped-entities */
+import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
+import { cn } from '@/utils/utils';
 import Link from 'next/link';
 import SvgBit from '../../public/images/svg/svgBit';
 import SvgKtu from '../../public/images/svg/svgKtu';
 
 const Education: any = () => {
+  const { elementRef, inView } = useIntersectionObserver({
+    threshold: 0.8,
+    rootMargin: '0px',
+  });
+
   return (
     <div
+      ref={elementRef}
       id="education"
-      className="flex flex-col gap-8 p-4 mb-16 text-lg md:mb-24 scroll-mt-16 shadow-border hover:bg-background"
+      className={cn(
+        'flex flex-col gap-8 p-4 mb-16 text-lg md:mb-24 scroll-mt-16 hover:shadow-border hover:bg-background',
+        inView && 'bg-background shadow-border md:bg-transparent md:shadow-none'
+      )}
     >
       <Link
         href="https://en.ktu.edu/"
@@ -17,7 +27,7 @@ const Education: any = () => {
         <div className="group-hover:text-secondary">
           <div>Kaunas University of Technology</div>
           <p className="text-sm group-hover:text-secondary">
-            Bachelor's degree in Information System Design
+            Bachelor&apos;s degree in Information System Design
           </p>
         </div>
       </Link>
