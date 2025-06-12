@@ -3,7 +3,7 @@
   "name": "gytis_portfolio",
   "description": "Personal Website V1",
   "version": "0.1.0",
-  "author": "Gytis Leonavicius <leogytis@gmail.com>",
+  "author": "Gytis Leonavicius",
   "private": true,
   "scripts": {
     "dev": "next dev",
