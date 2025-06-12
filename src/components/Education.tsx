@@ -1,4 +1,4 @@
-import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
+import { useIntersectionObserver } from '@/utils/useIntersectionObserver';
 import { cn } from '@/utils/utils';
 import Link from 'next/link';
 import SvgBit from '../../public/images/svg/svgBit';

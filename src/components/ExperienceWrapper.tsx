@@ -1,4 +1,4 @@
-import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
+import { useIntersectionObserver } from '@/utils/useIntersectionObserver';
 import { cn } from '@/utils/utils';
 import Image, { StaticImageData } from 'next/image';
 import Link from 'next/link';

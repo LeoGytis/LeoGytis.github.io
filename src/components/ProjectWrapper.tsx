@@ -1,5 +1,5 @@
-import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
 import { generateImagePaths } from '@/utils/generateImagePaths';
+import { useIntersectionObserver } from '@/utils/useIntersectionObserver';
 import { cn } from '@/utils/utils';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -7,7 +7,7 @@ import { useState } from 'react';
 import { BsLink45Deg } from 'react-icons/bs';
 import Lightbox from 'yet-another-react-lightbox';
 import 'yet-another-react-lightbox/styles.css';
-import ToolTags from '../utils/ToolTags';
+import ToolTags from './ToolTags';
 
 interface ProjectProps {
   title: string;
