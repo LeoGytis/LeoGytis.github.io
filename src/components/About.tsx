@@ -1,22 +1,8 @@
-import { useIntersectionObserver } from '@/utils/useIntersectionObserver';
-import { cn } from '@/utils/utils';
-
-const About: any = () => {
-  const { elementRef, inView } = useIntersectionObserver({
-    threshold: 0.8,
-    rootMargin: '0px',
-    mobileThreshold: 0.5,
-    mobileRootMargin: '-50px',
-  });
-
+const About = () => {
   return (
     <div
-      ref={elementRef}
       id="about"
-      className={cn(
-        'flex flex-col gap-4 p-4 mb-16 text-lg md:mb-20 hover:shadow-border hover:bg-background',
-        inView && 'bg-background shadow-border md:bg-transparent md:shadow-none'
-      )}
+      className="flex flex-col gap-4 px-4 py-6 mb-16 text-xl md:mb-20 hover:shadow-border hover:bg-background"
     >
       <p>
         I have experience developing web applications, from simple landing pages
