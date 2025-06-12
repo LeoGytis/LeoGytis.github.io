@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-// import { FaArrowUp } from 'react-icons/fa';
 import { RiArrowUpDoubleLine } from 'react-icons/ri';
 import { animateScroll as scroll } from 'react-scroll';
 
