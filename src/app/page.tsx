@@ -1,5 +1,6 @@
 'use client';
 import About from '@/components/About';
+import ArrowUp from '@/components/ArrowUp';
 import Education from '@/components/Education';
 import Experience from '@/components/Experience';
 import NavBar from '@/components/NavBar';
@@ -23,6 +24,7 @@ export default function Home() {
           <Projects />
         </main>
       </div>
+      <ArrowUp />
     </>
   );
 }
