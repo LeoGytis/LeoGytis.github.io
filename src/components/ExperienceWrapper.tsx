@@ -23,18 +23,15 @@ const ExperienceWrapper = ({
 }: ExperienceProps) => {
   const { elementRef, inView } = useIntersectionObserver({
     threshold: 0.8,
-    rootMargin: '0px',
+    rootMargin: '-150px',
+    mobileThreshold: 0.5,
+    mobileRootMargin: '-50px',
   });
-
-  console.log('🔥 : inView =>', inView);
 
   return (
     <div
       ref={elementRef}
-      className={cn(
-        'p-4 mb-12 hover:shadow-border group hover:bg-background',
-        inView && 'md:bg-transparent md:shadow-none bg-background shadow-border'
-      )}
+      className={cn('p-4 mb-12 group', inView && 'bg-background shadow-border')}
     >
       <div className="flex gap-4 mb-4">
         <Image src={imageSrc} alt={title} className="w-16 h-16 rounded" />
@@ -42,12 +39,17 @@ const ExperienceWrapper = ({
           <Link
             href={link}
             className={cn(
-              'text-xl font-semibold w-fit md:whitespace-nowrap group-hover:text-secondary underline-animation',
-              inView && 'text-secondary !text-red-300'
+              'text-white flex items-center gap-1 text-xl font-semibold whitespace-nowrap underline-animation',
+              inView && 'text-secondary'
             )}
           >
             {title}
-            <BsLink45Deg className="absolute top-[6px] right-[-20px] text-secondary link-icon" />
+            <BsLink45Deg
+              className={cn(
+                'opacity-0 text-secondary transition-all duration-500 ease-out',
+                inView && 'opacity-100'
+              )}
+            />
           </Link>
           <h2>{role}</h2>
           <h5 className="text-xs">{date}</h5>

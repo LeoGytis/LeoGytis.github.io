@@ -30,7 +30,7 @@
   display: inline-block;
   width: min-content !important;
   position: relative;
-  transition: color 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   color: var(--color-secondary);
 }
 
@@ -44,40 +44,13 @@
   background-color: var(--color-secondary);
   transform: scaleX(0);
   transform-origin: bottom right;
-  transition: transform 0.3s ease-out;
+  transition: transform 0.5s ease-out;
 }
 
 .underline-animation:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-
-@media (max-width: 768px) {
-  .underline-animation:after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-  }
-}
-
-.link-icon {
-  visibility: hidden;
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
-}
-
-/* @media (min-width: 1024px) {
-  .group:hover .link-icon {
-    visibility: visible;
-    opacity: 1;
-  }
-}
-
-@media (max-width: 1023px) {
-  .in-view .link-icon {
-    visibility: visible;
-    opacity: 1;
-  }
-} */
 
 /* ------ Blur Animation ----- */
 

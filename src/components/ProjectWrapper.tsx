@@ -31,7 +31,9 @@ const Project = ({
   const [open, setOpen] = useState(false);
   const { elementRef, inView } = useIntersectionObserver({
     threshold: 0.8,
-    rootMargin: '0px',
+    rootMargin: '-150px',
+    mobileThreshold: 0.5,
+    mobileRootMargin: '-50px',
   });
   const imageSrc = imageCount
     ? `/images/projects/${gallerySrc}/${gallerySrc}01.jpg`
@@ -42,16 +44,16 @@ const Project = ({
     <div
       ref={elementRef}
       className={cn(
-        'p-4 mb-12 lg:mb-24 hover:shadow-border group hover:bg-background',
-        inView && 'bg-background shadow-border md:bg-transparent md:shadow-none'
+        'p-4 mb-12 lg:mb-24 group',
+        inView && 'bg-background shadow-border'
       )}
     >
-      <div className="flex w-full gap-6 max-md:flex-col">
+      <div className="flex w-full gap-6 max-md:flex-col group">
         <div
           onClick={() => {
             setOpen(true);
           }}
-          className="h-full overflow-hidden rounded-lg cursor-pointer md:w-2/5 shadow-border"
+          className="h-full overflow-hidden rounded-lg cursor-pointer md:w-2/5 group-hover:shadow-border"
         >
           <Image
             src={imageSrc}
@@ -65,16 +67,15 @@ const Project = ({
           <Link
             href={link}
             className={cn(
-              'mb-2 text-xl font-semibold whitespace-nowrap group-hover:text-secondary underline-animation',
+              'text-white flex items-center gap-1 mb-2 text-xl font-semibold whitespace-nowrap underline-animation',
               inView && 'text-secondary'
             )}
           >
             {title}
             <BsLink45Deg
               className={cn(
-                'absolute top-[6px] right-[-20px] text-secondary link-icon group-hover:visible group-hover:underline-animation',
-                inView &&
-                  'text-secondary opacity-100 visible underline-animation'
+                'opacity-0 text-secondary transition-all duration-500 ease-out',
+                inView && 'opacity-100'
               )}
             />
           </Link>

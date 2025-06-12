@@ -8,6 +8,8 @@ const Education: any = () => {
   const { elementRef, inView } = useIntersectionObserver({
     threshold: 0.8,
     rootMargin: '0px',
+    mobileThreshold: 0.5,
+    mobileRootMargin: '-50px',
   });
 
   return (
