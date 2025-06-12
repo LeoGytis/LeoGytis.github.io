@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   authors: [{ name: 'Gytis Leonavicius', url: 'https://leogytis.github.io/' }],
   openGraph: {
     title: 'Gytis | Web Developer',
-    description: 'Inclusive products and digital experiences for the web.',
+    description: 'Inclusive products and digital experiences for the web',
     images: [
       {
         url: website_image.src,
