@@ -79,9 +79,9 @@ const Project = ({
               )}
             />
           </Link>
-          <p className="mb-3">{description}</p>
+          <p className="mb-6">{description}</p>
           {accomplishments && (
-            <ul className="mb-3 list-disc_">
+            <ul className="mb-3">
               {accomplishments.map((accomplishment, index) => (
                 <li
                   key={index}

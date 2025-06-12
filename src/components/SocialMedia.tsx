@@ -32,7 +32,7 @@ const SocialMediaLink = ({ icon: Icon, href }: SocialMediaLinkProps) => {
   return (
     <a
       href={href}
-      className="p-2 border rounded-full group border-secondary hover:cursor-pointer hover:text-primary hover:border-primary"
+      className="p-2 border rounded-full cursor-pointer group border-secondary hover:shadow-border hover:bg-background"
     >
       <Icon className="text-lg text-secondary group-hover:text-primary" />
     </a>

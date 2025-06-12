@@ -8,7 +8,7 @@ const NavBar: any = () => {
         <h1 className="pb-1 text-4xl font-bold sm:text-5xl">Gytis</h1>
         <h1 className="pb-6 text-4xl font-bold sm:text-5xl">Leonavičius</h1>
         <h2 className="text-lg font-medium sm:text-xl">Web developer</h2>
-        <h3>Passionate about building intuitive digital solutions.</h3>
+        <h3>Creating innovative digital solutions</h3>
       </div>
       <nav className="flex-col hidden gap-2 text-lg lg:flex text-primary mb-14 blur-animation">
         <ScrollLink className="nav_item" spy smooth offset={-80} to="about">

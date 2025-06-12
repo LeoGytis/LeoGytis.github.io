@@ -6,7 +6,7 @@ import { Quicksand } from 'next/font/google';
 import website_image from '../../public/images/website_image.png';
 
 const font = Quicksand({
-  //   weight: "400",
+  weight: '400',
   subsets: ['latin'],
 });
 
