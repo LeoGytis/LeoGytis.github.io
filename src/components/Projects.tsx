@@ -152,14 +152,14 @@ const Projects: any = () => {
         ]}
       />
       <ProjectWrapper
-        title="Nestjs_RestAPI"
+        title="Nestjs RestAPI"
         gallerySrc="nestjs_restapi"
         link="https://github.com/LeoGytis/nestjs-restapi"
-        description="This project is a NestJS-based REST API that implements CRUD operations with a focus on modern web development practices. It integrates JWT-based authentication for secure access, along with modules for user management, bookmarking, and Prisma ORM for database interactions."
-        tags={['Node.js', 'Nest.js', 'Prisma', 'Docker', 'Jest']}
+        description="This project is a NestJS based REST API that implements CRUD operations with a focus on modern web development practices. It integrates JWT-based authentication for secure access, along with modules for user management, bookmarking, and Prisma ORM for database interactions."
+        tags={['Node.js', 'Nest.js', 'Prisma', 'Docker', 'Jest', 'JWT']}
       />
       <ProjectWrapper
-        title="Node_Blog"
+        title="Node.js Blog"
         gallerySrc="node_blog"
         link="https://github.com/LeoGytis/node-blog"
         description="
