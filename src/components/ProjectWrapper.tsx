@@ -48,12 +48,12 @@ const Project = ({
         inView && 'bg-background shadow-border'
       )}
     >
-      <div className="flex w-full gap-6 max-md:flex-col group">
+      <div className="flex gap-6 w-full max-md:flex-col group">
         <div
           onClick={() => {
             setOpen(true);
           }}
-          className="h-full overflow-hidden rounded-lg cursor-pointer md:w-2/5 group-hover:shadow-border"
+          className="overflow-hidden h-full rounded-lg cursor-pointer md:w-2/5 group-hover:shadow-border"
         >
           <Image
             src={imageSrc}
@@ -85,7 +85,7 @@ const Project = ({
               {accomplishments.map((accomplishment, index) => (
                 <li
                   key={index}
-                  className="px-2 py-1 mb-1 border-b rounded-lg border-secondary"
+                  className="px-2 py-1 mb-1 rounded-lg border-b border-secondary"
                 >
                   {accomplishment}
                 </li>

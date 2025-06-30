@@ -34,7 +34,11 @@ const ExperienceWrapper = ({
       className={cn('p-4 mb-12 group', inView && 'bg-background shadow-border')}
     >
       <div className="flex gap-4 mb-4">
-        <Image src={imageSrc} alt={title} className="w-16 h-16 rounded" />
+        <Image
+          src={imageSrc}
+          alt={title}
+          className="w-16 h-16 rounded group-hover:shadow-border"
+        />
         <div>
           <Link
             href={link}
